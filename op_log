@@ -1,0 +1,4860 @@
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  0.5
+Load  0.5
+Load  0.5
+Load  0.5
+cpu_spin (27): starting 1 spinner(s) for 5%-5% usage
+lookbusy (27): CPU spinner started, PID 28
+killing CPU spinner 0 (PID 28)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  0.6
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.6
+Load  1.6
+Load  1.6
+Load  1.6
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+Load  1.1
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (77): starting 1 spinner(s) for 5%-5% usage
+lookbusy (77): CPU spinner started, PID 78
+killing CPU spinner 0 (PID 78)
+Load  1.1
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.9
+Load  2.9
+Load  2.9
+Load  3.0
+Load  3.0
+Load  3.2
+cpu_spin (70): starting 1 spinner(s) for 5%-5% usage
+lookbusy (70): CPU spinner started, PID 71
+killing CPU spinner 0 (PID 71)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  2.2
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.5
+Load  3.5
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (119): starting 1 spinner(s) for 5%-5% usage
+lookbusy (119): CPU spinner started, PID 120
+killing CPU spinner 0 (PID 120)
+Load  3.0
+Load  3.0
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0
+Load  4.0
+Load  4.0
+Load  4.9
+cpu_spin (49): starting 1 spinner(s) for 5%-5% usage
+lookbusy (49): CPU spinner started, PID 50
+killing CPU spinner 0 (PID 50)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.7
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  5.9
+Load  7.7
+cpu_spin (110): starting 1 spinner(s) for 5%-5% usage
+lookbusy (110): CPU spinner started, PID 112
+killing CPU spinner 0 (PID 112)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.1
+Load  9.8
+Load  9.4
+Load  9.4
+Load  11.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (91): starting 1 spinner(s) for 5%-5% usage
+lookbusy (91): CPU spinner started, PID 92
+killing CPU spinner 0 (PID 92)
+ [0, 0] [0] [1, 2] 0.0
+Load  11.2
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  7.9
+ARRIVAL State, Action Next_state Rewardcpu_spin (98): starting 1 spinner(s) for 5%-5% usage
+lookbusy (98): CPU spinner started, PID 100
+killing CPU spinner 0 (PID 100)
+killing CPU spinner 0 (PID 100)
+ [0, 0] [0] [1, 1] 0.0
+Load  7.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.0
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (56): starting 1 spinner(s) for 5%-5% usage
+lookbusy (56): CPU spinner started, PID 57
+killing CPU spinner 0 (PID 57)
+Load  7.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.8
+cpu_spin (257): starting 1 spinner(s) for 5%-5% usage
+lookbusy (257): CPU spinner started, PID 258
+killing CPU spinner 0 (PID 258)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  7.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (20): starting 1 spinner(s) for 5%-5% usage
+lookbusy (20): CPU spinner started, PID 21
+killing CPU spinner 0 (PID 21)
+ [0, 0] [0] [1, 1] 0.0
+Load  7.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.4
+Load  6.4
+cpu_spin (127): starting 1 spinner(s) for 5%-5% usage
+lookbusy (127): CPU spinner started, PID 128
+killing CPU spinner 0 (PID 128)
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [1, 1] 0.0
+Load  6.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+Load  6.6
+Load  7.7
+ARRIVAL State, Action Next_state Rewardcpu_spin (162): starting 1 spinner(s) for 5%-5% usage
+lookbusy (162): CPU spinner started, PID 163
+killing CPU spinner 0 (PID 163)
+ [0, 0] [0] [1, 1] 0.0
+Load  7.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.6
+cpu_spin (220): starting 1 spinner(s) for 5%-5% usage
+lookbusy (220): CPU spinner started, PID 221
+killing CPU spinner 0 (PID 221)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.3
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (199): starting 1 spinner(s) for 5%-5% usage
+lookbusy (199): CPU spinner started, PID 200
+killing CPU spinner 0 (PID 200)
+Load  8.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.7
+Load  9.9
+Load  11.0
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (318): starting 1 spinner(s) for 5%-5% usage
+lookbusy (318): CPU spinner started, PID 319
+killing CPU spinner 0 (PID 319)
+Load  10.6
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.7
+Load  10.7
+Load  10.8
+Load  8.2
+Load  8.5
+Load  10.3
+cpu_spin (63): starting 1 spinner(s) for 5%-5% usage
+lookbusy (63): CPU spinner started, PID 64
+killing CPU spinner 0 (PID 64)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+Load  10.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  8.7
+cpu_spin (378): starting 1 spinner(s) for 5%-5% usage
+lookbusy (378): CPU spinner started, PID 379
+killing CPU spinner 0 (PID 379)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  8.0
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.3
+Load  10.4
+cpu_spin (414): starting 1 spinner(s) for 5%-5% usage
+lookbusy (414): CPU spinner started, PID 415
+killing CPU spinner 0 (PID 415)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  10.4
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.6
+ARRIVAL State, Action Next_state Reward [0, 2]cpu_spin (393): starting 1 spinner(s) for 5%-5% usage
+lookbusy (393): CPU spinner started, PID 394
+killing CPU spinner 0 (PID 394)
+killing CPU spinner 0 (PID 394)
+ [0] [1, 2] 0.0
+Load  10.6
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.7
+ARRIVAL State, Action Next_state Rewardcpu_spin (235): starting 1 spinner(s) for 5%-5% usage
+lookbusy (235): CPU spinner started, PID 236
+killing CPU spinner 0 (PID 236)
+Load  10.7
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 2] 0.0
+ [0, 1] [0] [2, 2] 0.0
+cpu_spin (333): starting 1 spinner(s) for 5%-5% usage
+lookbusy (333): CPU spinner started, PID 334
+killing CPU spinner 0 (PID 334)
+Load  7.6
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 1] 0.0
+Load  7.6
+DEPT State, Action Next_state Reward [2, 2] [0] [0, 1] 0.0
+Load  7.6
+Load  7.6
+Load  8.1
+cpu_spin (490): starting 1 spinner(s) for 5%-5% usage
+lookbusy (490): CPU spinner started, PID 491
+killing CPU spinner 0 (PID 491)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  8.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.1
+Load  6.9
+Load  8.7
+cpu_spin (512): starting 1 spinner(s) for 5%-5% usage
+lookbusy (512): CPU spinner started, PID 513
+killing CPU spinner 0 (PID 513)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.0
+cpu_spin (264): starting 1 spinner(s) for 5%-5% usage
+lookbusy (264): CPU spinner started, PID 265
+killing CPU spinner 0 (PID 265)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.8
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (84): starting 1 spinner(s) for 5%-5% usage
+lookbusy (84): CPU spinner started, PID 85
+killing CPU spinner 0 (PID 85)
+Load  6.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.6
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (250): starting 1 spinner(s) for 5%-5% usage
+lookbusy (250): CPU spinner started, PID 251
+killing CPU spinner 0 (PID 251)
+Load  6.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (505): starting 1 spinner(s) for 5%-5% usage
+lookbusy (505): CPU spinner started, PID 506
+killing CPU spinner 0 (PID 506)
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8
+Load  5.4
+Load  5.4
+Load  8.3
+Load  8.3
+ARRIVAL State, Action Next_state Rewardcpu_spin (400): starting 1 spinner(s) for 5%-5% usage
+lookbusy (400): CPU spinner started, PID 401
+killing CPU spinner 0 (PID 401)
+ [0, 2] [0] [1, 1] 0.0
+Load  8.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.5
+cpu_spin (148): starting 1 spinner(s) for 5%-5% usage
+lookbusy (148): CPU spinner started, PID 149
+killing CPU spinner 0 (PID 149)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.6
+Load  7.7
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (34): starting 1 spinner(s) for 5%-5% usage
+lookbusy (34): CPU spinner started, PID 39
+killing CPU spinner 0 (PID 39)
+[0] [1, 1] 0.0
+cpu_spin (34): starting 1 spinner(s) for 5%-5% usage
+lookbusy (34): CPU spinner started, PID 39
+killing CPU spinner 0 (PID 39)
+Load  7.5
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.5
+ARRIVAL State, Action Next_state Rewardcpu_spin (155): starting 1 spinner(s) for 5%-5% usage
+lookbusy (155): CPU spinner started, PID 156
+killing CPU spinner 0 (PID 156)
+ [0, 0] [0] [1, 1] 0.0
+Load  7.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+Load  6.3
+Load  6.6
+Load  6.6
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (603): starting 1 spinner(s) for 5%-5% usage
+lookbusy (603): CPU spinner started, PID 604
+killing CPU spinner 0 (PID 604)
+[0] [1, 1] 0.0
+Load  6.1
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  6.1
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (371): starting 1 spinner(s) for 5%-5% usage
+lookbusy (371): CPU spinner started, PID 372
+killing CPU spinner 0 (PID 372)
+[0] [1, 1] 0.0
+Load  5.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6
+Load  5.6
+Load  5.6
+cpu_spin (444): starting 1 spinner(s) for 5%-5% usage
+lookbusy (444): CPU spinner started, PID 445
+killing CPU spinner 0 (PID 445)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.5
+Load  4.9
+Load  7.7
+Load  7.7
+Load  8.3
+cpu_spin (626): starting 1 spinner(s) for 5%-5% usage
+lookbusy (626): CPU spinner started, PID 627
+killing CPU spinner 0 (PID 627)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  8.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.1
+ARRIVAL State, Action Next_state Rewardcpu_spin (483): starting 1 spinner(s) for 5%-5% usage
+lookbusy (483): CPU spinner started, PID 484
+killing CPU spinner 0 (PID 484)
+ [0, 1] [0] [1, 1] 0.0
+Load  7.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.3
+ARRIVAL State, Action Next_state Rewardcpu_spin (111): starting 1 spinner(s) for 5%-5% usage
+lookbusy (111): CPU spinner started, PID 113
+killing CPU spinner 0 (PID 113)
+ [0, 0] [0] [1, 1] 0.0
+Load  7.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.4
+Load  10.2
+cpu_spin (644): starting 1 spinner(s) for 5%-5% usage
+lookbusy (644): CPU spinner started, PID 646
+killing CPU spinner 0 (PID 646)
+ARRIVAL State, Action Next_state Reward [1, 1] [0] [1, 2] 0.0
+Load  9.9
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 1] 0.0
+Load  10.0
+Load  8.2
+Load  9.6
+cpu_spin (141): starting 1 spinner(s) for 5%-5% usage
+lookbusy (141): CPU spinner started, PID 142
+killing CPU spinner 0 (PID 142)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  9.4
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  10.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (685): starting 1 spinner(s) for 5%-5% usage
+lookbusy (685): CPU spinner started, PID 686
+killing CPU spinner 0 (PID 686)
+cpu_spin (685): starting 1 spinner(s) for 5%-5% usage
+lookbusy (685): CPU spinner started, PID 686
+killing CPU spinner 0 (PID 686)
+ [0, 1] [0] [1, 2] 0.0
+Load  10.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.1
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+cpu_spin (206): starting 1 spinner(s) for 5%-5% usage
+lookbusy (206): CPU spinner started, PID 207
+killing CPU spinner 0 (PID 207)
+Load  9.9
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 1] 0.0
+Load  7.7
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (737): starting 1 spinner(s) for 5%-5% usage
+lookbusy (737): CPU spinner started, PID 738
+killing CPU spinner 0 (PID 738)
+Load  7.0
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.0
+Load  7.0
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (699): starting 1 spinner(s) for 5%-5% usage
+lookbusy (699): CPU spinner started, PID 700
+killing CPU spinner 0 (PID 700)
+Load  6.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.8
+Load  6.8
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (580): starting 1 spinner(s) for 5%-5% usage
+lookbusy (580): CPU spinner started, PID 581
+killing CPU spinner 0 (PID 581)
+[0] [1, 1] 0.0
+Load  6.5
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.2
+Load  7.3
+cpu_spin (169): starting 1 spinner(s) for 5%-5% usage
+lookbusy (169): CPU spinner started, PID 170
+killing CPU spinner 0 (PID 170)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.1
+Load  7.1
+Load  7.2
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (421): starting 1 spinner(s) for 5%-5% usage
+lookbusy (421): CPU spinner started, PID 422
+killing CPU spinner 0 (PID 422)
+Load  6.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (759): starting 1 spinner(s) for 5%-5% usage
+lookbusy (759): CPU spinner started, PID 760
+killing CPU spinner 0 (PID 760)
+[0] [1, 1] 0.0
+Load  5.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+cpu_spin (828): starting 1 spinner(s) for 5%-5% usage
+lookbusy (828): CPU spinner started, PID 829
+killing CPU spinner 0 (PID 829)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3
+Load  6.3
+Load  7.4
+cpu_spin (184): starting 1 spinner(s) for 5%-5% usage
+lookbusy (184): CPU spinner started, PID 185
+killing CPU spinner 0 (PID 185)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.2
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.9
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  6.9
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (663): starting 1 spinner(s) for 5%-5% usage
+lookbusy (663): CPU spinner started, PID 664
+killing CPU spinner 0 (PID 664)
+Load  6.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.8
+cpu_spin (881): starting 1 spinner(s) for 5%-5% usage
+lookbusy (881): CPU spinner started, PID 883
+killing CPU spinner 0 (PID 883)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.8
+Load  5.6
+Load  7.3
+Load  10.0
+Load  10.0
+cpu_spin (948): starting 1 spinner(s) for 5%-5% usage
+lookbusy (948): CPU spinner started, PID 949
+killing CPU spinner 0 (PID 949)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  10.0
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  7.4
+Load  7.4
+Notification of offload
+New Policy Request threshold :  [17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17.
+ 17. 17. 17.]
+Load  8.4
+Load  8.4
+Load  9.0
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (271): starting 1 spinner(s) for 5%-5% usage
+lookbusy (271): CPU spinner started, PID 272
+killing CPU spinner 0 (PID 272)
+Load  8.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.7
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (706): starting 1 spinner(s) for 5%-5% usage
+lookbusy (706): CPU spinner started, PID 707
+killing CPU spinner 0 (PID 707)
+Load  8.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.7
+Load  8.7
+Load  8.9
+cpu_spin (813): starting 1 spinner(s) for 5%-5% usage
+lookbusy (813): CPU spinner started, PID 814
+killing CPU spinner 0 (PID 814)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  8.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.9
+cpu_spin (941): starting 1 spinner(s) for 5%-5% usage
+lookbusy (941): CPU spinner started, PID 942
+killing CPU spinner 0 (PID 942)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (941): starting 1 spinner(s) for 5%-5% usage
+lookbusy (941): CPU spinner started, PID 942
+killing CPU spinner 0 (PID 942)
+Load  8.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.3
+Load  9.4
+cpu_spin (573): starting 1 spinner(s) for 5%-5% usage
+lookbusy (573): CPU spinner started, PID 574
+killing CPU spinner 0 (PID 574)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  9.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.7
+Load  9.6
+ARRIVAL State, Action Next_state Rewardcpu_spin (888): starting 1 spinner(s) for 5%-5% usage
+lookbusy (888): CPU spinner started, PID 889
+killing CPU spinner 0 (PID 889)
+ [0, 1] [0] [1, 1] 0.0
+Load  9.4
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.4
+cpu_spin (1008): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1008): CPU spinner started, PID 1009
+killing CPU spinner 0 (PID 1009)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  8.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.6
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (985): starting 1 spinner(s) for 5%-5% usage
+lookbusy (985): CPU spinner started, PID 986
+killing CPU spinner 0 (PID 986)
+Load  6.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2
+cpu_spin (1015): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1015): CPU spinner started, PID 1016
+killing CPU spinner 0 (PID 1016)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8
+cpu_spin (848): starting 1 spinner(s) for 5%-5% usage
+lookbusy (848): CPU spinner started, PID 849
+killing CPU spinner 0 (PID 849)
+cpu_spin (848): starting 1 spinner(s) for 5%-5% usage
+lookbusy (848): CPU spinner started, PID 849
+killing CPU spinner 0 (PID 849)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (934): starting 1 spinner(s) for 5%-5% usage
+lookbusy (934): CPU spinner started, PID 935
+killing CPU spinner 0 (PID 935)
+ [0, 1] [0] [1, 1] 0.0
+Load  5.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.2
+cpu_spin (970): starting 1 spinner(s) for 5%-5% usage
+lookbusy (970): CPU spinner started, PID 971
+killing CPU spinner 0 (PID 971)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  4.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 0] 0.0
+Load  4.6
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+cpu_spin (963): starting 1 spinner(s) for 5%-5% usage
+lookbusy (963): CPU spinner started, PID 964
+killing CPU spinner 0 (PID 964)
+Load  4.4
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.3
+ARRIVAL State, Action Next_state Rewardcpu_spin (1038): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1038): CPU spinner started, PID 1039
+killing CPU spinner 0 (PID 1039)
+ [0, 1] [0] [1, 0] 0.0
+Load  3.9
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.9
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 0] 0.0
+cpu_spin (752): starting 1 spinner(s) for 5%-5% usage
+lookbusy (752): CPU spinner started, PID 753
+killing CPU spinner 0 (PID 753)
+Load  3.7
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.8
+cpu_spin (633): starting 1 spinner(s) for 5%-5% usage
+lookbusy (633): CPU spinner started, PID 634
+killing CPU spinner 0 (PID 634)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  3.6
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.7
+ARRIVAL State, Action Next_state Rewardcpu_spin (670): starting 1 spinner(s) for 5%-5% usage
+lookbusy (670): CPU spinner started, PID 671
+killing CPU spinner 0 (PID 671)
+ [0, 1] [0] [1, 0] 0.0
+Load  3.5
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.4
+cpu_spin (213): starting 1 spinner(s) for 5%-5% usage
+lookbusy (213): CPU spinner started, PID 214
+killing CPU spinner 0 (PID 214)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.2
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.0
+cpu_spin (566): starting 1 spinner(s) for 5%-5% usage
+lookbusy (566): CPU spinner started, PID 567
+killing CPU spinner 0 (PID 567)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  2.8
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  7.3
+ARRIVAL State, Action Next_state Reward [0, 1]cpu_spin (978): starting 1 spinner(s) for 5%-5% usage
+lookbusy (978): CPU spinner started, PID 979
+killing CPU spinner 0 (PID 979)
+ [0] [1, 1] 0.0
+Load  7.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.9
+cpu_spin (850): starting 1 spinner(s) for 5%-5% usage
+lookbusy (850): CPU spinner started, PID 851
+killing CPU spinner 0 (PID 851)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  4.7
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.9
+cpu_spin (927): starting 1 spinner(s) for 5%-5% usage
+lookbusy (927): CPU spinner started, PID 928
+killing CPU spinner 0 (PID 928)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.6
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.3
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (1053): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1053): CPU spinner started, PID 1054
+killing CPU spinner 0 (PID 1054)
+[0] [1, 0] 0.0
+Load  3.0
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.6
+cpu_spin (559): starting 1 spinner(s) for 5%-5% usage
+lookbusy (559): CPU spinner started, PID 560
+killing CPU spinner 0 (PID 560)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  2.4
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.4
+cpu_spin (798): starting 1 spinner(s) for 5%-5% usage
+lookbusy (798): CPU spinner started, PID 799
+killing CPU spinner 0 (PID 799)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  2.2
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.7
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (692): starting 1 spinner(s) for 5%-5% usage
+lookbusy (692): CPU spinner started, PID 693
+killing CPU spinner 0 (PID 693)
+cpu_spin (692): starting 1 spinner(s) for 5%-5% usage
+lookbusy (692): CPU spinner started, PID 693
+killing CPU spinner 0 (PID 693)
+[0] [1, 0] 0.0
+Load  1.4
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (407): starting 1 spinner(s) for 5%-5% usage
+lookbusy (407): CPU spinner started, PID 408
+killing CPU spinner 0 (PID 408)
+ [0, 2] [0] [1, 0] 0.0
+Load  1.1
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  1.9
+Sleep  70.68509645371984
+Load  1.8
+Sleep  2.837613775123488
+Load  1.8
+Sleep  20.909751421136047
+Load  1.9
+Sleep  3.2769519452749316
+Load  1.9
+Sleep  2.931300531866784
+Load  1.9
+Sleep  5.303078019928081
+Load  1.9
+Sleep  2.97738780757507
+Load  2.0
+Sleep  22.132976345690853
+Load  2.0
+Sleep  22.508788604755896
+Load  2.0
+Sleep  10.971125050423682
+Load  2.0
+Sleep  4.562582904810308
+Load  2.1
+Sleep  35.9816882424896
+Load  2.0
+Sleep  0.9086784661899495
+Load  2.0
+Sleep  14.022258097962673
+Load  2.0
+Sleep  9.04921751381632
+Load  2.1
+Sleep  51.1821150708143
+Load  2.1
+Sleep  5.302733545498879
+Load  2.1
+Sleep  13.767524061087961
+Load  2.2
+Sleep  10.423719161793246
+Load  2.2
+Sleep  4.073865948031489
+Load  2.2
+Sleep  4.868217391112171
+Load  2.3
+Sleep  5.7804242688122205
+Load  2.3
+Sleep  16.274477235018406
+Load  3.3
+Sleep  9.687302904910725
+Load  5.7
+cpu_spin (97): starting 1 spinner(s) for 5%-5% usage
+lookbusy (97): CPU spinner started, PID 98
+killing CPU spinner 0 (PID 98)
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (97): starting 1 spinner(s) for 5%-5% usage
+lookbusy (97): CPU spinner started, PID 98
+killing CPU spinner 0 (PID 98)
+[0] [1, 1] 0.0
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.8
+Sleep  23.445940736511677
+Load  7.8
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (20): starting 1 spinner(s) for 5%-5% usage
+lookbusy (20): CPU spinner started, PID 21
+killing CPU spinner 0 (PID 21)
+[0] [1, 1] 0.0
+Load  7.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.5
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (41): starting 1 spinner(s) for 5%-5% usage
+lookbusy (41): CPU spinner started, PID 42
+killing CPU spinner 0 (PID 42)
+Load  8.5
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.5
+Sleep  15.733447637845865
+Load  8.5
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (55): starting 1 spinner(s) for 5%-5% usage
+lookbusy (55): CPU spinner started, PID 57
+killing CPU spinner 0 (PID 57)
+Load  8.5
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.0
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (34): starting 1 spinner(s) for 5%-5% usage
+lookbusy (34): CPU spinner started, PID 35
+killing CPU spinner 0 (PID 35)
+Load  8.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.0
+Sleep  3.8461771136479603
+Load  6.0
+Sleep  16.571648463424836
+Load  6.0
+Sleep  11.594969870385258
+Load  7.2
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (83): starting 1 spinner(s) for 5%-5% usage
+lookbusy (83): CPU spinner started, PID 84
+killing CPU spinner 0 (PID 84)
+Load  7.0
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.4
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (48): starting 1 spinner(s) for 5%-5% usage
+lookbusy (48): CPU spinner started, PID 49
+killing CPU spinner 0 (PID 49)
+[0] [1, 1] 0.0
+Load  8.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.2
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (156): starting 1 spinner(s) for 5%-5% usage
+lookbusy (156): CPU spinner started, PID 162
+killing CPU spinner 0 (PID 162)
+Load  8.0
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.2
+Sleep  2.001015273634547
+Load  7.6
+Sleep  14.941004268935863
+Load  7.6
+Sleep  19.480103963487768
+Load  8.1
+cpu_spin (159): starting 1 spinner(s) for 5%-5% usage
+lookbusy (159): CPU spinner started, PID 161
+killing CPU spinner 0 (PID 161)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.5
+ARRIVAL State, Action Next_state Rewardcpu_spin (130): starting 1 spinner(s) for 5%-5% usage
+lookbusy (130): CPU spinner started, PID 133
+killing CPU spinner 0 (PID 133)
+cpu_spin (130): starting 1 spinner(s) for 5%-5% usage
+lookbusy (130): CPU spinner started, PID 133
+killing CPU spinner 0 (PID 133)
+ [0, 0] [0] [1, 1] 0.0
+Load  8.4
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.5
+Sleep  21.459539529297242
+Load  9.7
+Sleep  4.086812998533295
+Load  9.7
+cpu_spin (163): starting 1 spinner(s) for 5%-5% usage
+lookbusy (163): CPU spinner started, PID 168
+killing CPU spinner 0 (PID 168)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  9.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.6
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (235): starting 1 spinner(s) for 5%-5% usage
+lookbusy (235): CPU spinner started, PID 236
+killing CPU spinner 0 (PID 236)
+[0] [1, 1] 0.0
+Load  9.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.1
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (280): starting 1 spinner(s) for 5%-5% usage
+lookbusy (280): CPU spinner started, PID 281
+killing CPU spinner 0 (PID 281)
+[0] [1, 1] 0.0
+Load  7.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.7
+Sleep  41.518461211548455
+Load  7.6
+Sleep  10.154639568919285
+Load  7.7
+Sleep  3.5483960900256974
+Load  12.4
+ARRIVAL State, Action Next_state Rewardcpu_spin (111): starting 1 spinner(s) for 5%-5% usage
+lookbusy (111): CPU spinner started, PID 112
+killing CPU spinner 0 (PID 112)
+cpu_spin (111): starting 1 spinner(s) for 5%-5% usage
+lookbusy (111): CPU spinner started, PID 112
+killing CPU spinner 0 (PID 112)
+ [0, 0] [0] [1, 2] 0.0
+Load  12.2
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  13.2
+Sleep  22.532702483141808
+Load  14.4
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (174): starting 1 spinner(s) for 5%-5% usage
+lookbusy (174): CPU spinner started, PID 175
+killing CPU spinner 0 (PID 175)
+[0] [1, 2] 0.0
+Load  14.0
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  14.6
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (324): starting 1 spinner(s) for 5%-5% usage
+lookbusy (324): CPU spinner started, PID 326
+killing CPU spinner 0 (PID 326)
+[0] [1, 2] 0.0
+cpu_spin (324): starting 1 spinner(s) for 5%-5% usage
+lookbusy (324): CPU spinner started, PID 326
+killing CPU spinner 0 (PID 326)
+Load  14.4
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  14.4
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (76): starting 1 spinner(s) for 5%-5% usage
+lookbusy (76): CPU spinner started, PID 77
+killing CPU spinner 0 (PID 77)
+[0] [1, 2] 0.0
+Load  14.3
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.5
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (139): starting 1 spinner(s) for 5%-5% usage
+lookbusy (139): CPU spinner started, PID 141
+killing CPU spinner 0 (PID 141)
+[0] [1, 2] 0.0
+Load  11.4
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.4
+Sleep  45.02741514372858
+Load  11.4
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (369): starting 1 spinner(s) for 5%-5% usage
+lookbusy (369): CPU spinner started, PID 370
+killing CPU spinner 0 (PID 370)
+[0] [1, 2] 0.0
+Load  10.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.1
+Sleep  36.76779296250507
+Load  10.1
+Sleep  49.93904035537989
+Load  10.1
+Sleep  80.81045333261947
+Load  8.3
+Sleep  6.224844302070568
+Load  7.9
+ARRIVAL State, Action Next_state Reward [0, 0] 0 [1, 1] 0.0
+cpu_spin (104): starting 1 spinner(s) for 5%-5% usage
+lookbusy (104): CPU spinner started, PID 105
+killing CPU spinner 0 (PID 105)
+Load  7.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.8
+cpu_spin (138): starting 1 spinner(s) for 5%-5% usage
+lookbusy (138): CPU spinner started, PID 140
+killing CPU spinner 0 (PID 140)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.7
+Sleep  1.6858045084903166
+Load  6.9
+Sleep  9.444555012065585
+Load  7.1
+cpu_spin (249): starting 1 spinner(s) for 5%-5% usage
+lookbusy (249): CPU spinner started, PID 250
+killing CPU spinner 0 (PID 250)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.7
+Sleep  23.997135198359477
+Load  12.3
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (487): starting 1 spinner(s) for 5%-5% usage
+lookbusy (487): CPU spinner started, PID 488
+killing CPU spinner 0 (PID 488)
+Load  11.8
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.3
+Sleep  5.9900565595134525
+Load  9.3
+cpu_spin (172): starting 1 spinner(s) for 5%-5% usage
+lookbusy (172): CPU spinner started, PID 173
+killing CPU spinner 0 (PID 173)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  9.1
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.2
+Sleep  63.47961684550558
+Load  11.1
+cpu_spin (212): starting 1 spinner(s) for 5%-5% usage
+lookbusy (212): CPU spinner started, PID 213
+killing CPU spinner 0 (PID 213)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  10.8
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.8
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (362): starting 1 spinner(s) for 5%-5% usage
+lookbusy (362): CPU spinner started, PID 363
+killing CPU spinner 0 (PID 363)
+[0] [1, 2] 0.0
+Load  10.4
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.4
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (464): starting 1 spinner(s) for 5%-5% usage
+lookbusy (464): CPU spinner started, PID 465
+killing CPU spinner 0 (PID 465)
+[0] [1, 2] 0.0
+Load  10.2
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.4
+Sleep  16.69712662730217
+Load  10.4
+Sleep  41.68516162422932
+Load  8.5
+Sleep  11.461729993673199
+Load  10.2
+cpu_spin (242): starting 1 spinner(s) for 5%-5% usage
+lookbusy (242): CPU spinner started, PID 243
+killing CPU spinner 0 (PID 243)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  10.0
+DEPT State, Action Next_state Reward [1, 2] [0] [1, 2] 0.0
+Load  10.0
+cpu_spin (27): starting 1 spinner(s) for 5%-5% usage
+lookbusy (27): CPU spinner started, PID 28
+killing CPU spinner 0 (PID 28)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+Load  9.9
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 1] 0.0
+Load  10.3
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (287): starting 1 spinner(s) for 5%-5% usage
+lookbusy (287): CPU spinner started, PID 288
+killing CPU spinner 0 (PID 288)
+Load  10.4
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.1
+Sleep  5.092486019641639
+Load  9.3
+Sleep  17.751355319511077
+Load  9.3
+Sleep  25.795920024794736
+Load  9.7
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (62): starting 1 spinner(s) for 5%-5% usage
+lookbusy (62): CPU spinner started, PID 63
+killing CPU spinner 0 (PID 63)
+[0] [1, 1] 0.0
+Load  9.5
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  11.9
+Sleep  57.16963737615173
+Load  11.9
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (69): starting 1 spinner(s) for 5%-5% usage
+lookbusy (69): CPU spinner started, PID 70
+killing CPU spinner 0 (PID 70)
+[0] [1, 2] 0.0
+Load  11.7
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.8
+Sleep  4.400980036944373
+Load  11.4
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (524): starting 1 spinner(s) for 5%-5% usage
+lookbusy (524): CPU spinner started, PID 525
+killing CPU spinner 0 (PID 525)
+Load  11.3
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.4
+Sleep  6.2371001091744525
+Load  10.8
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (494): starting 1 spinner(s) for 5%-5% usage
+lookbusy (494): CPU spinner started, PID 495
+killing CPU spinner 0 (PID 495)
+[0] [1, 2] 0.0
+Load  10.5
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.8
+ARRIVAL State, Action Next_state Rewardcpu_spin (294): starting 1 spinner(s) for 5%-5% usage
+lookbusy (294): CPU spinner started, PID 295
+killing CPU spinner 0 (PID 295)
+ [0, 1] [0] [1, 2] 0.0
+Load  10.6
+Sleep  1.0595765243360062
+Load Load  8.6
+ARRIVAL State, Action Next_state Reward  [0, 1] cpu_spin (189): starting 1 spinner(s) for 5%-5% usage
+lookbusy (189): CPU spinner started, PID 190
+killing CPU spinner 0 (PID 190)
+[0] [1, 1] 0.0
+10.6
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  8.4
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.8
+Sleep  10.075234515654987
+Load  8.9
+Sleep  61.7145478579145
+Load  11.0
+cpu_spin (701): starting 1 spinner(s) for 5%-5% usage
+lookbusy (701): CPU spinner started, PID 703
+killing CPU spinner 0 (PID 703)
+ARRIVAL State, Action Next_state Reward [1, 2] [0] [1, 2] 0.0
+Load  10.0
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.0
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (615): starting 1 spinner(s) for 5%-5% usage
+lookbusy (615): CPU spinner started, PID 618
+killing CPU spinner 0 (PID 618)
+Load  9.8
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 1] 0.0
+Load  10.2
+Sleep  14.994002633337344
+Load  10.2
+Sleep  2.0451887127243564
+Load  12.5
+cpu_spin (659): starting 1 spinner(s) for 5%-5% usage
+lookbusy (659): CPU spinner started, PID 660
+killing CPU spinner 0 (PID 660)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  12.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  12.3
+cpu_spin (317): starting 1 spinner(s) for 5%-5% usage
+lookbusy (317): CPU spinner started, PID 318
+killing CPU spinner 0 (PID 318)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  12.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  12.1
+Sleep  21.422689423090812
+Load  9.2
+Sleep  59.16891450956649
+Load  9.8
+cpu_spin (749): starting 1 spinner(s) for 5%-5% usage
+lookbusy (749): CPU spinner started, PID 750
+killing CPU spinner 0 (PID 750)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 1] 0.0
+Load  8.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  10.7
+Sleep  13.734799026048613
+Load  11.3
+cpu_spin (674): starting 1 spinner(s) for 5%-5% usage
+lookbusy (674): CPU spinner started, PID 675
+killing CPU spinner 0 (PID 675)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  11.0
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.8
+Sleep  23.069371084476515
+Load  11.2
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (584): starting 1 spinner(s) for 5%-5% usage
+lookbusy (584): CPU spinner started, PID 585
+killing CPU spinner 0 (PID 585)
+[0] [1, 2] 0.0
+Load  11.7
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.0
+Sleep  1.9624124544230148
+Load  11.3
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (384): starting 1 spinner(s) for 5%-5% usage
+lookbusy (384): CPU spinner started, PID 385
+killing CPU spinner 0 (PID 385)
+[0] [1, 2] 0.0
+Load  11.0
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.2
+Sleep  13.227279002545748
+Load  11.2
+cpu_spin (824): starting 1 spinner(s) for 5%-5% usage
+lookbusy (824): CPU spinner started, PID 825
+killing CPU spinner 0 (PID 825)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  10.2
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.3
+Sleep  26.16151015389749
+Load  12.2
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  12.1
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  12.1
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (712): starting 1 spinner(s) for 5%-5% usage
+lookbusy (712): CPU spinner started, PID 713
+killing CPU spinner 0 (PID 713)
+[0] [1, 2] 0.0
+Load  11.7
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.8
+cpu_spin (90): starting 1 spinner(s) for 5%-5% usage
+lookbusy (90): CPU spinner started, PID 91
+killing CPU spinner 0 (PID 91)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  9.7
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.7
+Sleep  21.740750642260185
+Load  9.7
+Sleep  4.92428209723169
+Load  9.7
+Sleep  3.334363771255299
+Load  10.5
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (622): starting 1 spinner(s) for 5%-5% usage
+lookbusy (622): CPU spinner started, PID 623
+killing CPU spinner 0 (PID 623)
+cpu_spin (622): starting 1 spinner(s) for 5%-5% usage
+lookbusy (622): CPU spinner started, PID 623
+killing CPU spinner 0 (PID 623)
+[0] [1, 2] 0.0
+Load  10.3
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.4
+cpu_spin (509): starting 1 spinner(s) for 5%-5% usage
+lookbusy (509): CPU spinner started, PID 510
+killing CPU spinner 0 (PID 510)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  9.2
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.5
+cpu_spin (899): starting 1 spinner(s) for 5%-5% usage
+lookbusy (899): CPU spinner started, PID 900
+killing CPU spinner 0 (PID 900)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  7.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.1
+cpu_spin (892): starting 1 spinner(s) for 5%-5% usage
+lookbusy (892): CPU spinner started, PID 893
+killing CPU spinner 0 (PID 893)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  7.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.3
+cpu_spin (743): starting 1 spinner(s) for 5%-5% usage
+lookbusy (743): CPU spinner started, PID 745
+killing CPU spinner 0 (PID 745)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 1] 0.0
+Load  8.0
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.1
+cpu_spin (794): starting 1 spinner(s) for 5%-5% usage
+lookbusy (794): CPU spinner started, PID 795
+killing CPU spinner 0 (PID 795)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 1] 0.0
+Load  6.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.7
+ARRIVAL State, Action Next_state Rewardcpu_spin (839): starting 1 spinner(s) for 5%-5% usage
+lookbusy (839): CPU spinner started, PID 840
+killing CPU spinner 0 (PID 840)
+ [0, 2] cpu_spin (839): starting 1 spinner(s) for 5%-5% usage
+lookbusy (839): CPU spinner started, PID 840
+killing CPU spinner 0 (PID 840)
+[0] [1, 1] 0.0
+Load  6.4
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.4
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (629): starting 1 spinner(s) for 5%-5% usage
+lookbusy (629): CPU spinner started, PID 630
+killing CPU spinner 0 (PID 630)
+[0] [1, 1] 0.0
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.0
+ARRIVAL State, Action Next_state Rewardcpu_spin (448): starting 1 spinner(s) for 5%-5% usage
+lookbusy (448): CPU spinner started, PID 449
+killing CPU spinner 0 (PID 449)
+ [0, 2] [0] [1, 1] 0.0
+Load  5.8
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (355): starting 1 spinner(s) for 5%-5% usage
+lookbusy (355): CPU spinner started, PID 356
+killing CPU spinner 0 (PID 356)
+[0] [1, 1] 0.0
+Load  5.6
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (772): starting 1 spinner(s) for 5%-5% usage
+lookbusy (772): CPU spinner started, PID 773
+killing CPU spinner 0 (PID 773)
+[0] [1, 1] 0.0
+Load  5.3
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.2
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (118): starting 1 spinner(s) for 5%-5% usage
+lookbusy (118): CPU spinner started, PID 119
+killing CPU spinner 0 (PID 119)
+[0] [1, 1] 0.0
+Load  5.0
+DEPT State, Action Next_state Reward [1, 1] 0 [0, 1] 0.0
+Load  5.1
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (809): starting 1 spinner(s) for 5%-5% usage
+lookbusy (809): CPU spinner started, PID 810
+killing CPU spinner 0 (PID 810)
+cpu_spin (809): starting 1 spinner(s) for 5%-5% usage
+lookbusy (809): CPU spinner started, PID 810
+killing CPU spinner 0 (PID 810)
+[0] [1, 1] 0.0
+Load  4.9
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 0] 0.0
+Load  4.6
+cpu_spin (428): starting 1 spinner(s) for 5%-5% usage
+lookbusy (428): CPU spinner started, PID 429
+killing CPU spinner 0 (PID 429)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 0] 0.0
+Load  4.4
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.3
+cpu_spin (885): starting 1 spinner(s) for 5%-5% usage
+lookbusy (885): CPU spinner started, PID 886
+killing CPU spinner 0 (PID 886)
+cpu_spin (885): starting 1 spinner(s) for 5%-5% usage
+lookbusy (885): CPU spinner started, PID 886
+killing CPU spinner 0 (PID 886)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  4.1
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2
+ARRIVAL State, Action Next_state Rewardcpu_spin (854): starting 1 spinner(s) for 5%-5% usage
+lookbusy (854): CPU spinner started, PID 855
+killing CPU spinner 0 (PID 855)
+ [0, 2] [0] [1, 0] 0.0
+Load  3.8
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.7
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (577): starting 1 spinner(s) for 5%-5% usage
+lookbusy (577): CPU spinner started, PID 578
+killing CPU spinner 0 (PID 578)
+[0] [1, 0] 0.0
+Load  3.5
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.6
+ARRIVAL State, Action Next_state Rewardcpu_spin (450): starting 1 spinner(s) for 5%-5% usage
+lookbusy (450): CPU spinner started, PID 451
+killing CPU spinner 0 (PID 451)
+ [0, 2] [0] [1, 0] 0.0
+Load  3.4
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.3
+cpu_spin (13): starting 1 spinner(s) for 5%-5% usage
+lookbusy (13): CPU spinner started, PID 14
+killing CPU spinner 0 (PID 14)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.1
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.8
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (644): starting 1 spinner(s) for 5%-5% usage
+lookbusy (644): CPU spinner started, PID 645
+killing CPU spinner 0 (PID 645)
+[0] [1, 0] 0.0
+Load  2.5
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.6
+cpu_spin (539): starting 1 spinner(s) for 5%-5% usage
+lookbusy (539): CPU spinner started, PID 540
+killing CPU spinner 0 (PID 540)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  2.3
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.3
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (779): starting 1 spinner(s) for 5%-5% usage
+lookbusy (779): CPU spinner started, PID 780
+killing CPU spinner 0 (PID 780)
+[0] [1, 0] 0.0
+Load  2.0
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.0
+cpu_spin (719): starting 1 spinner(s) for 5%-5% usage
+lookbusy (719): CPU spinner started, PID 720
+killing CPU spinner 0 (PID 720)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  1.7
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.6
+ARRIVAL State, Action Next_state Reward cpu_spin (457): starting 1 spinner(s) for 5%-5% usage
+lookbusy (457): CPU spinner started, PID 458
+killing CPU spinner 0 (PID 458)
+[0, 2] [0] [1, 0] 0.0
+Load  1.3
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  4.4 new arrival
+Sleep  3.900031864950491
+Load  4.5 new arrival
+Sleep  64.32927596468957
+Load  4.1 new arrival
+Sleep  36.46778836897585
+Load  4.2 new arrival
+Sleep  0.08766816476113627
+Load  4.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (34): starting 1 spinner(s) for 5%-5% usage
+lookbusy (34): CPU spinner started, PID 35
+killing CPU spinner 0 (PID 35)
+Load  4.2 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.3 new arrival
+Sleep  29.368541559535696
+Load  5.4 new arrival
+Sleep  12.419947415090077
+Load  5.5 new arrival
+Sleep  13.122762115976997
+Load  4.5 new arrival
+Sleep  1.1182531964291078
+Load  4.5 new arrival
+Sleep  10.287013077057306
+Load  4.6 new arrival
+Sleep  8.88514450664348
+Load  4.6 new arrival
+Sleep  12.419650687737077
+Load  4.3 new arrival
+Sleep  9.997096028095664
+Load  4.8 new arrival
+Sleep  17.816404691748424
+Load  4.8 new arrival
+Sleep  53.548564438013564
+Load  4.8 new arrival
+Sleep  1.787333160683769
+Load  4.8 new arrival
+Sleep  46.23884140276659
+Load  4.9 new arrival
+Sleep  1.083574533263621
+Load  5.1 new arrival
+Sleep  11.299409471845468
+Load  5.1 new arrival
+Sleep  3.824089218373013
+Load  5.1 new arrival
+Sleep  2.050751124586504
+Load  6.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (70): starting 1 spinner(s) for 5%-5% usage
+lookbusy (70): CPU spinner started, PID 71
+killing CPU spinner 0 (PID 71)
+Load  6.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.1 new arrival
+Sleep  7.344674949100313
+Load  6.1 new arrival
+Sleep  25.019664163450173
+Load  6.2 arrival accept
+cpu_spin (13): starting 1 spinner(s) for 5%-5% usage
+lookbusy (13): CPU spinner started, PID 14
+killing CPU spinner 0 (PID 14)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  6.3 new arrival
+Sleep  15.53134902726896
+Load  6.3 new arrival
+Sleep  6.939361656265369
+Load  6.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.4 new arrival
+Sleep  7.333100425959585
+Load  7.5 arrival accept
+cpu_spin (133): starting 1 spinner(s) for 5%-5% usage
+lookbusy (133): CPU spinner started, PID 134
+killing CPU spinner 0 (PID 134)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  7.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (124): starting 1 spinner(s) for 5%-5% usage
+lookbusy (124): CPU spinner started, PID 126
+killing CPU spinner 0 (PID 126)
+[0] [1, 1] 0.0
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3 new arrival
+Sleep  29.777332111806547
+Load  6.3 arrival accept
+cpu_spin (154): starting 1 spinner(s) for 5%-5% usage
+lookbusy (154): CPU spinner started, PID 155
+killing CPU spinner 0 (PID 155)
+cpu_spin (154): starting 1 spinner(s) for 5%-5% usage
+lookbusy (154): CPU spinner started, PID 155
+killing CPU spinner 0 (PID 155)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.8 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.8 new arrival
+Sleep  9.07590487632734
+Load  11.4 arrival accept
+cpu_spin (147): starting 1 spinner(s) for 5%-5% usage
+lookbusy (147): CPU spinner started, PID 148
+killing CPU spinner 0 (PID 148)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  11.4 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.1 new arrival
+Sleep  42.56466506136278
+Load  9.1 new arrival
+Sleep  42.202910889409196
+Load  11.4 arrival accept
+cpu_spin (198): starting 1 spinner(s) for 5%-5% usage
+lookbusy (198): CPU spinner started, PID 199
+killing CPU spinner 0 (PID 199)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  11.3 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+Load  11.1 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.6 new arrival
+Sleep  0.9338336046636329
+Load  11.7 arrival accept
+cpu_spin (84): starting 1 spinner(s) for 5%-5% usage
+lookbusy (84): CPU spinner started, PID 85
+killing CPU spinner 0 (PID 85)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+Load  11.4 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.9 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+cpu_spin (207): starting 1 spinner(s) for 5%-5% usage
+lookbusy (207): CPU spinner started, PID 210
+killing CPU spinner 0 (PID 210)
+Load  9.7 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.8 new arrival
+Sleep  26.536922257238782
+Load  10.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+cpu_spin (288): starting 1 spinner(s) for 5%-5% usage
+lookbusy (288): CPU spinner started, PID 289
+killing CPU spinner 0 (PID 289)
+Load  10.2 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  10.3 new arrival
+Sleep  23.279619308866668
+Load  11.3 arrival accept
+cpu_spin (98): starting 1 spinner(s) for 5%-5% usage
+lookbusy (98): CPU spinner started, PID 99
+killing CPU spinner 0 (PID 99)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+Load  11.1 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 2] 0.0
+cpu_spin (77): starting 1 spinner(s) for 5%-5% usage
+lookbusy (77): CPU spinner started, PID 78
+killing CPU spinner 0 (PID 78)
+Load  11.2 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.4 new arrival
+Sleep  2.536811308523238
+Load  9.4 new arrival
+Sleep  0.7466877530670121
+Load  9.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (56): starting 1 spinner(s) for 5%-5% usage
+lookbusy (56): CPU spinner started, PID 57
+killing CPU spinner 0 (PID 57)
+Load  9.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.3 new arrival
+Sleep  3.7538263599465984
+Load  9.3 new arrival
+Sleep  3.837162170764341
+Load  9.3 arrival accept
+cpu_spin (356): starting 1 spinner(s) for 5%-5% usage
+lookbusy (356): CPU spinner started, PID 357
+killing CPU spinner 0 (PID 357)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 1] 0.0
+Load  9.3 arrival accept
+cpu_spin (140): starting 1 spinner(s) for 5%-5% usage
+lookbusy (140): CPU spinner started, PID 141
+killing CPU spinner 0 (PID 141)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  9.2 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [0, 1] 0.0
+Load  9.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.2 arrival accept
+cpu_spin (63): starting 1 spinner(s) for 5%-5% usage
+lookbusy (63): CPU spinner started, PID 64
+killing CPU spinner 0 (PID 64)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  9.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.1 new arrival
+Sleep  65.28217554738163
+Load  9.1 arrival accept
+cpu_spin (91): starting 1 spinner(s) for 5%-5% usage
+lookbusy (91): CPU spinner started, PID 92
+killing CPU spinner 0 (PID 92)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  8.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.9 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (243): starting 1 spinner(s) for 5%-5% usage
+lookbusy (243): CPU spinner started, PID 244
+killing CPU spinner 0 (PID 244)
+ [0, 1] [0] [1, 1] 0.0
+Load  9.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.9 new arrival
+Offloaded Request
+Load  9.0 new arrival
+Sleep  5.617018138938173
+Load  9.1 new arrival
+Sleep  18.190454338654444
+Load  9.1 arrival offload
+Offload
+Low util offload
+ARRIVAL State, Action Next_state Reward [0, 1] 1 [0, 1] -11.0
+Load  9.1 departure
+DEPT State, Action Next_state Reward [0, 1] [0] [0, 1] 0.0
+Load  9.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (349): starting 1 spinner(s) for 5%-5% usage
+lookbusy (349): CPU spinner started, PID 350
+killing CPU spinner 0 (PID 350)
+Load  9.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.5 new arrival
+Sleep  9.510456629517344
+Load  9.1 new arrival
+Sleep  147.90742109024265
+Load  12.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (371): starting 1 spinner(s) for 5%-5% usage
+lookbusy (371): CPU spinner started, PID 372
+killing CPU spinner 0 (PID 372)
+[0] [1, 2] 0.0
+Load  12.2 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  12.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 2] 0.0
+cpu_spin (378): starting 1 spinner(s) for 5%-5% usage
+lookbusy (378): CPU spinner started, PID 379
+killing CPU spinner 0 (PID 379)
+Load  11.8 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.8 new arrival
+Sleep  8.719495055017802
+Load  12.3 new arrival
+Sleep  30.27903833019787
+Load  12.3 new arrival
+Sleep  42.133382205825235
+Load  12.5 new arrival
+Sleep  0.4678322021854029
+Load  13.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (190): starting 1 spinner(s) for 5%-5% usage
+lookbusy (190): CPU spinner started, PID 197
+killing CPU spinner 0 (PID 197)
+[0] [1, 2] 0.0
+cpu_spin (190): starting 1 spinner(s) for 5%-5% usage
+lookbusy (190): CPU spinner started, PID 197
+killing CPU spinner 0 (PID 197)
+Load  13.4 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  11.4 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (518): starting 1 spinner(s) for 5%-5% usage
+lookbusy (518): CPU spinner started, PID 519
+killing CPU spinner 0 (PID 519)
+ [0, 2] [0] [1, 2] 0.0
+Load  10.4 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.1 arrival accept
+cpu_spin (105): starting 1 spinner(s) for 5%-5% usage
+lookbusy (105): CPU spinner started, PID 106
+killing CPU spinner 0 (PID 106)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  8.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  9.2 new arrival
+Sleep  9.478216050744601
+Load  12.4 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (439): starting 1 spinner(s) for 5%-5% usage
+lookbusy (439): CPU spinner started, PID 443
+killing CPU spinner 0 (PID 443)
+ [0, 1] [0] [1, 2] 0.0
+Load  12.3 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  12.6 new arrival
+Sleep  2.587550253395095
+Load  12.9 new arrival
+Sleep  25.962368284278696
+Load  10.2 new arrival
+Sleep  29.020422818232696
+Load  10.8 new arrival
+Sleep  3.131560539825936
+Load  10.9 arrival accept
+cpu_spin (564): starting 1 spinner(s) for 5%-5% usage
+lookbusy (564): CPU spinner started, PID 565
+killing CPU spinner 0 (PID 565)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 2] 0.0
+Load  10.6 departure
+DEPT State, Action Next_state Reward [1, 2] [0] [0, 2] 0.0
+Load  9.5 arrival accept
+cpu_spin (467): starting 1 spinner(s) for 5%-5% usage
+lookbusy (467): CPU spinner started, PID 468
+killing CPU spinner 0 (PID 468)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  9.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 1] 0.0
+cpu_spin (497): starting 1 spinner(s) for 5%-5% usage
+lookbusy (497): CPU spinner started, PID 498
+killing CPU spinner 0 (PID 498)
+Load  8.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  8.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (585): starting 1 spinner(s) for 5%-5% usage
+lookbusy (585): CPU spinner started, PID 586
+killing CPU spinner 0 (PID 586)
+[0] [1, 1] 0.0
+Load  8.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.9 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (175): starting 1 spinner(s) for 5%-5% usage
+lookbusy (175): CPU spinner started, PID 177
+killing CPU spinner 0 (PID 177)
+ [0, 1] [0] [1, 1] 0.0
+Load  7.7 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (549): starting 1 spinner(s) for 5%-5% usage
+lookbusy (549): CPU spinner started, PID 550
+killing CPU spinner 0 (PID 550)
+[0] [1, 1] 0.0
+Load  7.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  7.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (49): starting 1 spinner(s) for 5%-5% usage
+lookbusy (49): CPU spinner started, PID 50
+killing CPU spinner 0 (PID 50)
+[0] [1, 1] 0.0
+Load  7.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.8 arrival accept
+cpu_spin (444): starting 1 spinner(s) for 5%-5% usage
+lookbusy (444): CPU spinner started, PID 445
+killing CPU spinner 0 (PID 445)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.5 arrival accept
+cpu_spin (228): starting 1 spinner(s) for 5%-5% usage
+lookbusy (228): CPU spinner started, PID 229
+killing CPU spinner 0 (PID 229)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8 arrival accept
+cpu_spin (326): starting 1 spinner(s) for 5%-5% usage
+lookbusy (326): CPU spinner started, PID 327
+killing CPU spinner 0 (PID 327)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.7 arrival accept
+cpu_spin (27): starting 1 spinner(s) for 5%-5% usage
+lookbusy (27): CPU spinner started, PID 28
+killing CPU spinner 0 (PID 28)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.7 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (311): starting 1 spinner(s) for 5%-5% usage
+lookbusy (311): CPU spinner started, PID 312
+killing CPU spinner 0 (PID 312)
+ [0, 1] [0] [1, 1] 0.0
+Load  5.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.7 arrival accept
+cpu_spin (571): starting 1 spinner(s) for 5%-5% usage
+lookbusy (571): CPU spinner started, PID 572
+killing CPU spinner 0 (PID 572)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 0] 0.0
+Load  4.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.4 arrival accept
+cpu_spin (504): starting 1 spinner(s) for 5%-5% usage
+lookbusy (504): CPU spinner started, PID 505
+killing CPU spinner 0 (PID 505)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 0] 0.0
+Load  4.2 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2 arrival accept
+cpu_spin (125): starting 1 spinner(s) for 5%-5% usage
+lookbusy (125): CPU spinner started, PID 128
+killing CPU spinner 0 (PID 128)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (265): starting 1 spinner(s) for 5%-5% usage
+lookbusy (265): CPU spinner started, PID 266
+killing CPU spinner 0 (PID 266)
+ [0, 1] [0] [1, 0] 0.0
+Load  3.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (258): starting 1 spinner(s) for 5%-5% usage
+lookbusy (258): CPU spinner started, PID 259
+killing CPU spinner 0 (PID 259)
+[0] [1, 0] 0.0
+Load  3.3 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.3 arrival accept
+cpu_spin (578): starting 1 spinner(s) for 5%-5% usage
+lookbusy (578): CPU spinner started, PID 579
+killing CPU spinner 0 (PID 579)
+ARRIVAL State, Action Next_state Reward [0, 2] cpu_spin (578): starting 1 spinner(s) for 5%-5% usage
+lookbusy (578): CPU spinner started, PID 579
+killing CPU spinner 0 (PID 579)
+[0] [1, 0] 0.0
+Load  3.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.9 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (112): starting 1 spinner(s) for 5%-5% usage
+lookbusy (112): CPU spinner started, PID 113
+killing CPU spinner 0 (PID 113)
+ [0, 0] [0] [1, 0] 0.0
+Load  2.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.6 arrival accept
+cpu_spin (511): starting 1 spinner(s) for 5%-5% usage
+lookbusy (511): CPU spinner started, PID 512
+killing CPU spinner 0 (PID 512)
+ARRIVAL State, Action Next_state Reward [0, 2] [0] [1, 0] 0.0
+Load  2.3 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.3 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (20): starting 1 spinner(s) for 5%-5% usage
+lookbusy (20): CPU spinner started, PID 21
+killing CPU spinner 0 (PID 21)
+ [0, 0] cpu_spin (20): starting 1 spinner(s) for 5%-5% usage
+lookbusy (20): CPU spinner started, PID 21
+killing CPU spinner 0 (PID 21)
+[0] [1, 0] 0.0
+Load  2.2 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.9 arrival accept
+cpu_spin (409): starting 1 spinner(s) for 5%-5% usage
+lookbusy (409): CPU spinner started, PID 410
+killing CPU spinner 0 (PID 410)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  1.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.0 arrival accept
+cpu_spin (474): starting 1 spinner(s) for 5%-5% usage
+lookbusy (474): CPU spinner started, PID 475
+killing CPU spinner 0 (PID 475)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  0.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.5 new arrival
+Sleep  0.35072243574947093
+Load  0.5 new arrival
+Sleep  7.193336963749375
+Load  0.5 new arrival
+Sleep  10.733450673891515
+Load  0.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (776): starting 1 spinner(s) for 5%-5% usage
+lookbusy (776): CPU spinner started, PID 777
+killing CPU spinner 0 (PID 777)
+Load  0.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.5 new arrival
+Sleep  0.8359162361735063
+Load  0.5 new arrival
+Sleep  94.81480264238311
+Load  0.5 new arrival
+Sleep  30.159019838672272
+Load  0.5 new arrival
+Sleep  15.116206108458016
+Load  0.5 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (805): starting 1 spinner(s) for 5%-5% usage
+lookbusy (805): CPU spinner started, PID 806
+killing CPU spinner 0 (PID 806)
+ [0, 0] [0] [1, 0] 0.0
+Load  0.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.5 new arrival
+Sleep  54.24259183555777
+Load  0.5 new arrival
+Sleep  13.83416508355205
+Load  0.5 new arrival
+Sleep  24.351277344072447
+Load  0.5 new arrival
+Sleep  39.825950088040706
+Load  0.5 new arrival
+Sleep  12.215472339085359
+Load  0.5 new arrival
+Sleep  5.9333377761537
+Load  0.5 new arrival
+Sleep  19.252392815793442
+Load  0.5 new arrival
+Sleep  42.49464663998614
+Load  0.8 new arrival
+Sleep  9.271602846361938
+Load  0.8 new arrival
+Sleep  38.8476740900123
+Load  0.8 new arrival
+Sleep  33.126126920996036
+Load  0.8 new arrival
+Sleep  5.065880429493094
+Load  0.8 new arrival
+Sleep  1.7472964017580919
+Load  1.7 new arrival
+Sleep  7.121364113838796
+Load  1.7 new arrival
+Sleep  59.84414841012257
+Load  2.7 new arrival
+Sleep  6.7560842686136775
+Load  3.2 new arrival
+Sleep  14.70403612114875
+Load  3.2 new arrival
+Sleep  2.265548591886256
+Load  6.0 arrival accept
+cpu_spin (925): starting 1 spinner(s) for 5%-5% usage
+lookbusy (925): CPU spinner started, PID 926
+killing CPU spinner 0 (PID 926)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  6.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.1 new arrival
+Sleep  1.061203036884667
+Load  7.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (960): starting 1 spinner(s) for 5%-5% usage
+lookbusy (960): CPU spinner started, PID 961
+killing CPU spinner 0 (PID 961)
+cpu_spin (960): starting 1 spinner(s) for 5%-5% usage
+lookbusy (960): CPU spinner started, PID 961
+killing CPU spinner 0 (PID 961)
+Load  6.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Notification of offload
+New Policy Request threshold :  [17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17. 17.
+ 17. 17. 17.]
+Load  6.0 arrival accept
+cpu_spin (975): starting 1 spinner(s) for 5%-5% usage
+lookbusy (975): CPU spinner started, PID 976
+killing CPU spinner 0 (PID 976)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  3.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 0] 0.0
+Load  3.5 arrival accept
+cpu_spin (783): starting 1 spinner(s) for 5%-5% usage
+lookbusy (783): CPU spinner started, PID 784
+killing CPU spinner 0 (PID 784)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.3 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  5.7 arrival accept
+cpu_spin (920): starting 1 spinner(s) for 5%-5% usage
+lookbusy (920): CPU spinner started, PID 921
+killing CPU spinner 0 (PID 921)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.9 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (876): starting 1 spinner(s) for 5%-5% usage
+lookbusy (876): CPU spinner started, PID 877
+killing CPU spinner 0 (PID 877)
+cpu_spin (876): starting 1 spinner(s) for 5%-5% usage
+lookbusy (876): CPU spinner started, PID 877
+killing CPU spinner 0 (PID 877)
+ [0, 0] [0] [1, 0] 0.0
+Load  4.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.1 arrival accept
+cpu_spin (946): starting 1 spinner(s) for 5%-5% usage
+lookbusy (946): CPU spinner started, PID 947
+killing CPU spinner 0 (PID 947)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [2, 0] 0.0
+Load  3.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (932): starting 1 spinner(s) for 5%-5% usage
+lookbusy (932): CPU spinner started, PID 933
+killing CPU spinner 0 (PID 933)
+[0] [1, 0] 0.0
+Load  3.7 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [0, 0] 0.0
+Load  3.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2 arrival accept
+cpu_spin (790): starting 1 spinner(s) for 5%-5% usage
+lookbusy (790): CPU spinner started, PID 791
+killing CPU spinner 0 (PID 791)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2 arrival accept
+cpu_spin (897): starting 1 spinner(s) for 5%-5% usage
+lookbusy (897): CPU spinner started, PID 898
+killing CPU spinner 0 (PID 898)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.9 arrival accept
+cpu_spin (869): starting 1 spinner(s) for 5%-5% usage
+lookbusy (869): CPU spinner started, PID 870
+killing CPU spinner 0 (PID 870)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.6 arrival accept
+cpu_spin (848): starting 1 spinner(s) for 5%-5% usage
+lookbusy (848): CPU spinner started, PID 849
+killing CPU spinner 0 (PID 849)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.4 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.2 arrival accept
+cpu_spin (826): starting 1 spinner(s) for 5%-5% usage
+lookbusy (826): CPU spinner started, PID 827
+killing CPU spinner 0 (PID 827)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (953): starting 1 spinner(s) for 5%-5% usage
+lookbusy (953): CPU spinner started, PID 954
+killing CPU spinner 0 (PID 954)
+ [0, 0] [0] [1, 0] 0.0
+Load  3.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  16.2 arrival accept
+cpu_spin (890): starting 1 spinner(s) for 5%-5% usage
+lookbusy (890): CPU spinner started, PID 896
+killing CPU spinner 0 (PID 896)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 3] 0.0
+Load  9.2 departure
+DEPT State, Action Next_state Reward [1, 3] [0] [0, 1] 0.0
+Load  7.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (855): starting 1 spinner(s) for 5%-5% usage
+lookbusy (855): CPU spinner started, PID 856
+killing CPU spinner 0 (PID 856)
+[0] [1, 1] 0.0
+Load  7.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (819): starting 1 spinner(s) for 5%-5% usage
+lookbusy (819): CPU spinner started, PID 820
+killing CPU spinner 0 (PID 820)
+ [0, 0] cpu_spin (819): starting 1 spinner(s) for 5%-5% usage
+lookbusy (819): CPU spinner started, PID 820
+killing CPU spinner 0 (PID 820)
+[0] [1, 1] 0.0
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.6 arrival accept
+cpu_spin (911): starting 1 spinner(s) for 5%-5% usage
+lookbusy (911): CPU spinner started, PID 912
+killing CPU spinner 0 (PID 912)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.4 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.1 arrival accept
+cpu_spin (904): starting 1 spinner(s) for 5%-5% usage
+lookbusy (904): CPU spinner started, PID 905
+killing CPU spinner 0 (PID 905)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (862): starting 1 spinner(s) for 5%-5% usage
+lookbusy (862): CPU spinner started, PID 863
+killing CPU spinner 0 (PID 863)
+Load  3.4 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (892): starting 1 spinner(s) for 5%-5% usage
+lookbusy (892): CPU spinner started, PID 895
+killing CPU spinner 0 (PID 895)
+[0] [1, 0] 0.0
+Load  2.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.8 arrival accept
+cpu_spin (841): starting 1 spinner(s) for 5%-5% usage
+lookbusy (841): CPU spinner started, PID 842
+killing CPU spinner 0 (PID 842)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  2.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.4 arrival accept
+cpu_spin (939): starting 1 spinner(s) for 5%-5% usage
+lookbusy (939): CPU spinner started, PID 940
+killing CPU spinner 0 (PID 940)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  2.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  5.7 new arrival
+Sleep  0.5729077709137701
+Load  6.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (13): starting 1 spinner(s) for 5%-5% usage
+lookbusy (13): CPU spinner started, PID 14
+killing CPU spinner 0 (PID 14)
+Load  5.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.3 new arrival
+Sleep  2.5082460245662417
+Load  5.3 new arrival
+Sleep  1.625484714216353
+Load  4.8 new arrival
+Sleep  6.101397956881926
+Load  5.0 new arrival
+Sleep  0.4132499646159048
+Load  5.1 new arrival
+Sleep  8.596410371298335
+Load  4.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (49): starting 1 spinner(s) for 5%-5% usage
+lookbusy (49): CPU spinner started, PID 50
+killing CPU spinner 0 (PID 50)
+[0] [1, 0] 0.0
+Load  4.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.7 new arrival
+Sleep  2.666659449875857
+Load  4.7 new arrival
+Sleep  0.6848650137117146
+Load  4.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (35): starting 1 spinner(s) for 5%-5% usage
+lookbusy (35): CPU spinner started, PID 36
+killing CPU spinner 0 (PID 36)
+[0] [1, 0] 0.0
+Load  4.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.9 new arrival
+Sleep  6.62088826506342
+Load  5.0 new arrival
+Sleep  1.4393391276784369
+Load  5.0 new arrival
+Sleep  3.334511150526358
+Load  5.1 new arrival
+Sleep  0.4279763350368641
+Load  4.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+cpu_spin (28): starting 1 spinner(s) for 5%-5% usage
+lookbusy (28): CPU spinner started, PID 29
+killing CPU spinner 0 (PID 29)
+Load  4.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (78): starting 1 spinner(s) for 5%-5% usage
+lookbusy (78): CPU spinner started, PID 79
+killing CPU spinner 0 (PID 79)
+[0] [1, 0] 0.0
+Load  4.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.8 new arrival
+Sleep  1.4209810341625153
+Load  4.8 new arrival
+Sleep  1.2526703612991101
+Load  4.9 arrival accept
+cpu_spin (114): starting 1 spinner(s) for 5%-5% usage
+lookbusy (114): CPU spinner started, PID 115
+killing CPU spinner 0 (PID 115)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  4.9 new arrival
+Sleep  1.0671770916427283
+Load  4.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  5.0 new arrival
+Sleep  3.63562868975221
+Load  5.0 new arrival
+Sleep  0.8872567181899442
+Load  5.1 new arrival
+Sleep  0.4290097658412199
+Load  4.7 new arrival
+Sleep  1.4458683171659643
+Load  4.7 new arrival
+Sleep  4.254099890052312
+Load  4.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (100): starting 1 spinner(s) for 5%-5% usage
+lookbusy (100): CPU spinner started, PID 101
+killing CPU spinner 0 (PID 101)
+[0] [1, 0] 0.0
+Load  4.8 arrival accept
+cpu_spin (180): starting 1 spinner(s) for 5%-5% usage
+lookbusy (180): CPU spinner started, PID 181
+killing CPU spinner 0 (PID 181)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  4.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  5.0 new arrival
+Sleep  0.7226245742592503
+Load  5.0 new arrival
+Sleep  1.5985023682634205
+Load  5.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (173): starting 1 spinner(s) for 5%-5% usage
+lookbusy (173): CPU spinner started, PID 174
+killing CPU spinner 0 (PID 174)
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.5 new arrival
+Sleep  2.1622755407802083
+Load  5.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (159): starting 1 spinner(s) for 5%-5% usage
+lookbusy (159): CPU spinner started, PID 161
+killing CPU spinner 0 (PID 161)
+Load  5.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (144): starting 1 spinner(s) for 5%-5% usage
+lookbusy (144): CPU spinner started, PID 145
+killing CPU spinner 0 (PID 145)
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (142): starting 1 spinner(s) for 5%-5% usage
+lookbusy (142): CPU spinner started, PID 143
+killing CPU spinner 0 (PID 143)
+cpu_spin (142): starting 1 spinner(s) for 5%-5% usage
+lookbusy (142): CPU spinner started, PID 143
+killing CPU spinner 0 (PID 143)
+Load  5.8 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.1 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (71): starting 1 spinner(s) for 5%-5% usage
+lookbusy (71): CPU spinner started, PID 72
+killing CPU spinner 0 (PID 72)
+ [0, 0] [0] [1, 1] 0.0
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.3 arrival accept
+cpu_spin (217): starting 1 spinner(s) for 5%-5% usage
+lookbusy (217): CPU spinner started, PID 218
+killing CPU spinner 0 (PID 218)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.5 new arrival
+Sleep  1.8422453920101047
+Load  6.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (187): starting 1 spinner(s) for 5%-5% usage
+lookbusy (187): CPU spinner started, PID 188
+killing CPU spinner 0 (PID 188)
+Load  6.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.6 new arrival
+Sleep  1.268051112761741
+Load  6.7 new arrival
+Sleep  1.1613423400554217
+Load  6.7 arrival accept
+cpu_spin (224): starting 1 spinner(s) for 5%-5% usage
+lookbusy (224): CPU spinner started, PID 225
+killing CPU spinner 0 (PID 225)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.8 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (107): starting 1 spinner(s) for 5%-5% usage
+lookbusy (107): CPU spinner started, PID 108
+killing CPU spinner 0 (PID 108)
+Load  6.7 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.7 new arrival
+Sleep  7.266563535271554
+Load  6.7 new arrival
+Sleep  2.1367212882711106
+Load  6.9 new arrival
+Sleep  2.7574583679701963
+Load  6.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (239): starting 1 spinner(s) for 5%-5% usage
+lookbusy (239): CPU spinner started, PID 240
+killing CPU spinner 0 (PID 240)
+Load  6.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.4 arrival accept
+cpu_spin (308): starting 1 spinner(s) for 5%-5% usage
+lookbusy (308): CPU spinner started, PID 309
+killing CPU spinner 0 (PID 309)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  6.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (301): starting 1 spinner(s) for 5%-5% usage
+lookbusy (301): CPU spinner started, PID 302
+killing CPU spinner 0 (PID 302)
+Load  6.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.6 new arrival
+Sleep  0.4385807295256461
+Load  5.6 new arrival
+Sleep  2.470419679423105
+Load  5.7 arrival accept
+cpu_spin (171): starting 1 spinner(s) for 5%-5% usage
+lookbusy (171): CPU spinner started, PID 172
+killing CPU spinner 0 (PID 172)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.7 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (42): starting 1 spinner(s) for 5%-5% usage
+lookbusy (42): CPU spinner started, PID 43
+killing CPU spinner 0 (PID 43)
+[0] [2, 1] 0.0
+Load  5.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (286): starting 1 spinner(s) for 5%-5% usage
+lookbusy (286): CPU spinner started, PID 287
+killing CPU spinner 0 (PID 287)
+[0] [1, 1] 0.0
+Load  5.2 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [0, 1] 0.0
+Load  5.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (376): starting 1 spinner(s) for 5%-5% usage
+lookbusy (376): CPU spinner started, PID 377
+killing CPU spinner 0 (PID 377)
+Load  5.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.9 new arrival
+Sleep  1.873833219285176
+Load  6.4 new arrival
+Sleep  2.357451427716681
+Load  6.4 new arrival
+Sleep  0.9301823625869089
+Load  6.5 new arrival
+Sleep  0.050844792168484455
+Load  6.5 arrival accept
+cpu_spin (194): starting 1 spinner(s) for 5%-5% usage
+lookbusy (194): CPU spinner started, PID 196
+killing CPU spinner 0 (PID 196)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+Load  6.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.4 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+cpu_spin (447): starting 1 spinner(s) for 5%-5% usage
+lookbusy (447): CPU spinner started, PID 448
+killing CPU spinner 0 (PID 448)
+Load  6.4 new arrival
+Sleep  0.42599386889856555
+Load  6.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (338): starting 1 spinner(s) for 5%-5% usage
+lookbusy (338): CPU spinner started, PID 339
+killing CPU spinner 0 (PID 339)
+Load  6.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.7 new arrival
+Sleep  2.3127898809498975
+Load  6.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (463): starting 1 spinner(s) for 5%-5% usage
+lookbusy (463): CPU spinner started, PID 464
+killing CPU spinner 0 (PID 464)
+Load  6.8 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (93): starting 1 spinner(s) for 5%-5% usage
+lookbusy (93): CPU spinner started, PID 94
+killing CPU spinner 0 (PID 94)
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  5.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (437): starting 1 spinner(s) for 5%-5% usage
+lookbusy (437): CPU spinner started, PID 439
+killing CPU spinner 0 (PID 439)
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.9 arrival accept
+cpu_spin (345): starting 1 spinner(s) for 5%-5% usage
+lookbusy (345): CPU spinner started, PID 346
+killing CPU spinner 0 (PID 346)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.1 new arrival
+Sleep  4.678985703316726
+Load  6.1 new arrival
+Sleep  0.6588503489368759
+Load  6.1 arrival accept
+cpu_spin (422): starting 1 spinner(s) for 5%-5% usage
+lookbusy (422): CPU spinner started, PID 423
+killing CPU spinner 0 (PID 423)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 1] 0.0
+Load  6.1 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [1, 1] 0.0
+Load  6.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (383): starting 1 spinner(s) for 5%-5% usage
+lookbusy (383): CPU spinner started, PID 384
+killing CPU spinner 0 (PID 384)
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (527): starting 1 spinner(s) for 5%-5% usage
+lookbusy (527): CPU spinner started, PID 529
+killing CPU spinner 0 (PID 529)
+Load  5.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (56): starting 1 spinner(s) for 5%-5% usage
+lookbusy (56): CPU spinner started, PID 57
+killing CPU spinner 0 (PID 57)
+[0] [1, 1] 0.0
+Load  5.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (429): starting 1 spinner(s) for 5%-5% usage
+lookbusy (429): CPU spinner started, PID 430
+killing CPU spinner 0 (PID 430)
+cpu_spin (429): starting 1 spinner(s) for 5%-5% usage
+lookbusy (429): CPU spinner started, PID 430
+killing CPU spinner 0 (PID 430)
+Load  5.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.3 new arrival
+Sleep  2.01086659234742
+Load  5.4 new arrival
+Sleep  3.4215815113070094
+Load  5.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (481): starting 1 spinner(s) for 5%-5% usage
+lookbusy (481): CPU spinner started, PID 482
+killing CPU spinner 0 (PID 482)
+Load  5.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4 new arrival
+Sleep  2.9760532026759092
+Load  5.4 new arrival
+Sleep  2.4849387566233374
+Load  5.4 new arrival
+Sleep  3.64311577447272
+Load  7.1 new arrival
+Sleep  1.264735288565741
+Load  7.1 new arrival
+Sleep  2.771778222415359
+Load  7.4 new arrival
+Sleep  0.5520264656844279
+Load  7.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (574): starting 1 spinner(s) for 5%-5% usage
+lookbusy (574): CPU spinner started, PID 575
+killing CPU spinner 0 (PID 575)
+Load  7.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  7.4 new arrival
+Sleep  5.497299024322254
+Load  6.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (631): starting 1 spinner(s) for 5%-5% usage
+lookbusy (631): CPU spinner started, PID 632
+killing CPU spinner 0 (PID 632)
+Load  6.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2 new arrival
+Sleep  0.7159160391772723
+Load  6.2 new arrival
+Sleep  0.39404955436898503
+Load  6.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (617): starting 1 spinner(s) for 5%-5% usage
+lookbusy (617): CPU spinner started, PID 618
+killing CPU spinner 0 (PID 618)
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2 new arrival
+Sleep  0.2910517102950251
+Load  6.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 1] 0.0
+cpu_spin (331): starting 1 spinner(s) for 5%-5% usage
+lookbusy (331): CPU spinner started, PID 333
+killing CPU spinner 0 (PID 333)
+Load  6.6 arrival accept
+cpu_spin (668): starting 1 spinner(s) for 5%-5% usage
+lookbusy (668): CPU spinner started, PID 669
+killing CPU spinner 0 (PID 669)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  6.6 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [0, 1] 0.0
+Load  6.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (603): starting 1 spinner(s) for 5%-5% usage
+lookbusy (603): CPU spinner started, PID 604
+killing CPU spinner 0 (PID 604)
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (683): starting 1 spinner(s) for 5%-5% usage
+lookbusy (683): CPU spinner started, PID 684
+killing CPU spinner 0 (PID 684)
+Load  6.2 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (661): starting 1 spinner(s) for 5%-5% usage
+lookbusy (661): CPU spinner started, PID 662
+killing CPU spinner 0 (PID 662)
+Load  6.3 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6 new arrival
+Sleep  5.518294213349662
+Load  5.8 arrival accept
+cpu_spin (596): starting 1 spinner(s) for 5%-5% usage
+lookbusy (596): CPU spinner started, PID 597
+killing CPU spinner 0 (PID 597)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (520): starting 1 spinner(s) for 5%-5% usage
+lookbusy (520): CPU spinner started, PID 522
+killing CPU spinner 0 (PID 522)
+[0] [1, 1] 0.0
+Load  5.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (581): starting 1 spinner(s) for 5%-5% usage
+lookbusy (581): CPU spinner started, PID 582
+killing CPU spinner 0 (PID 582)
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.5 new arrival
+Sleep  1.261096325571042
+Load  5.5 new arrival
+Sleep  6.241427644631107
+Load  5.5 new arrival
+Sleep  0.5241126574606436
+Load  6.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (624): starting 1 spinner(s) for 5%-5% usage
+lookbusy (624): CPU spinner started, PID 625
+killing CPU spinner 0 (PID 625)
+Load  6.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6 new arrival
+Sleep  0.4466102186592807
+Load  5.7 new arrival
+Sleep  2.8470866848169867
+Load  5.7 arrival accept
+cpu_spin (775): starting 1 spinner(s) for 5%-5% usage
+lookbusy (775): CPU spinner started, PID 776
+killing CPU spinner 0 (PID 776)
+killing CPU spinner 0 (PID 776)
+Load  5.7 arrival accept
+cpu_spin (610): starting 1 spinner(s) for 5%-5% usage
+lookbusy (610): CPU spinner started, PID 611
+killing CPU spinner 0 (PID 611)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 1] 0.0
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [2, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [0, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6 new arrival
+Sleep  0.6269325473927929
+Load  5.6 arrival accept
+cpu_spin (790): starting 1 spinner(s) for 5%-5% usage
+lookbusy (790): CPU spinner started, PID 791
+killing CPU spinner 0 (PID 791)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.6 arrival accept
+cpu_spin (761): starting 1 spinner(s) for 5%-5% usage
+lookbusy (761): CPU spinner started, PID 762
+killing CPU spinner 0 (PID 762)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (820): starting 1 spinner(s) for 5%-5% usage
+lookbusy (820): CPU spinner started, PID 821
+killing CPU spinner 0 (PID 821)
+[0] [1, 1] 0.0
+Load  6.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (797): starting 1 spinner(s) for 5%-5% usage
+lookbusy (797): CPU spinner started, PID 798
+killing CPU spinner 0 (PID 798)
+Load  5.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.2 arrival accept
+cpu_spin (646): starting 1 spinner(s) for 5%-5% usage
+lookbusy (646): CPU spinner started, PID 647
+killing CPU spinner 0 (PID 647)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.1 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.3 arrival accept
+cpu_spin (730): starting 1 spinner(s) for 5%-5% usage
+lookbusy (730): CPU spinner started, PID 731
+killing CPU spinner 0 (PID 731)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  4.7 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (768): starting 1 spinner(s) for 5%-5% usage
+lookbusy (768): CPU spinner started, PID 769
+killing CPU spinner 0 (PID 769)
+ [0, 1] [0] [1, 0] 0.0
+Load  4.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  2.4 new arrival
+Sleep  0.5061254935341537
+Load  2.5 arrival accept
+cpu_spin (14): starting 1 spinner(s) for 5%-5% usage
+lookbusy (14): CPU spinner started, PID 15
+killing CPU spinner 0 (PID 15)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  2.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.3 new arrival
+Sleep  0.6613991758046442
+Load  2.3 new arrival
+Sleep  1.548627486300468
+Load  2.3 arrival accept
+cpu_spin (29): starting 1 spinner(s) for 5%-5% usage
+lookbusy (29): CPU spinner started, PID 30
+killing CPU spinner 0 (PID 30)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  2.3 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.4 new arrival
+Sleep  0.7145926757971213
+Load  2.4 new arrival
+Sleep  3.8622506310174844
+Load  2.3 new arrival
+Sleep  3.2334804963650727
+Load  2.4 new arrival
+Sleep  2.0845062431984784
+Load  2.4 new arrival
+Sleep  2.1025451175142815
+Load  2.5 new arrival
+Sleep  1.1907480406576392
+Load  2.5 new arrival
+Sleep  1.0580653137403502
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (56): starting 1 spinner(s) for 5%-5% usage
+lookbusy (56): CPU spinner started, PID 57
+killing CPU spinner 0 (PID 57)
+Load  2.5 new arrival
+Sleep  6.231696842758331
+Load  2.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.6 new arrival
+Sleep  1.005970399046265
+Load  2.6 new arrival
+Sleep  0.7497117423035473
+Load  2.5 new arrival
+Sleep  0.2609569637138029
+Load  2.5 new arrival
+Sleep  7.629018170379947
+Load  2.6 new arrival
+Sleep  2.586053729912258
+Load  2.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (36): starting 1 spinner(s) for 5%-5% usage
+lookbusy (36): CPU spinner started, PID 37
+killing CPU spinner 0 (PID 37)
+Load  2.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+Load  2.6 new arrival
+Sleep  0.5015423928623352
+Load  2.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (129): starting 1 spinner(s) for 5%-5% usage
+lookbusy (129): CPU spinner started, PID 130
+killing CPU spinner 0 (PID 130)
+[0] [1, 0] 0.0
+Load  2.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.8 new arrival
+Sleep  0.38079491954207056
+Load  2.8 new arrival
+Sleep  2.2445202155207795
+Load  2.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [2, 0] 0.0
+cpu_spin (86): starting 1 spinner(s) for 5%-5% usage
+lookbusy (86): CPU spinner started, PID 87
+killing CPU spinner 0 (PID 87)
+Load  2.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (122): starting 1 spinner(s) for 5%-5% usage
+lookbusy (122): CPU spinner started, PID 123
+killing CPU spinner 0 (PID 123)
+Load  2.9 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [0, 0] 0.0
+Load  2.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (93): starting 1 spinner(s) for 5%-5% usage
+lookbusy (93): CPU spinner started, PID 94
+killing CPU spinner 0 (PID 94)
+Load  2.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  2.9 new arrival
+Sleep  0.5252827092025494
+Load  2.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (115): starting 1 spinner(s) for 5%-5% usage
+lookbusy (115): CPU spinner started, PID 116
+killing CPU spinner 0 (PID 116)
+Load  2.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [2, 0] 0.0
+cpu_spin (175): starting 1 spinner(s) for 5%-5% usage
+lookbusy (175): CPU spinner started, PID 176
+killing CPU spinner 0 (PID 176)
+Load  3.0 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+cpu_spin (162): starting 1 spinner(s) for 5%-5% usage
+lookbusy (162): CPU spinner started, PID 164
+killing CPU spinner 0 (PID 164)
+Load  3.0 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [0, 0] 0.0
+Load  3.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.5 new arrival
+Sleep  6.236538386167814
+Load  3.5 arrival accept
+cpu_spin (211): starting 1 spinner(s) for 5%-5% usage
+lookbusy (211): CPU spinner started, PID 212
+killing CPU spinner 0 (PID 212)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  3.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+Load  3.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (74): starting 1 spinner(s) for 5%-5% usage
+lookbusy (74): CPU spinner started, PID 78
+killing CPU spinner 0 (PID 78)
+[0] [1, 0] 0.0
+Load  3.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+Load  3.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (79): starting 1 spinner(s) for 5%-5% usage
+lookbusy (79): CPU spinner started, PID 80
+killing CPU spinner 0 (PID 80)
+Load  3.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.1 new arrival
+Sleep  5.943871952577008
+Load  3.1 new arrival
+Sleep  1.8273381304667813
+Load  3.0 new arrival
+Sleep  1.5453810611780014
+Load  4.5 new arrival
+Sleep  1.7544356060956028
+Load  4.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (65): starting 1 spinner(s) for 5%-5% usage
+lookbusy (65): CPU spinner started, PID 66
+killing CPU spinner 0 (PID 66)
+Load  4.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  5.1 new arrival
+Sleep  1.416811681252053
+Load  5.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (180): starting 1 spinner(s) for 5%-5% usage
+lookbusy (180): CPU spinner started, PID 181
+killing CPU spinner 0 (PID 181)
+Load  4.6 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 0] 0.0
+Load  4.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (58): starting 1 spinner(s) for 5%-5% usage
+lookbusy (58): CPU spinner started, PID 59
+killing CPU spinner 0 (PID 59)
+Load  4.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (143): starting 1 spinner(s) for 5%-5% usage
+lookbusy (143): CPU spinner started, PID 144
+killing CPU spinner 0 (PID 144)
+[0] [1, 0] 0.0
+Load  4.2 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.6 new arrival
+Sleep  0.7458968733212447
+Load  4.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (280): starting 1 spinner(s) for 5%-5% usage
+lookbusy (280): CPU spinner started, PID 281
+killing CPU spinner 0 (PID 281)
+killing CPU spinner 0 (PID 281)
+[0] [1, 0] 0.0
+Load  4.6 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.7 arrival accept
+cpu_spin (287): starting 1 spinner(s) for 5%-5% usage
+lookbusy (287): CPU spinner started, PID 288
+killing CPU spinner 0 (PID 288)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.7 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (340): starting 1 spinner(s) for 5%-5% usage
+lookbusy (340): CPU spinner started, PID 341
+killing CPU spinner 0 (PID 341)
+[0] [1, 0] 0.0
+Load  4.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.7 arrival accept
+ARRIVAL State, Action Next_state Reward cpu_spin (309): starting 1 spinner(s) for 5%-5% usage
+lookbusy (309): CPU spinner started, PID 310
+killing CPU spinner 0 (PID 310)
+[0, 1] [0] [1, 0] 0.0
+Load  4.7 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (294): starting 1 spinner(s) for 5%-5% usage
+lookbusy (294): CPU spinner started, PID 295
+killing CPU spinner 0 (PID 295)
+Load  3.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0 new arrival
+Sleep  3.540889356315671
+Load  4.2 new arrival
+Sleep  3.7610661319437666
+Load  4.2 new arrival
+Sleep  2.439904201302809
+Load  3.8 new arrival
+Sleep  0.6077223494386468
+Load  3.8 new arrival
+Sleep  7.097748639156967
+Load  3.9 new arrival
+Sleep  0.09177073156826963
+Load  3.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (408): starting 1 spinner(s) for 5%-5% usage
+lookbusy (408): CPU spinner started, PID 409
+killing CPU spinner 0 (PID 409)
+Load  3.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+Load  3.9 arrival accept
+cpu_spin (422): starting 1 spinner(s) for 5%-5% usage
+lookbusy (422): CPU spinner started, PID 423
+killing CPU spinner 0 (PID 423)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (110): starting 1 spinner(s) for 5%-5% usage
+lookbusy (110): CPU spinner started, PID 111
+killing CPU spinner 0 (PID 111)
+Load  3.9 new arrival
+Sleep  1.6998228145939116
+Load  3.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.7 new arrival
+Sleep  0.07102129943335063
+Load  4.2 arrival accept
+cpu_spin (460): starting 1 spinner(s) for 5%-5% usage
+lookbusy (460): CPU spinner started, PID 461
+killing CPU spinner 0 (PID 461)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.2 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2 new arrival
+Sleep  1.6595431502253335
+Load  4.8 new arrival
+Sleep  1.5508989588326823
+Load  6.8 new arrival
+Sleep  0.6470609834544048
+Load  6.8 new arrival
+Sleep  1.6154282329565814
+Load  6.9 new arrival
+Sleep  1.1902343348222935
+Load  6.1 new arrival
+Sleep  0.48666153939962453
+Load  6.2 new arrival
+Sleep  0.37503599825541817
+Load  6.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (401): starting 1 spinner(s) for 5%-5% usage
+lookbusy (401): CPU spinner started, PID 402
+killing CPU spinner 0 (PID 402)
+cpu_spin (401): starting 1 spinner(s) for 5%-5% usage
+lookbusy (401): CPU spinner started, PID 402
+killing CPU spinner 0 (PID 402)
+Load  6.0 new arrival
+Sleep  1.806179291595603
+Load  6.0 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [2, 1] 0.0
+Load  6.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] cpu_spin (489): starting 1 spinner(s) for 5%-5% usage
+lookbusy (489): CPU spinner started, PID 490
+killing CPU spinner 0 (PID 490)
+[0] [2, 1] 0.0
+Load  6.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [2, 1] 0.0
+cpu_spin (273): starting 1 spinner(s) for 5%-5% usage
+lookbusy (273): CPU spinner started, PID 274
+killing CPU spinner 0 (PID 274)
+Load  6.0 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [1, 1] 0.0
+Load  5.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (242): starting 1 spinner(s) for 5%-5% usage
+lookbusy (242): CPU spinner started, PID 243
+killing CPU spinner 0 (PID 243)
+Load  5.9 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [0, 1] 0.0
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+cpu_spin (517): starting 1 spinner(s) for 5%-5% usage
+lookbusy (517): CPU spinner started, PID 518
+killing CPU spinner 0 (PID 518)
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [1, 1] 0.0
+Load  5.9 arrival accept
+cpu_spin (510): starting 1 spinner(s) for 5%-5% usage
+lookbusy (510): CPU spinner started, PID 511
+killing CPU spinner 0 (PID 511)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 1] 0.0
+Load  5.9 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  6.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (453): starting 1 spinner(s) for 5%-5% usage
+lookbusy (453): CPU spinner started, PID 454
+killing CPU spinner 0 (PID 454)
+[0] [1, 1] 0.0
+Load  5.5 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 1] 0.0
+Load  5.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [3, 1] -0.12
+cpu_spin (136): starting 1 spinner(s) for 5%-5% usage
+lookbusy (136): CPU spinner started, PID 137
+killing CPU spinner 0 (PID 137)
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (475): starting 1 spinner(s) for 5%-5% usage
+lookbusy (475): CPU spinner started, PID 476
+killing CPU spinner 0 (PID 476)
+[0] [2, 1] 0.0
+Load  5.4 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 1] 0.0
+cpu_spin (482): starting 1 spinner(s) for 5%-5% usage
+lookbusy (482): CPU spinner started, PID 483
+killing CPU spinner 0 (PID 483)
+Load  4.4 departure
+DEPT State, Action Next_state Reward [3, 1] [0] [0, 0] 0.0
+Load  4.4 departure
+DEPT State, Action Next_state Reward [2, 1] [0] [1, 0] 0.0
+Load  4.5 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (387): starting 1 spinner(s) for 5%-5% usage
+lookbusy (387): CPU spinner started, PID 388
+killing CPU spinner 0 (PID 388)
+Load  4.4 departure
+DEPT State, Action Next_state Reward [1, 1] [0] [0, 0] 0.0
+Load  4.5 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.1 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+cpu_spin (503): starting 1 spinner(s) for 5%-5% usage
+lookbusy (503): CPU spinner started, PID 504
+killing CPU spinner 0 (PID 504)
+Load  4.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.1 new arrival
+Sleep  1.3266929234182925
+Load  4.1 new arrival
+Sleep  1.8782898719025976
+Load  4.1 arrival accept
+cpu_spin (496): starting 1 spinner(s) for 5%-5% usage
+lookbusy (496): CPU spinner started, PID 497
+killing CPU spinner 0 (PID 497)
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+Load  4.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.2 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (394): starting 1 spinner(s) for 5%-5% usage
+lookbusy (394): CPU spinner started, PID 395
+killing CPU spinner 0 (PID 395)
+Load  4.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.0 new arrival
+Sleep  1.5905770620872217
+Load  3.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 1] [0] [1, 0] 0.0
+cpu_spin (529): starting 1 spinner(s) for 5%-5% usage
+lookbusy (529): CPU spinner started, PID 534
+killing CPU spinner 0 (PID 534)
+Load  3.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.9 new arrival
+Sleep  0.45374876254618524
+Load  4.9 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (627): starting 1 spinner(s) for 5%-5% usage
+lookbusy (627): CPU spinner started, PID 628
+killing CPU spinner 0 (PID 628)
+cpu_spin (627): starting 1 spinner(s) for 5%-5% usage
+lookbusy (627): CPU spinner started, PID 628
+killing CPU spinner 0 (PID 628)
+ [0, 0] [0] [1, 0] 0.0
+Load  4.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.9 arrival accept
+cpu_spin (672): starting 1 spinner(s) for 5%-5% usage
+lookbusy (672): CPU spinner started, PID 673
+killing CPU spinner 0 (PID 673)
+killing CPU spinner 0 (PID 673)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+Load  4.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  4.3 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (634): starting 1 spinner(s) for 5%-5% usage
+lookbusy (634): CPU spinner started, PID 635
+killing CPU spinner 0 (PID 635)
+[0] [1, 0] 0.0
+Load  3.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.8 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (657): starting 1 spinner(s) for 5%-5% usage
+lookbusy (657): CPU spinner started, PID 658
+killing CPU spinner 0 (PID 658)
+Load  3.8 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  3.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (415): starting 1 spinner(s) for 5%-5% usage
+lookbusy (415): CPU spinner started, PID 416
+killing CPU spinner 0 (PID 416)
+[0] [1, 0] 0.0
+Load  3.4 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  0.6 new arrival
+Sleep  1.107949695882241
+Load  0.6 new arrival
+Sleep  2.0832972160253815
+Load  0.6 new arrival
+Sleep  2.8481482591278278
+Load  0.6 new arrival
+Sleep  0.16005590734352806
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [4, 0] -0.24
+cpu_spin (13): starting 1 spinner(s) for 5%-5% usage
+lookbusy (13): CPU spinner started, PID 14
+killing CPU spinner 0 (PID 14)
+Load  1.6 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [3, 0] -0.12
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [3, 0] -0.12
+cpu_spin (34): starting 1 spinner(s) for 5%-5% usage
+lookbusy (34): CPU spinner started, PID 35
+killing CPU spinner 0 (PID 35)
+Load  1.6 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.6 new arrival
+Sleep  0.46411760482172315
+Load  1.6 new arrival
+Load  1.6 new arrival
+Sleep  3.2916080930289042
+Sleep  1.3246643081958904
+Load  1.6 new arrival
+Sleep  1.4212814611491829
+Load  1.6 new arrival
+Sleep  0.7369444695017984
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [7, 0] -0.6
+cpu_spin (58): starting 1 spinner(s) for 5%-5% usage
+lookbusy (58): CPU spinner started, PID 59
+killing CPU spinner 0 (PID 59)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  2.2521411904150543
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [7, 0] -0.6
+cpu_spin (20): starting 1 spinner(s) for 5%-5% usage
+lookbusy (20): CPU spinner started, PID 21
+killing CPU spinner 0 (PID 21)
+Load  0.6 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  0.6 arrival accept
+cpu_spin (85): starting 1 spinner(s) for 5%-5% usage
+lookbusy (85): CPU spinner started, PID 86
+killing CPU spinner 0 (PID 86)
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [6, 0] -0.48
+Load  1.1 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.1 new arrival
+Sleep  0.3635522714252513
+Load  1.2 new arrival
+Sleep  3.9638645162437034
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [7, 0] -0.6
+cpu_spin (70): starting 1 spinner(s) for 5%-5% usage
+lookbusy (70): CPU spinner started, PID 72
+killing CPU spinner 0 (PID 72)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.0 new arrival
+Sleep  0.5431512285588997
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (123): starting 1 spinner(s) for 5%-5% usage
+lookbusy (123): CPU spinner started, PID 124
+killing CPU spinner 0 (PID 124)
+[0] [7, 0] -0.6
+Load  1.0 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.0 new arrival
+Sleep  2.135608286951411
+Load  1.0 new arrival
+Sleep  2.296477880629877
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [8, 0] -0.72
+cpu_spin (80): starting 1 spinner(s) for 5%-5% usage
+lookbusy (80): CPU spinner started, PID 84
+killing CPU spinner 0 (PID 84)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 new arrival
+Sleep  1.5936907603140247
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (145): starting 1 spinner(s) for 5%-5% usage
+lookbusy (145): CPU spinner started, PID 146
+killing CPU spinner 0 (PID 146)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 new arrival
+Sleep  2.0405416749266503
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [8, 0] -0.72
+cpu_spin (27): starting 1 spinner(s) for 5%-5% usage
+lookbusy (27): CPU spinner started, PID 28
+killing CPU spinner 0 (PID 28)
+Load  0.7 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  0.7 new arrival
+Sleep  2.5261145640095983
+Load  0.7 new arrival
+Sleep  3.0587432295345423
+Load  0.7 new arrival
+Sleep  8.685995236402253
+Load  0.7 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [10, 0] -0.96
+cpu_spin (100): starting 1 spinner(s) for 5%-5% usage
+lookbusy (100): CPU spinner started, PID 101
+killing CPU spinner 0 (PID 101)
+Load  0.7 new arrival
+Sleep  0.3105009363552623
+Load  1.7 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [10, 0] -0.96
+Load  1.7 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] cpu_spin (69): starting 1 spinner(s) for 5%-5% usage
+lookbusy (69): CPU spinner started, PID 71
+killing CPU spinner 0 (PID 71)
+[0] [10, 0] -0.96
+Load  1.7 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [9, 0] -0.84
+cpu_spin (239): starting 1 spinner(s) for 5%-5% usage
+lookbusy (239): CPU spinner started, PID 242
+killing CPU spinner 0 (PID 242)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (182): starting 1 spinner(s) for 5%-5% usage
+lookbusy (182): CPU spinner started, PID 183
+killing CPU spinner 0 (PID 183)
+Load  0.7 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  0.7 new arrival
+Sleep  3.8742016515286757
+Load  0.7 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (160): starting 1 spinner(s) for 5%-5% usage
+lookbusy (160): CPU spinner started, PID 161
+killing CPU spinner 0 (PID 161)
+Load  0.7 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  0.7 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (167): starting 1 spinner(s) for 5%-5% usage
+lookbusy (167): CPU spinner started, PID 168
+killing CPU spinner 0 (PID 168)
+[0] [7, 0] -0.6
+Load  0.7 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  0.8 new arrival
+Sleep  0.23301805508528595
+Load  0.8 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (200): starting 1 spinner(s) for 5%-5% usage
+lookbusy (200): CPU spinner started, PID 202
+killing CPU spinner 0 (PID 202)
+ [7, 0] [0] [7, 0] -0.6
+Load  0.8 new arrival
+Load  0.8 new arrival
+Sleep  1.8164005327500887
+Sleep  5.473119469838033
+Load  0.8 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+Load  0.8 new arrival
+Sleep  0.25417867898679264
+Load  0.8 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [9, 0] -0.84
+cpu_spin (300): starting 1 spinner(s) for 5%-5% usage
+lookbusy (300): CPU spinner started, PID 307
+killing CPU spinner 0 (PID 307)
+Load  0.8 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  0.8 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [8, 0] -0.72
+cpu_spin (324): starting 1 spinner(s) for 5%-5% usage
+lookbusy (324): CPU spinner started, PID 325
+killing CPU spinner 0 (PID 325)
+Load  0.8 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  0.8 new arrival
+Sleep  5.049352157765158
+Load  1.8 new arrival
+Sleep  1.0182137841037218
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (130): starting 1 spinner(s) for 5%-5% usage
+lookbusy (130): CPU spinner started, PID 131
+killing CPU spinner 0 (PID 131)
+[0] [9, 0] -0.84
+Load  1.8 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.3 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (217): starting 1 spinner(s) for 5%-5% usage
+lookbusy (217): CPU spinner started, PID 218
+killing CPU spinner 0 (PID 218)
+Load  1.3 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.3 new arrival
+Sleep  5.100709285299218
+Load  2.9 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [8, 0] -0.72
+cpu_spin (219): starting 1 spinner(s) for 5%-5% usage
+lookbusy (219): CPU spinner started, PID 220
+killing CPU spinner 0 (PID 220)
+Load  2.3 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.3 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (354): starting 1 spinner(s) for 5%-5% usage
+lookbusy (354): CPU spinner started, PID 355
+killing CPU spinner 0 (PID 355)
+[0] [7, 0] -0.6
+Load  1.3 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.3 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [6, 0] -0.48
+cpu_spin (317): starting 1 spinner(s) for 5%-5% usage
+lookbusy (317): CPU spinner started, PID 322
+killing CPU spinner 0 (PID 322)
+Load  1.3 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.3 new arrival
+Sleep  1.712986430808738
+Load  1.1 new arrival
+Sleep  0.08379745678908677
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [7, 0] -0.6
+cpu_spin (415): starting 1 spinner(s) for 5%-5% usage
+lookbusy (415): CPU spinner started, PID 416
+killing CPU spinner 0 (PID 416)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  0.272860464662839
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (430): starting 1 spinner(s) for 5%-5% usage
+lookbusy (430): CPU spinner started, PID 431
+killing CPU spinner 0 (PID 431)
+[0] [7, 0] -0.6
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.6 new arrival
+Sleep  0.3714328533222458
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (272): starting 1 spinner(s) for 5%-5% usage
+lookbusy (272): CPU spinner started, PID 273
+killing CPU spinner 0 (PID 273)
+[0] [7, 0] -0.6
+Load  1.6 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (445): starting 1 spinner(s) for 5%-5% usage
+lookbusy (445): CPU spinner started, PID 446
+killing CPU spinner 0 (PID 446)
+ [6, 0] [0] [6, 0] -0.48
+Load  1.6 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.6 new arrival
+Sleep  0.7661696505707662
+Load  1.6 new arrival
+Sleep  0.4276360598818768
+Load  1.6 arrival accept
+cpu_spin (408): starting 1 spinner(s) for 5%-5% usage
+lookbusy (408): CPU spinner started, PID 409
+killing CPU spinner 0 (PID 409)
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [7, 0] -0.6
+Load  1.7 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.7 new arrival
+Sleep  2.6221096372645625
+Load  1.7 new arrival
+Sleep  4.9227599134554625
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (475): starting 1 spinner(s) for 5%-5% usage
+lookbusy (475): CPU spinner started, PID 476
+killing CPU spinner 0 (PID 476)
+[0] [8, 0] -0.72
+Load  1.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.4 new arrival
+Sleep  2.150524683281471
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (468): starting 1 spinner(s) for 5%-5% usage
+lookbusy (468): CPU spinner started, PID 469
+killing CPU spinner 0 (PID 469)
+[0] [8, 0] -0.72
+Load  1.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.4 new arrival
+Sleep  2.8463102305637227
+Load  1.4 new arrival
+Sleep  0.9729933556711037
+Load  1.4 new arrival
+Sleep  0.1573198372023446
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [10, 0] -0.96
+cpu_spin (541): starting 1 spinner(s) for 5%-5% usage
+lookbusy (541): CPU spinner started, PID 542
+killing CPU spinner 0 (PID 542)
+Load  1.4 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.4 new arrival
+Sleep  1.9914273385344776
+Load  1.4 new arrival
+Sleep  8.460847455540423
+Load  1.4 new arrival
+Sleep  1.210408574734983
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [12, 0] -1.2
+cpu_spin (534): starting 1 spinner(s) for 5%-5% usage
+lookbusy (534): CPU spinner started, PID 535
+killing CPU spinner 0 (PID 535)
+Load  1.4 arrival accept
+cpu_spin (318): starting 1 spinner(s) for 5%-5% usage
+lookbusy (318): CPU spinner started, PID 323
+killing CPU spinner 0 (PID 323)
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [11, 0] -1.08
+Load  1.4 departure
+DEPT State, Action Next_state Reward [12, 0] [0] [10, 0] -0.96
+Load  1.2 departure
+DEPT State, Action Next_state Reward [11, 0] [0] [10, 0] -0.96
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (347): starting 1 spinner(s) for 5%-5% usage
+lookbusy (347): CPU spinner started, PID 348
+killing CPU spinner 0 (PID 348)
+[0] [10, 0] -0.96
+Load  1.2 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  2.2 new arrival
+Sleep  1.6282907168093605
+Load  1.7 new arrival
+Sleep  1.2261158038302609
+Load  2.2 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [11, 0] -1.08
+cpu_spin (512): starting 1 spinner(s) for 5%-5% usage
+lookbusy (512): CPU spinner started, PID 513
+killing CPU spinner 0 (PID 513)
+Load  1.7 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (377): starting 1 spinner(s) for 5%-5% usage
+lookbusy (377): CPU spinner started, PID 378
+killing CPU spinner 0 (PID 378)
+[0] [10, 0] -0.96
+Load  1.5 departure
+DEPT State, Action Next_state Reward [11, 0] [0] [9, 0] -0.84
+Load  1.5 new arrival
+Load  1.5 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [10, 0] -0.96
+Sleep  3.5315606238025268
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (495): starting 1 spinner(s) for 5%-5% usage
+lookbusy (495): CPU spinner started, PID 496
+killing CPU spinner 0 (PID 496)
+[0] [10, 0] -0.96
+Load  1.5 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.6 arrival accept
+cpu_spin (570): starting 1 spinner(s) for 5%-5% usage
+lookbusy (570): CPU spinner started, PID 571
+killing CPU spinner 0 (PID 571)
+ARRIVAL State, Action Next_state Reward [11, 0] [0] [9, 0] -0.84
+Load  1.6 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.7 new arrival
+Sleep  1.8060766999634503
+Load  1.7 new arrival
+Sleep  2.869237348615794
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (557): starting 1 spinner(s) for 5%-5% usage
+lookbusy (557): CPU spinner started, PID 559
+killing CPU spinner 0 (PID 559)
+[0] [10, 0] -0.96
+Load  1.5 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [9, 0] -0.84
+cpu_spin (527): starting 1 spinner(s) for 5%-5% usage
+lookbusy (527): CPU spinner started, PID 528
+killing CPU spinner 0 (PID 528)
+Load  2.4 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  2.4 new arrival
+Sleep  4.3083239302781715
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [9, 0] -0.84
+cpu_spin (226): starting 1 spinner(s) for 5%-5% usage
+lookbusy (226): CPU spinner started, PID 227
+killing CPU spinner 0 (PID 227)
+Load  2.2 arrival accept
+ARRIVAL State, Action Next_state Reward [10, 0] [0] [8, 0] -0.72
+cpu_spin (608): starting 1 spinner(s) for 5%-5% usage
+lookbusy (608): CPU spinner started, PID 609
+killing CPU spinner 0 (PID 609)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [7, 0] -0.6
+Load  1.2 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (601): starting 1 spinner(s) for 5%-5% usage
+lookbusy (601): CPU spinner started, PID 602
+killing CPU spinner 0 (PID 602)
+[0] [7, 0] -0.6
+Load  1.2 new arrival
+Sleep  5.287329719681792
+Load  1.2 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [7, 0] -0.6
+Load  1.7 arrival accept
+cpu_spin (654): starting 1 spinner(s) for 5%-5% usage
+lookbusy (654): CPU spinner started, PID 655
+killing CPU spinner 0 (PID 655)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.7 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.7 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+cpu_spin (497): starting 1 spinner(s) for 5%-5% usage
+lookbusy (497): CPU spinner started, PID 498
+killing CPU spinner 0 (PID 498)
+Load  1.3 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [5, 0] -0.36
+cpu_spin (661): starting 1 spinner(s) for 5%-5% usage
+lookbusy (661): CPU spinner started, PID 662
+killing CPU spinner 0 (PID 662)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (631): starting 1 spinner(s) for 5%-5% usage
+lookbusy (631): CPU spinner started, PID 633
+killing CPU spinner 0 (PID 633)
+[0] [4, 0] -0.24
+cpu_spin (631): starting 1 spinner(s) for 5%-5% usage
+lookbusy (631): CPU spinner started, PID 633
+killing CPU spinner 0 (PID 633)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [3, 0] -0.12
+Load  2.0 arrival accept
+cpu_spin (684): starting 1 spinner(s) for 5%-5% usage
+lookbusy (684): CPU spinner started, PID 685
+killing CPU spinner 0 (PID 685)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [3, 0] -0.12
+Load  1.8 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.6 arrival accept
+cpu_spin (712): starting 1 spinner(s) for 5%-5% usage
+lookbusy (712): CPU spinner started, PID 716
+killing CPU spinner 0 (PID 716)
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [2, 0] 0.0
+Load  1.2 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [1, 0] 0.0
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [10, 0] [0] [1, 0] 0.0
+cpu_spin (563): starting 1 spinner(s) for 5%-5% usage
+lookbusy (563): CPU spinner started, PID 564
+killing CPU spinner 0 (PID 564)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.9 new arrival
+Sleep  0.12764615088949796
+Load  0.9 new arrival
+Sleep  0.3782123639540599
+Load  0.9 arrival accept
+cpu_spin (785): starting 1 spinner(s) for 5%-5% usage
+lookbusy (785): CPU spinner started, PID 786
+killing CPU spinner 0 (PID 786)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [2, 0] 0.0
+Load  0.9 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [1, 0] 0.0
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [1, 0] 0.0
+Load  1.1 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.1 new arrival
+Sleep  0.46556013643470445
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [1, 0] 0.0
+cpu_spin (815): starting 1 spinner(s) for 5%-5% usage
+lookbusy (815): CPU spinner started, PID 816
+killing CPU spinner 0 (PID 816)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  1.0 new arrival
+Sleep  0.2938184029900808
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (830): starting 1 spinner(s) for 5%-5% usage
+lookbusy (830): CPU spinner started, PID 831
+killing CPU spinner 0 (PID 831)
+[0] [1, 0] 0.0
+Load  0.9 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+Load  0.9 new arrival
+Sleep  1.0547801443159934
+Load  0.9 new arrival
+Load  0.9 new arrival
+Sleep  0.24768772458945215
+Sleep  3.9124102656291475
+Load  0.9 new arrival
+Sleep  2.044619906375716
+Load  0.9 new arrival
+Sleep  1.342275094350337
+Load  0.9 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [5, 0] -0.36
+cpu_spin (857): starting 1 spinner(s) for 5%-5% usage
+lookbusy (857): CPU spinner started, PID 858
+killing CPU spinner 0 (PID 858)
+Load  0.9 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  0.9 new arrival
+Sleep  0.421752886260259
+Load  0.9 new arrival
+Sleep  0.3423177555966572
+Load  0.9 new arrival
+Sleep  4.200136136362931
+Load  1.0 new arrival
+Load  1.0 new arrival
+Sleep  0.9505894887437847
+Sleep  1.3299157881103438
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [9, 0] -0.84
+cpu_spin (888): starting 1 spinner(s) for 5%-5% usage
+lookbusy (888): CPU spinner started, PID 889
+killing CPU spinner 0 (PID 889)
+cpu_spin (888): starting 1 spinner(s) for 5%-5% usage
+lookbusy (888): CPU spinner started, PID 889
+killing CPU spinner 0 (PID 889)
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [8, 0] -0.72
+cpu_spin (895): starting 1 spinner(s) for 5%-5% usage
+lookbusy (895): CPU spinner started, PID 896
+killing CPU spinner 0 (PID 896)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [7, 0] -0.6
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [0, 0] cpu_spin (847): starting 1 spinner(s) for 5%-5% usage
+lookbusy (847): CPU spinner started, PID 853
+killing CPU spinner 0 (PID 853)
+[0] [7, 0] -0.6
+Load  1.0 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.0 new arrival
+Sleep  6.881418132053246
+Load  1.0 new arrival
+Sleep  1.8854893279301035
+Load  1.0 new arrival
+Sleep  0.41729675902477453
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [9, 0] -0.84
+cpu_spin (874): starting 1 spinner(s) for 5%-5% usage
+lookbusy (874): CPU spinner started, PID 875
+killing CPU spinner 0 (PID 875)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.0 new arrival
+Sleep  1.5155006487129037
+Load  1.0 arrival accept
+cpu_spin (914): starting 1 spinner(s) for 5%-5% usage
+lookbusy (914): CPU spinner started, PID 920
+killing CPU spinner 0 (PID 920)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [9, 0] -0.84
+Load  1.0 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (961): starting 1 spinner(s) for 5%-5% usage
+lookbusy (961): CPU spinner started, PID 962
+killing CPU spinner 0 (PID 962)
+[0] [8, 0] -0.72
+Load  2.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.0 new arrival
+Sleep  3.1669019651235826
+Load  2.0 new arrival
+Sleep  3.721518016022581
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] 0 [9, 0] -0.84
+cpu_spin (916): starting 1 spinner(s) for 5%-5% usage
+lookbusy (916): CPU spinner started, PID 921
+killing CPU spinner 0 (PID 921)
+Load  2.0 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [8, 0] -0.72
+cpu_spin (871): starting 1 spinner(s) for 5%-5% usage
+lookbusy (871): CPU spinner started, PID 872
+killing CPU spinner 0 (PID 872)
+Load  1.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.4 new arrival
+Sleep  0.821131532328951
+Load  1.4 new arrival
+Sleep  6.615314032288757
+Load  2.4 new arrival
+Sleep  4.080204941332599
+Load  2.4 arrival accept
+cpu_spin (1029): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1029): CPU spinner started, PID 1030
+killing CPU spinner 0 (PID 1030)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [10, 0] -0.96
+Load  2.4 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.7 new arrival
+Sleep  0.5688282022505615
+Load  1.7 arrival accept
+cpu_spin (980): starting 1 spinner(s) for 5%-5% usage
+lookbusy (980): CPU spinner started, PID 982
+killing CPU spinner 0 (PID 982)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [10, 0] -0.96
+Load  1.7 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [9, 0] -0.84cpu_spin (956): starting 1 spinner(s) for 5%-5% usage
+lookbusy (956): CPU spinner started, PID 960
+killing CPU spinner 0 (PID 960)
+
+Load  1.2 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.2 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [8, 0] -0.72
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+cpu_spin (1058): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1058): CPU spinner started, PID 1059
+killing CPU spinner 0 (PID 1059)
+Load  1.8 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [7, 0] -0.6
+cpu_spin (859): starting 1 spinner(s) for 5%-5% usage
+lookbusy (859): CPU spinner started, PID 860
+killing CPU spinner 0 (PID 860)
+Load  1.8 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.8 new arrival
+Sleep  1.8875881101713892
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (902): starting 1 spinner(s) for 5%-5% usage
+lookbusy (902): CPU spinner started, PID 903
+killing CPU spinner 0 (PID 903)
+[0] [7, 0] -0.6
+Load  2.3 new arrival
+Load Sleep  1.8690434479064535
+ 2.3 new arrival
+Load  2.3 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+Sleep  1.0597945336635346
+Load  2.8 new arrival
+Sleep  1.8938879368860762
+Load  2.8 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (999): starting 1 spinner(s) for 5%-5% usage
+lookbusy (999): CPU spinner started, PID 1000
+killing CPU spinner 0 (PID 1000)
+[0] [9, 0] -0.84
+Load  1.8 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.8 new arrival
+Sleep  2.003750148237915
+Load  2.0 new arrival
+Sleep  7.02252056756034
+Load  2.2 new arrival
+Sleep  1.5612962876237184
+Load  2.2 arrival accept
+cpu_spin (1010): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1010): CPU spinner started, PID 1011
+killing CPU spinner 0 (PID 1011)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [11, 0] -1.08
+Load  2.0 departure
+DEPT State, Action Next_state Reward [11, 0] [0] [10, 0] -0.96
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (1097): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1097): CPU spinner started, PID 1098
+killing CPU spinner 0 (PID 1098)
+[0] [10, 0] -0.96
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (1119): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1119): CPU spinner started, PID 1120
+killing CPU spinner 0 (PID 1120)
+[0] [9, 0] -0.84
+Load  1.5 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [8, 0] -0.72
+Load  1.5 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.3 new arrival
+Sleep  0.7094564130323232
+Load  1.4 new arrival
+Sleep  3.426642713327141
+Load  1.4 new arrival
+Sleep  0.02817023907040929
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [10, 0] [0] [11, 0] -1.08
+cpu_spin (1200): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1200): CPU spinner started, PID 1201
+killing CPU spinner 0 (PID 1201)
+Load  1.6 departure
+DEPT State, Action Next_state Reward [11, 0] [0] [10, 0] -0.96
+Load  1.6 arrival accept
+cpu_spin (1117): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1117): CPU spinner started, PID 1118
+killing CPU spinner 0 (PID 1118)
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [10, 0] -0.96
+Load  1.6 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [9, 0] -0.84
+cpu_spin (1186): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1186): CPU spinner started, PID 1187
+killing CPU spinner 0 (PID 1187)
+killing CPU spinner 0 (PID 1187)
+Load  1.9 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.9 new arrival
+Sleep  0.2757458253126405
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (1126): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1126): CPU spinner started, PID 1128
+killing CPU spinner 0 (PID 1128)
+[0] [9, 0] -0.84
+Load  1.9 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+cpu_spin (1043): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1043): CPU spinner started, PID 1044
+killing CPU spinner 0 (PID 1044)
+Load  1.7 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+cpu_spin (1141): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1141): CPU spinner started, PID 1142
+killing CPU spinner 0 (PID 1142)
+killing CPU spinner 0 (PID 1142)
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Reward cpu_spin (1231): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1231): CPU spinner started, PID 1232
+killing CPU spinner 0 (PID 1232)
+[8, 0] [0] [6, 0] -0.48
+Load  2.5 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [5, 0] -0.36
+Load  2.5 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Reward [10, 0] [0] [5, 0] -0.36
+cpu_spin (1155): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1155): CPU spinner started, PID 1156
+killing CPU spinner 0 (PID 1156)
+Load  2.5 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.5 new arrival
+Sleep  6.24099254782587
+Load  2.5 new arrival
+Sleep  0.19228009201213342
+Load  2.5 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (947): starting 1 spinner(s) for 5%-5% usage
+lookbusy (947): CPU spinner started, PID 948
+killing CPU spinner 0 (PID 948)
+ [6, 0] [0] [6, 0] -0.48
+Load  2.4 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Notification of offload
+New Policy Request threshold :  [16.99865481 16.9956476  16.99451628 16.99239186 16.99239186 16.98506753
+ 16.97707229 16.96007135 16.95890757 16.95772723 16.95753196 16.9561371
+ 16.9561371  16.9561371  16.9561371  16.9561371  16.9561371  16.9561371
+ 16.9561371  16.9561371  16.9561371 ]
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [5, 0] -0.36
+cpu_spin (1289): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1289): CPU spinner started, PID 1290
+killing CPU spinner 0 (PID 1290)
+Load  2.4 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.1 new arrival
+Sleep  1.0787409555595773
+Load  2.1 new arrival
+Sleep  2.3760801693116074
+Load  2.1 new arrival
+Sleep  0.1342853009088615
+Load  2.1 new arrival
+Sleep  1.607481968399517
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (1323): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1323): CPU spinner started, PID 1324
+killing CPU spinner 0 (PID 1324)
+Load  1.6 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+cpu_spin (1036): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1036): CPU spinner started, PID 1037
+killing CPU spinner 0 (PID 1037)
+Load  1.4 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.4 new arrival
+Sleep  2.19032804911725
+Load  1.4 new arrival
+Sleep  0.9896592928086784
+Load  1.4 new arrival
+Sleep  7.150564982920668
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] cpu_spin (1311): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1311): CPU spinner started, PID 1315
+killing CPU spinner 0 (PID 1315)
+[0] [9, 0] -0.84
+Load  1.4 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.4 arrival accept
+cpu_spin (1193): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1193): CPU spinner started, PID 1194
+killing CPU spinner 0 (PID 1194)
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.1 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (1360): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1360): CPU spinner started, PID 1361
+killing CPU spinner 0 (PID 1361)
+[0] [7, 0] -0.6
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  3.7507515620872565
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [7, 0] -0.6
+cpu_spin (1330): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1330): CPU spinner started, PID 1331
+killing CPU spinner 0 (PID 1331)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  0.17844036678707528
+Load  1.1 new arrival
+Sleep  0.32308791984958884
+Load  1.1 new arrival
+Sleep  0.6798905454872882
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [9, 0] -0.84
+cpu_spin (1316): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1316): CPU spinner started, PID 1317
+killing CPU spinner 0 (PID 1317)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (1413): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1413): CPU spinner started, PID 1414
+killing CPU spinner 0 (PID 1414)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 new arrival
+Sleep  0.6398280837201568
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (1420): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1420): CPU spinner started, PID 1421
+killing CPU spinner 0 (PID 1421)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 new arrival
+Sleep  0.2051087117477975
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (1353): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1353): CPU spinner started, PID 1354
+killing CPU spinner 0 (PID 1354)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 new arrival
+Sleep  1.1101816117503471
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (1465): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1465): CPU spinner started, PID 1466
+killing CPU spinner 0 (PID 1466)
+Load  1.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.0 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (1428): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1428): CPU spinner started, PID 1432
+killing CPU spinner 0 (PID 1432)
+[0] [7, 0] -0.6
+Load  1.0 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 arrival accept
+cpu_spin (1450): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1450): CPU spinner started, PID 1451
+killing CPU spinner 0 (PID 1451)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  3.089629066009133
+Load  1.1 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [6, 0] -0.48
+Load  1.3 new arrival
+Sleep  0.9333159609599927
+Load  1.3 new arrival
+Sleep  1.7485134423525244
+Load  1.4 new arrival
+Sleep  0.8398780564933478
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (1148): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1148): CPU spinner started, PID 1149
+killing CPU spinner 0 (PID 1149)
+[0] [9, 0] -0.84
+Load  1.2 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (1480): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1480): CPU spinner started, PID 1481
+killing CPU spinner 0 (PID 1481)
+[0] [8, 0] -0.72
+Load  1.2 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [7, 0] -0.6
+cpu_spin (1518): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1518): CPU spinner started, PID 1519
+killing CPU spinner 0 (PID 1519)
+Load  2.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [6, 0] -0.48
+cpu_spin (1532): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1532): CPU spinner started, PID 1533
+killing CPU spinner 0 (PID 1533)
+Load  2.4 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [5, 0] -0.36
+cpu_spin (1278): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1278): CPU spinner started, PID 1279
+killing CPU spinner 0 (PID 1279)
+Load  2.3 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.3 new arrival
+Sleep  0.13047900041514796
+Load  2.3 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] cpu_spin (1579): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1579): CPU spinner started, PID 1580
+killing CPU spinner 0 (PID 1580)
+[0] [5, 0] -0.36
+Load  2.3 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.3 arrival accept
+cpu_spin (1525): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1525): CPU spinner started, PID 1526
+killing CPU spinner 0 (PID 1526)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [4, 0] -0.24
+Load  1.3 new arrival
+Sleep  2.9741003985383734
+Load  1.3 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [4, 0] -0.24
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [4, 0] -0.24
+cpu_spin (1398): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1398): CPU spinner started, PID 1399
+killing CPU spinner 0 (PID 1399)
+Load  1.0 new arrival
+Load  1.0 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [4, 0] -0.24
+Sleep  1.3849594681457356
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+cpu_spin (1511): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1511): CPU spinner started, PID 1512
+killing CPU spinner 0 (PID 1512)
+Load  1.2 new arrival
+Load  1.2 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [4, 0] -0.24
+Sleep  1.3986675477306638
+Load  1.2 new arrival
+Sleep  2.0096810195679975
+Load  1.1 new arrival
+Sleep  2.4101784890763605
+Load  1.1 new arrival
+Sleep  0.6865723143646216
+Load  1.1 new arrival
+Sleep  2.3254825822307694
+Load  1.3 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [8, 0] -0.72
+cpu_spin (1617): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1617): CPU spinner started, PID 1618
+killing CPU spinner 0 (PID 1618)
+Load  1.3 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.3 new arrival
+Sleep  1.2215266021096893
+Load  1.3 new arrival
+Sleep  0.7050939905291865
+Load  1.3 new arrival
+Load  1.3 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (1653): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1653): CPU spinner started, PID 1654
+killing CPU spinner 0 (PID 1654)
+[0] [10, 0] -0.96
+Sleep  8.579942056378748
+Load  1.2 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.2 new arrival
+Sleep  3.306146355578681
+Load  4.2 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] cpu_spin (1632): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1632): CPU spinner started, PID 1633
+killing CPU spinner 0 (PID 1633)
+[0] [10, 0] -0.96
+Load  4.2 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  4.2 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [9, 0] -0.84
+cpu_spin (1367): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1367): CPU spinner started, PID 1368
+killing CPU spinner 0 (PID 1368)
+Load  4.0 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  4.0 arrival accept
+cpu_spin (1683): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1683): CPU spinner started, PID 1685
+killing CPU spinner 0 (PID 1685)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [8, 0] -0.72
+Load  4.0 new arrival
+Load  4.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [8, 0] -0.72
+Sleep  0.7264367751977507
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [8, 0] -0.72
+cpu_spin (1602): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1602): CPU spinner started, PID 1603
+killing CPU spinner 0 (PID 1603)
+Load  4.0 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [7, 0] -0.6
+cpu_spin (1675): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1675): CPU spinner started, PID 1676
+killing CPU spinner 0 (PID 1676)
+Load  3.0 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  3.0 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [6, 0] -0.48
+cpu_spin (1639): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1639): CPU spinner started, PID 1640
+killing CPU spinner 0 (PID 1640)
+Load  2.0 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  2.0 new arrival
+Sleep  3.882636651225896
+Load  2.0 new arrival
+Sleep  0.3320510411794406
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (1646): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1646): CPU spinner started, PID 1647
+killing CPU spinner 0 (PID 1647)
+[0] [7, 0] -0.6
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (1735): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1735): CPU spinner started, PID 1736
+killing CPU spinner 0 (PID 1736)
+[0] [6, 0] -0.48
+Load  1.5 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [5, 0] -0.36
+Load  1.5 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (1660): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1660): CPU spinner started, PID 1661
+killing CPU spinner 0 (PID 1661)
+ [7, 0] [0] [5, 0] -0.36
+Load  1.0 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0]cpu_spin (1773): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1773): CPU spinner started, PID 1774
+killing CPU spinner 0 (PID 1774)
+ [4, 0] -0.24
+Load  2.0 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [3, 0] -0.12
+Load  1.5 new arrival
+Sleep  0.3457562440408707
+Load  1.5 new arrival
+Sleep  1.9445887729491549
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [5, 0] -0.36
+cpu_spin (1812): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1812): CPU spinner started, PID 1813
+killing CPU spinner 0 (PID 1813)
+Load  1.5 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.5 new arrival
+Sleep  3.138103612350989
+Load  1.4 new arrival
+Sleep  3.357817626113913
+Load  1.4 new arrival
+Sleep  0.52611759359793
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [7, 0] -0.6
+cpu_spin (1704): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1704): CPU spinner started, PID 1705
+killing CPU spinner 0 (PID 1705)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  0.8866769921201819
+Load  1.1 new arrival
+Sleep  0.427974678592622
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (1848): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1848): CPU spinner started, PID 1849
+killing CPU spinner 0 (PID 1849)
+[0] [8, 0] -0.72
+Load  1.1 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  3.1 new arrival
+Sleep  2.62889194351839
+Load  3.1 new arrival
+Sleep  0.06303493227897156
+Load  3.1 arrival accept
+cpu_spin (1871): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1871): CPU spinner started, PID 1875
+killing CPU spinner 0 (PID 1875)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [9, 0] -0.84
+Load  2.1 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [8, 0] -0.72
+cpu_spin (1896): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1896): CPU spinner started, PID 1897
+killing CPU spinner 0 (PID 1897)
+Load  2.1 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [7, 0] -0.6
+cpu_spin (1819): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1819): CPU spinner started, PID 1820
+killing CPU spinner 0 (PID 1820)
+Load  2.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [6, 0] -0.48
+cpu_spin (1868): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1868): CPU spinner started, PID 1869
+killing CPU spinner 0 (PID 1869)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [5, 0] -0.36
+cpu_spin (1766): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1766): CPU spinner started, PID 1767
+killing CPU spinner 0 (PID 1767)
+Load  1.4 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.4 new arrival
+Sleep  1.8528121399490416
+Load  1.4 new arrival
+Sleep  0.1571818975427498
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (1946): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1946): CPU spinner started, PID 1947
+killing CPU spinner 0 (PID 1947)
+[0] [6, 0] -0.48
+Load  1.4 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.4 new arrival
+Sleep  3.5041310278051117
+Load  1.3 new arrival
+Sleep  4.898350050142146
+Load  1.3 new arrival
+Sleep  3.02729348460068
+Load  1.3 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [8, 0] -0.72
+cpu_spin (1834): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1834): CPU spinner started, PID 1835
+killing CPU spinner 0 (PID 1835)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.1 new arrival
+Sleep  4.35872496590899
+Load  1.1 new arrival
+Sleep  1.2589842772592854
+Load  1.1 new arrival
+Sleep  1.3930230268071562
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [10, 0] -0.96
+cpu_spin (1843): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1843): CPU spinner started, PID 1845
+killing CPU spinner 0 (PID 1845)
+Load  1.1 new arrival
+Sleep  0.6425004982316256
+Load  1.1 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [10, 0] -0.96
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [10, 0] -0.96
+cpu_spin (1885): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1885): CPU spinner started, PID 1886
+killing CPU spinner 0 (PID 1886)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Notification of offload
+New Policy Request threshold :  [16.99045726 16.99019798 16.98960211 16.98960211 16.98886066 16.97985923
+ 16.96945748 16.94381183 16.93870613 16.93773768 16.93709634 16.93709634
+ 16.93709634 16.93709634 16.93709634 16.93709634 16.93709634 16.93709634
+ 16.93709634 16.93709634 16.93709634]
+Load  1.2 new arrival
+Sleep  0.4002351552185069
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (2019): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2019): CPU spinner started, PID 2020
+killing CPU spinner 0 (PID 2020)
+[0] [10, 0] -0.96
+Load  1.2 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] cpu_spin (1939): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1939): CPU spinner started, PID 1940
+killing CPU spinner 0 (PID 1940)
+[0] [9, 0] -0.84
+Load  1.2 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.2 arrival accept
+cpu_spin (2035): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2035): CPU spinner started, PID 2036
+killing CPU spinner 0 (PID 2036)
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.2 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (1997): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1997): CPU spinner started, PID 1998
+killing CPU spinner 0 (PID 1998)
+[0] [7, 0] -0.6
+Load  1.2 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [6, 0] -0.48
+cpu_spin (2004): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2004): CPU spinner started, PID 2005
+killing CPU spinner 0 (PID 2005)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.2 new arrival
+Sleep  0.29436355836990485
+Load  1.2 new arrival
+Sleep  2.1542060714942974
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (1693): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1693): CPU spinner started, PID 1698
+killing CPU spinner 0 (PID 1698)
+[0] [7, 0] -0.6
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [6, 0] -0.48
+cpu_spin (2082): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2082): CPU spinner started, PID 2083
+killing CPU spinner 0 (PID 2083)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.1 new arrival
+Sleep  0.5106722088785046
+Load  1.1 new arrival
+Sleep  0.2450254980140077
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (1975): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1975): CPU spinner started, PID 1976
+killing CPU spinner 0 (PID 1976)
+[0] [7, 0] -0.6
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  0.4504475224335655
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [7, 0] -0.6
+cpu_spin (2119): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2119): CPU spinner started, PID 2120
+killing CPU spinner 0 (PID 2120)
+Load  1.1 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.1 new arrival
+Sleep  0.7865718091320729
+Load  1.1 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (1961): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1961): CPU spinner started, PID 1962
+killing CPU spinner 0 (PID 1962)
+[0] [7, 0] -0.6
+Load  1.2 arrival accept
+cpu_spin (2112): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2112): CPU spinner started, PID 2113
+killing CPU spinner 0 (PID 2113)
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [6, 0] -0.48
+Load  1.2 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [5, 0] -0.36
+Load  1.2 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+cpu_spin (2134): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2134): CPU spinner started, PID 2135
+killing CPU spinner 0 (PID 2135)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.2 new arrival
+Sleep  1.6774837676814753
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (2153): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2153): CPU spinner started, PID 2159
+killing CPU spinner 0 (PID 2159)
+[0] [5, 0] -0.36
+Load  1.2 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [4, 0] -0.24
+cpu_spin (1991): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1991): CPU spinner started, PID 1992
+killing CPU spinner 0 (PID 1992)
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (2089): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2089): CPU spinner started, PID 2090
+killing CPU spinner 0 (PID 2090)
+ [6, 0] [0] [3, 0] -0.12
+Load  1.4 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [2, 0] 0.0
+Load  1.4 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.4 new arrival
+Sleep  0.5514685188876876
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] cpu_spin (1968): starting 1 spinner(s) for 5%-5% usage
+lookbusy (1968): CPU spinner started, PID 1969
+killing CPU spinner 0 (PID 1969)
+[0] [3, 0] -0.12
+Load  1.2 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.2 new arrival
+Sleep  4.81316195394992
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] cpu_spin (2211): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2211): CPU spinner started, PID 2212
+killing CPU spinner 0 (PID 2212)
+[0] [3, 0] -0.12
+Load  1.2 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.2 new arrival
+Sleep  1.385621895356803
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [3, 0] -0.12
+cpu_spin (2180): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2180): CPU spinner started, PID 2181
+killing CPU spinner 0 (PID 2181)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.2 new arrival
+Sleep  5.616663801955013
+Load  1.2 new arrival
+Sleep  0.6067658405234831
+Load  1.2 new arrival
+Load  1.2 new arrival
+Sleep  2.5704300859977116
+Sleep  3.4344209497330103
+Load  1.2 new arrival
+Sleep  0.2047662009919971
+Load  1.2 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 0] [0] [7, 0] -0.6
+cpu_spin (2263): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2263): CPU spinner started, PID 2264
+killing CPU spinner 0 (PID 2264)
+Load  1.2 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  2.2 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [6, 0] -0.48
+cpu_spin (2284): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2284): CPU spinner started, PID 2285
+killing CPU spinner 0 (PID 2285)
+Load  2.2 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  2.2 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [5, 0] -0.36
+cpu_spin (2245): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2245): CPU spinner started, PID 2246
+killing CPU spinner 0 (PID 2246)
+Load  2.2 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  1.7 new arrival
+Sleep  2.2357738959343596
+Load  4.2 new arrival
+Sleep  1.1021727520383844
+Load  4.2 new arrival
+Sleep  0.5374267514585331
+Load  4.2 new arrival
+Sleep  0.1867937286253576
+Load  3.8 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (2336): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2336): CPU spinner started, PID 2337
+killing CPU spinner 0 (PID 2337)
+Load  3.8 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  3.8 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [7, 0] -0.6
+cpu_spin (2329): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2329): CPU spinner started, PID 2330
+killing CPU spinner 0 (PID 2330)
+Load  3.8 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  3.8 new arrival
+Sleep  6.396393961905725
+Load  3.8 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] cpu_spin (2322): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2322): CPU spinner started, PID 2323
+killing CPU spinner 0 (PID 2323)
+[0] [7, 0] -0.6
+Load  3.8 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  3.8 new arrival
+Sleep  0.1809516658234378
+Load  3.8 new arrival
+Sleep  0.14392077444965481
+Load  3.8 new arrival
+Sleep  4.269030561937494
+Load  3.8 arrival accept
+cpu_spin (2374): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2374): CPU spinner started, PID 2375
+killing CPU spinner 0 (PID 2375)
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [9, 0] -0.84
+Load  2.7 arrival accept
+ARRIVAL State, Action Next_state Reward [5, 0] [0] [8, 0] -0.72
+cpu_spin (2276): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2276): CPU spinner started, PID 2277
+killing CPU spinner 0 (PID 2277)
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [7, 0] -0.6
+cpu_spin (2381): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2381): CPU spinner started, PID 2382
+killing CPU spinner 0 (PID 2382)
+Load  2.4 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [6, 0] -0.48
+Load  2.4 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  2.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [6, 0] -0.48
+Load  2.4 new arrival
+Sleep  6.123050629927383
+Load  2.4 new arrival
+Sleep  4.7940507921691236
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] [0] [8, 0] -0.72
+cpu_spin (2315): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2315): CPU spinner started, PID 2316
+killing CPU spinner 0 (PID 2316)
+Load  1.9 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.9 new arrival
+Sleep  0.28834701608077207
+Load  1.9 new arrival
+Sleep  6.509534346727249
+Load  1.9 new arrival
+Sleep  1.1946345973071304
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [4, 0] cpu_spin (2275): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2275): CPU spinner started, PID 2278
+killing CPU spinner 0 (PID 2278)
+[0] [10, 0] -0.96
+Load  1.6 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [9, 0] -0.84
+cpu_spin (2441): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2441): CPU spinner started, PID 2442
+killing CPU spinner 0 (PID 2442)
+Load  1.6 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [8, 0] -0.72
+Load  1.6 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [7, 0] -0.6
+cpu_spin (2226): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2226): CPU spinner started, PID 2227
+killing CPU spinner 0 (PID 2227)
+cpu_spin (2226): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2226): CPU spinner started, PID 2227
+killing CPU spinner 0 (PID 2227)
+Load  1.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.4 new arrival
+Sleep  0.8474695867204428
+Load  1.4 new arrival
+Sleep  0.6906499749450922
+Load  1.4 new arrival
+Sleep  0.17405508560432537
+Load  2.3 arrival accept
+cpu_spin (2455): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2455): CPU spinner started, PID 2456
+killing CPU spinner 0 (PID 2456)
+ARRIVAL State, Action Next_state Reward [9, 0] [0] [10, 0] -0.96
+Load  2.3 new arrival
+Sleep  0.027768889626669905
+Load  2.3 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [10, 0] -0.96
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (2515): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2515): CPU spinner started, PID 2520
+killing CPU spinner 0 (PID 2520)
+[0] [10, 0] -0.96
+Load  2.4 new arrival
+Load  2.4 arrival accept
+cpu_spin (2486): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2486): CPU spinner started, PID 2487
+killing CPU spinner 0 (PID 2487)
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [10, 0] -0.96
+Sleep  0.1798726118641637
+Load  2.4 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] cpu_spin (2493): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2493): CPU spinner started, PID 2494
+killing CPU spinner 0 (PID 2494)
+[9, 0] -0.84
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (2506): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2506): CPU spinner started, PID 2507
+killing CPU spinner 0 (PID 2507)
+killing CPU spinner 0 (PID 2507)
+[0] [8, 0] -0.72
+Load  1.4 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [7, 0] -0.6
+Load  1.4 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [7, 0] -0.6
+Load  1.4 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [7, 0] -0.6
+Load  1.4 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.4 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] [0] [7, 0] -0.6
+cpu_spin (2256): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2256): CPU spinner started, PID 2257
+killing CPU spinner 0 (PID 2257)
+Load  1.3 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 0] cpu_spin (2539): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2539): CPU spinner started, PID 2544
+killing CPU spinner 0 (PID 2544)
+[0] [6, 0] -0.48
+Load  1.8 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  1.9 new arrival
+Sleep  1.0910936426983548
+Load  2.1 new arrival
+Sleep  0.0324435747377215
+Load  2.1 new arrival
+Sleep  1.4554732445305123
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [8, 0] -0.72
+cpu_spin (2584): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2584): CPU spinner started, PID 2585
+killing CPU spinner 0 (PID 2585)
+Load  2.1 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  2.1 new arrival
+Sleep  1.0864079895891736
+Load  1.9 new arrival
+Sleep  1.5188855820513678
+Load  1.9 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] cpu_spin (2392): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2392): CPU spinner started, PID 2401
+killing CPU spinner 0 (PID 2401)
+[0] [9, 0] -0.84
+Load  1.9 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.9 new arrival
+Load  1.9 new arrival
+Sleep  1.380514444723406
+Sleep  1.845347156864482
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (2577): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2577): CPU spinner started, PID 2578
+killing CPU spinner 0 (PID 2578)
+ [5, 0] [0] [10, 0] -0.96
+Load  2.1 departure
+DEPT State, Action Next_state Reward [10, 0] [0] [9, 0] -0.84
+Load  2.1 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] cpu_spin (2425): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2425): CPU spinner started, PID 2427
+killing CPU spinner 0 (PID 2427)
+[0] [9, 0] -0.84
+Load  1.8 departure
+DEPT State, Action Next_state Reward [9, 0] [0] [8, 0] -0.72
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 0] [0] [8, 0] -0.72
+cpu_spin (2606): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2606): CPU spinner started, PID 2607
+killing CPU spinner 0 (PID 2607)
+Load  1.8 departure
+DEPT State, Action Next_state Reward [8, 0] [0] [7, 0] -0.6
+Load  1.8 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (2595): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2595): CPU spinner started, PID 2598
+killing CPU spinner 0 (PID 2598)
+killing CPU spinner 0 (PID 2598)
+ [7, 0] [0] [7, 0] -0.6
+Load  1.8 departure
+DEPT State, Action Next_state Reward [7, 0] [0] [6, 0] -0.48
+Load  4.0 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [6, 0] -0.48
+cpu_spin (2613): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2613): CPU spinner started, PID 2614
+killing CPU spinner 0 (PID 2614)
+Load  3.0 departure
+DEPT State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+Load  3.0 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [5, 0] -0.36
+cpu_spin (2359): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2359): CPU spinner started, PID 2360
+killing CPU spinner 0 (PID 2360)
+Load  2.7 departure
+DEPT State, Action Next_state Reward [5, 0] [0] [4, 0] -0.24
+Load  2.7 arrival accept
+cpu_spin (2633): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2633): CPU spinner started, PID 2635
+killing CPU spinner 0 (PID 2635)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [4, 0] -0.24
+Load  1.7 departure
+DEPT State, Action Next_state Reward [4, 0] [0] [3, 0] -0.12
+Load  1.5 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (2634): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2634): CPU spinner started, PID 2636
+killing CPU spinner 0 (PID 2636)
+cpu_spin (2634): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2634): CPU spinner started, PID 2636
+killing CPU spinner 0 (PID 2636)
+ [9, 0] [0] [3, 0] -0.12
+Load  1.5 departure
+DEPT State, Action Next_state Reward [3, 0] [0] [2, 0] 0.0
+Load  1.7 arrival accept
+ARRIVAL State, Action Next_state Reward [6, 0] [0] [2, 0] 0.0
+cpu_spin (2424): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2424): CPU spinner started, PID 2426
+killing CPU spinner 0 (PID 2426)
+Load  1.6 departure
+DEPT State, Action Next_state Reward [2, 0] [0] [1, 0] 0.0
+Load  1.5 arrival accept
+cpu_spin (2453): starting 1 spinner(s) for 5%-5% usage
+lookbusy (2453): CPU spinner started, PID 2454
+killing CPU spinner 0 (PID 2454)
+ARRIVAL State, Action Next_state Reward [8, 0] [0] [1, 0] 0.0
+Load  1.3 departure
+DEPT State, Action Next_state Reward [1, 0] [0] [0, 0] 0.0
+ * Serving Flask app "app2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Load  4.2 new arrival
+Sleep  17.62112639371102
+Load  4.3 new arrival
+Sleep  4.197432656966103
+Load  4.3 new arrival
+Sleep  10.322044872111988
+Load  7.0 new arrival
+Sleep  17.002549180197143
+Load  7.0 new arrival
+Sleep  67.755375129622
+Load  6.9 new arrival
+Sleep  23.477029109417828
+Load  6.9 new arrival
+Sleep  26.147055031131075
+Load  7.0 new arrival
+Sleep  6.207876900678651
+Load  7.3 new arrival
+Sleep  7.144390142086415
+Load  10.0 arrival accept
+ARRIVAL State, Action Next_state Reward [1, 0] [0] [9, 2] -0.84
+cpu_spin (21): starting 1 spinner(s) for 5%-5% usage
+lookbusy (21): CPU spinner started, PID 22
+killing CPU spinner 0 (PID 22)
+Load  9.5 departure
+DEPT State, Action Next_state Reward [9, 2] [0] [8, 1] -0.72
+Load  9.5 new arrival
+Sleep  3.2075253143371594
+Load  7.8 new arrival
+Sleep  0.7629491775382514
+Load  7.8 arrival accept
+ARRIVAL State, Action Next_state Reward [9, 1] [0] [10, 1] -0.96
+cpu_spin (92): starting 1 spinner(s) for 5%-5% usage
+lookbusy (92): CPU spinner started, PID 93
+killing CPU spinner 0 (PID 93)
+Load  7.8 departure
+DEPT State, Action Next_state Reward [10, 1] [0] [9, 1] -0.84
+Load  6.1 new arrival
+Sleep  11.405734605213183
+Load  6.6 new arrival
+Sleep  24.641393648070164
+Load  7.3 new arrival
+Sleep  67.6130419449383
+Load  7.3 new arrival
+Sleep  2.044174301774016
+Load  7.4 new arrival
+Sleep  4.053554541789706
+Load  7.4 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 1] cpu_spin (85): starting 1 spinner(s) for 5%-5% usage
+lookbusy (85): CPU spinner started, PID 86
+killing CPU spinner 0 (PID 86)
+[0] [14, 1] -1.44
+Load  7.2 departure
+DEPT State, Action Next_state Reward [14, 1] [0] [13, 1] -1.3199999999999998
+Load  9.9 new arrival
+Sleep  14.784487027149025
+Load  8.3 arrival accept
+cpu_spin (128): starting 1 spinner(s) for 5%-5% usage
+lookbusy (128): CPU spinner started, PID 129
+killing CPU spinner 0 (PID 129)
+ARRIVAL State, Action Next_state Reward [12, 1] [0] [14, 1] -1.44
+Load  7.4 departure
+DEPT State, Action Next_state Reward [14, 1] [0] [13, 1] -1.3199999999999998
+Load  7.9 arrival accept
+ARRIVAL State, Action Next_state Reward [7, 1] cpu_spin (63): starting 1 spinner(s) for 5%-5% usage
+lookbusy (63): CPU spinner started, PID 64
+killing CPU spinner 0 (PID 64)
+[0] [13, 1] -1.3199999999999998
+Load  7.8 departure
+DEPT State, Action Next_state Reward [13, 1] [0] [12, 1] -1.2
+Load  6.4 new arrival
+Sleep  33.95915801399502
+Load  9.4 arrival accept
+ARRIVAL State, Action Next_state Reward [8, 1] cpu_spin (70): starting 1 spinner(s) for 5%-5% usage
+lookbusy (70): CPU spinner started, PID 71
+killing CPU spinner 0 (PID 71)
+[0] [13, 1] -1.3199999999999998
+Load  8.9 departure
+DEPT State, Action Next_state Reward [13, 1] [0] [12, 1] -1.2
+Load  8.9 arrival accept
+ARRIVAL State, Action Next_state Reward [2, 0] cpu_spin (28): starting 1 spinner(s) for 5%-5% usage
+lookbusy (28): CPU spinner started, PID 29
+killing CPU spinner 0 (PID 29)
+[0] [12, 1] -1.2
+Load  8.8 departure
+DEPT State, Action Next_state Reward [12, 1] [0] [11, 1] -1.08
+Load  9.3 arrival accept
+ARRIVAL State, Action Next_state Reward [13, 1] cpu_spin (135): starting 1 spinner(s) for 5%-5% usage
+lookbusy (135): CPU spinner started, PID 136
+killing CPU spinner 0 (PID 136)
+[0] [11, 1] -1.08
+Load  9.1 departure
+DEPT State, Action Next_state Reward [11, 1] [0] [10, 1] -0.96
+Load  7.4 new arrival
+Sleep  75.71209649332313
+Load  7.5 new arrival
+Sleep  14.405016693174543
+Load  7.5 new arrival
+Sleep  5.168208559139209
+Load  7.5 new arrival
+Sleep  2.0901626908677655
+Load  10.6 arrival accept
+ARRIVAL State, Action Next_state Reward [13, 1] cpu_spin (225): starting 1 spinner(s) for 5%-5% usage
+lookbusy (225): CPU spinner started, PID 226
+killing CPU spinner 0 (PID 226)
+cpu_spin (225): starting 1 spinner(s) for 5%-5% usage
+lookbusy (225): CPU spinner started, PID 226
+killing CPU spinner 0 (PID 226)
+[0] [14, 2] -1.44
+Load  8.1 departure
+DEPT State, Action Next_state Reward [14, 2] [0] [13, 1] -1.3199999999999998
+Load  8.3 new arrival
+Sleep  19.939131201845917
+Load  9.1 new arrival
+Sleep  12.557859644559427
+Load  9.1 arrival accept
+cpu_spin (107): starting 1 spinner(s) for 5%-5% usage
+lookbusy (107): CPU spinner started, PID 108
+killing CPU spinner 0 (PID 108)
+ARRIVAL State, Action Next_state Reward [9, 1] [0] [15, 1] -1.56
+Load  8.9 departure
+DEPT State, Action Next_state Reward [15, 1] [0] [14, 1] -1.44
+Load  8.9 arrival accept
+ARRIVAL State, Action Next_state Reward [12, 1] [0] [14, 1] -1.44
+cpu_spin (219): starting 1 spinner(s) for 5%-5% usage
+lookbusy (219): CPU spinner started, PID 221
+killing CPU spinner 0 (PID 221)
+Load  8.1 departure
+DEPT State, Action Next_state Reward [14, 1] [0] [13, 1] -1.3199999999999998
+Load  8.1 arrival accept
+cpu_spin (14): starting 1 spinner(s) for 5%-5% usage
+lookbusy (14): CPU spinner started, PID 15
+killing CPU spinner 0 (PID 15)
+ARRIVAL State, Action Next_state Reward [0, 0] [0] [13, 1] -1.3199999999999998
+Load  7.9 departure
+DEPT State, Action Next_state Reward [13, 1] [0] [12, 1] -1.2
+Load  8.1 arrival accept
+ARRIVAL State, Action Next_state Reward [3, 1] [0] [12, 1] -1.2
+cpu_spin (35): starting 1 spinner(s) for 5%-5% usage
+lookbusy (35): CPU spinner started, PID 36
+killing CPU spinner 0 (PID 36)
+Load  7.8 departure
+DEPT State, Action Next_state Reward [12, 1] [0] [11, 1] -1.08
+Load  7.8 new arrival
+Sleep  15.201637733416426
+Load  6.8 new arrival
+Sleep  30.15871340096894
+Load  8.4 new arrival
+Sleep  13.81990294669532
+Load  8.4 new arrival
+Sleep  18.036679238051292
+Load  9.5 new arrival
+Sleep  2.1004977741052344
+Load  10.7 new arrival
+Sleep  15.827361102478129
+Load  10.8 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (150): starting 1 spinner(s) for 5%-5% usage
+lookbusy (150): CPU spinner started, PID 151
+killing CPU spinner 0 (PID 151)
+cpu_spin (150): starting 1 spinner(s) for 5%-5% usage
+lookbusy (150): CPU spinner started, PID 151
+killing CPU spinner 0 (PID 151)
+ [13, 1] [0] [17, 2] -1.7999999999999998
+Load  10.5 departure
+DEPT State, Action Next_state Reward [17, 2] [0] [16, 2] -1.68
+Load  9.4 arrival accept
+ARRIVAL State, Action Next_state Rewardcpu_spin (314): starting 1 spinner(s) for 5%-5% usage
+lookbusy (314): CPU spinner started, PID 315
+killing CPU spinner 0 (PID 315)
+ [15, 1] [0] [16, 1] -1.68
+Load  7.9 departure
+DEPT State, Action Next_state Reward [16, 1] [0] [15, 1] -1.56
+Load  7.9 new arrival
+Sleep  2.5845153467690833
+Load  7.9 new arrival
+Sleep  1.3003542683554685
+Load  10.2 arrival accept
+cpu_spin (49): starting 1 spinner(s) for 5%-5% usage
+lookbusy (49): CPU spinner started, PID 50
+killing CPU spinner 0 (PID 50)
+ARRIVAL State, Action Next_state Reward [5, 1] [0] [17, 2] -1.7999999999999998
+Load  11.0 departure
+DEPT State, Action Next_state Reward [17, 2] [0] [16, 2] -1.68

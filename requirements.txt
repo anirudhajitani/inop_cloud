@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+multiprocessing
+pickle
+threading
+gym
+argparse
