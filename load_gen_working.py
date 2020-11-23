@@ -41,14 +41,6 @@ def fireEvent(start_time):
 
 
 def run_rl_module_and_notify(fc):
-    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(fc)
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
-    out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
-                           stdout=subprocess.PIPE,
-                           stderr=subprocess.STDOUT)
-    stdout, stderr = out.communicate()
-    print(stdout)
-    print(stderr)
     files_dst = ['_ptr.npy', '_state.npy', '_next_state.npy',
                  '_action.npy', '_reward.npy', '_not_done.npy']
     dest_path_str = folder + '/buffers/'
@@ -75,7 +67,7 @@ def run_rl_module_and_notify(fc):
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
-    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=0'
+    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=1'
     #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
                            stdout=subprocess.PIPE,
@@ -102,8 +94,6 @@ def main():
         N = pickle.load(fp)
     for l in range(1000):
         jobs = []
-        if l > 0:
-            run_rl_module_and_notify(l)
         for i in range(N[l]):
             print (lambd[l][i])
             t = th.Thread(target=process_event, args=(lambd[l][i],))

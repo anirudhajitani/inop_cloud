@@ -78,19 +78,10 @@ class Notify (Resource):
             print ("New Policy Request threshold : ", req_thres)
 
     def get(self):
-        global buffer
-        global lock
         print("Notification of offload")
         notify = request.args.get('offload')
-        notify = int(notify)
-        if notify == 0:
-            self.load_req_thres()
-        else:
-            lock.acquire()
-            buffer.save('buffer_' + str(notify))
-            buffer.ptr = 0
-            buffer.crt_size = 0
-            lock.release()
+        self.load_req_thres()
+
 
 class Greeting (Resource):
     def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
@@ -230,9 +221,9 @@ class Greeting (Resource):
         buffer.add(prev_state, action, state, rew, 0, 0, 0)
         print("DEPT State, Action Next_state Reward",
               prev_state, action, state, rew)
-        #if buffer.ptr >= buffer.max_size - 1:
-        #    file_count += 1
-        #    buffer.save('buffer_' + str(file_count))
+        if buffer.ptr >= buffer.max_size - 1:
+            file_count += 1
+            buffer.save('buffer_' + str(file_count))
         lock.release()
         return [file_count, buffer.ptr]
 
