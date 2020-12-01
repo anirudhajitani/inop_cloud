@@ -80,10 +80,6 @@ class Notify (Resource):
     def get(self):
         global buffer
         global lock
-        global overload_count
-        global offload_count
-        global overload_vec
-        global offload_vec
         print("Notification of offload")
         notify = request.args.get('offload')
         notify = int(notify)
@@ -94,14 +90,6 @@ class Notify (Resource):
             buffer.save('buffer_' + str(notify))
             buffer.ptr = 0
             buffer.crt_size = 0
-            overload_vec.append(overload_count)
-            offload_vec.append(offload_count)
-            print ("Overload count ", overload_vec)
-            print ("Offload count ", offload_vec)
-            np.save('buffer_overload_count.npy', overload_vec)
-            np.save('buffer_offload_count.npy', offload_vec)
-            overload_count = 0
-            offload_count = 0
             lock.release()
 
 class Greeting (Resource):
@@ -140,14 +128,9 @@ class Greeting (Resource):
 
     def get_reward(self, cpu_util, buffer, action, debug=1):
         global buff_size
-        global lock
-        global offload_count
-        global overload_count
         rew = 0.0
-        lock.acquire()
         if action == 1:
             rew -= self.offload
-            offload_count += 1
             print("Offload")
         if cpu_util < 3:
             if action == 1:
@@ -158,15 +141,12 @@ class Greeting (Resource):
             print("Reward")
         elif cpu_util >= 18:
             rew -= self.overload
-            overload_count += 1
             print("Overload")
         if buffer == buff_size and action == 0:
             rew -= self.overload
-            overload_count += 1
             print("Buffer Full")
         rew -= self.holding * \
             (buffer - self.c) if buffer - self.c > 0 else 0
-        lock.release()
         return rew
 
     def get_load(self, str1):
@@ -266,10 +246,6 @@ batch_size = 1000
 replay_size = 1000
 state_dim = 2
 threshold_req = 17
-overload_count = 0
-offload_count = 0
-overload_vec = []
-offload_vec = []
 lock = th.Lock()
 start_time = time.time()
 buffer = ReplayBuffer(state_dim, batch_size, replay_size, 'cpu')

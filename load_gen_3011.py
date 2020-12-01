@@ -50,19 +50,10 @@ def run_rl_module_and_notify(fc):
     print(stdout)
     print(stderr)
     files_dst = ['_ptr.npy', '_state.npy', '_next_state.npy',
-                 '_action.npy', '_reward.npy', '_not_done.npy'] 
-    files_dst_2 = ['overload_count.npy', 'offload_count.npy']
+                 '_action.npy', '_reward.npy', '_not_done.npy']
     dest_path_str = folder + '/buffers/'
     for file_dst in files_dst:
         path_str = container_name + ':/buffer_' + str(fc) + file_dst
-        out = subprocess.Popen(['docker', 'cp', path_str, dest_path_str],
-                               stdout=subprocess.PIPE,
-                               stderr=subprocess.STDOUT)
-        stdout, stderr = out.communicate()
-        print(stdout)
-        print(stderr)
-    for file_dst in files_dst_2:
-        path_str = container_name + ':/buffer_' + file_dst
         out = subprocess.Popen(['docker', 'cp', path_str, dest_path_str],
                                stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT)

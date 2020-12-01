@@ -59,7 +59,7 @@ def run_rl_module_and_notify(fc):
 
 def process_event(lambd):
     start_time = time.time()
-    while time.time() - start_time < 30:
+    while time.time() - start_time < 120:
         #interval = random.expovariate(0.1)
         interval = random.expovariate(lambd)
         time.sleep(interval)
