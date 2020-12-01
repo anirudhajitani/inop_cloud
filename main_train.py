@@ -338,6 +338,7 @@ if __name__ == "__main__":
     parser.add_argument("--replay_buffer", default='replay_buffer')
     parser.add_argument("--N", default=24, type=int)
     parser.add_argument("--fc", default=0, type=int)
+    parser.add_argument("--run", default=1, type=int)
     args = parser.parse_args()
 
     print("---------------------------------------")
@@ -382,7 +383,7 @@ if __name__ == "__main__":
     #env_name = "offload_dqn_mdp_5"
     env_name = args.env_name
     setting = f"{env_name}_{args.seed}"
-    buffer_name = f"{args.buffer_name}_{setting}"
+    buffer_name = f"{args.buffer_name}_{args.run}"
     #env = DummyVecEnv([lambda: env])
     #log_dir = "./off_a2c_res_5/"
     log_dir = args.logdir
@@ -400,13 +401,14 @@ if __name__ == "__main__":
         model = structured_learning.structured_learning(
             False, num_actions, state_dim, device, args.BCQ_threshold)
         if int(args.fc) - 1 > 0:
-            thres_vec = np.load(f"./{args.folder}/buffers/thresvec_{env_name}_{int(args.fc) - 1}.npy")
-            val_fn = np.load(f"./{args.folder}/buffers/val_fn_{env_name}_{int(args.fc) - 1}.npy")
-            state_counts = np.load(f"./{args.folder}/buffers/state_counts_{env_name}_{int(args.fc) - 1}.npy")
+            run = int(args.run)
+            thres_vec = np.load(f"./{args.folder}/buffers/thresvec_{run}_{env_name}_{int(args.fc) - 1}.npy")
+            val_fn = np.load(f"./{args.folder}/buffers/val_fn_{run}_{env_name}_{int(args.fc) - 1}.npy")
+            state_counts = np.load(f"./{args.folder}/buffers/state_counts_{run}_{env_name}_{int(args.fc) - 1}.npy")
             #print("Threshold vector present ", thres_vec, int(args.fc) - 1)
             model.set_threshold_vec(thres_vec[0], val_fn, state_counts)
         model.train(replay_buffer, env_name, args.folder,
-                    int(args.fc), args.eval_freq)
+                    int(args.fc), int(args.run), args.eval_freq)
     exit(1)
     for j in range(0, 10):
         print ("RANDOM SEED ", j)

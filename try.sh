@@ -9,3 +9,6 @@ cpulimit -l 4 -p $PID & export PID_2=$!
 sleep $LOAD
 kill -9 $PID
 kill -9 $PID_2
+wait $PID
+wait $PID_2
+#sleep 2

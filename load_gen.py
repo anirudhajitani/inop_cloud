@@ -40,7 +40,18 @@ def fireEvent(start_time):
         run_rl_module_and_notify(fc)
 
 
-def run_rl_module_and_notify(fc):
+def run_rl_module_and_notify(fc, run):
+    if fc == 0:
+        q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(-run)
+        #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
+        out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.STDOUT)
+        stdout, stderr = out.communicate()
+        print(stdout)
+        print(stderr)
+        return
+
     q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(fc)
     #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
@@ -54,7 +65,7 @@ def run_rl_module_and_notify(fc):
     files_dst_2 = ['overload_count.npy', 'offload_count.npy']
     dest_path_str = folder + '/buffers/'
     for file_dst in files_dst:
-        path_str = container_name + ':/buffer_' + str(fc) + file_dst
+        path_str = container_name + ':/buffer_' + str(run) + '_' + str(fc) + file_dst
         out = subprocess.Popen(['docker', 'cp', path_str, dest_path_str],
                                stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT)
@@ -62,22 +73,23 @@ def run_rl_module_and_notify(fc):
         print(stdout)
         print(stderr)
     for file_dst in files_dst_2:
-        path_str = container_name + ':/buffer_' + file_dst
+        path_str = container_name + ':/buffer_' + str(run) + '_' + file_dst
         out = subprocess.Popen(['docker', 'cp', path_str, dest_path_str],
                                stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT)
         stdout, stderr = out.communicate()
         print(stdout)
         print(stderr)
-    buffer_name = 'buffer_' + str(fc)
-    out = subprocess.Popen(['python3.7', 'main_train.py', '--replay_buffer', buffer_name, '--fc', str(fc), '--algo', '3', '--folder', folder, '--env_name', env_name],
+    buffer_name = 'buffer_' + str(run) + '_' + str(fc)
+    out = subprocess.Popen(['python3.7', 'main_train.py', '--replay_buffer', buffer_name, '--fc', str(fc), 
+                            '--run', str(run), '--algo', '3', '--folder', folder, '--env_name', env_name],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
     dest_path_str = container_name + ':/req_thres.npy'
-    src_path_str = f'./{folder}/buffers/thresvec_{env_name}_{str(fc)}.npy'
+    src_path_str = f'./{folder}/buffers/thresvec_{str(run)}_{env_name}_{str(fc)}.npy'
     out = subprocess.Popen(['docker', 'cp', src_path_str, dest_path_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
@@ -92,7 +104,7 @@ def run_rl_module_and_notify(fc):
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
-
+    return
 
 def process_event(lambd):
     start_time = time.time()
@@ -109,18 +121,19 @@ def main():
         lambd = pickle.load(fp)
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
-    for l in range(1000):
-        jobs = []
-        if l > 0:
-            run_rl_module_and_notify(l)
-        for i in range(N[l]):
-            print (lambd[l][i])
-            t = th.Thread(target=process_event, args=(lambd[l][i],))
-            jobs.append(t)
-        for j in jobs:
-            j.start()
-        for j in jobs:
-            j.join()
+    for run in range(1,6):
+        random.seed(run)
+        for l in range(1000):
+            jobs = []
+            run_rl_module_and_notify(l, run)
+            for i in range(N[l]):
+                print (lambd[l][i])
+                t = th.Thread(target=process_event, args=(lambd[l][i],))
+                jobs.append(t)
+            for j in jobs:
+                j.start()
+            for j in jobs:
+                j.join()
 
 
 if __name__ == "__main__":

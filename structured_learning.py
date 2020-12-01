@@ -245,7 +245,7 @@ class structured_learning(object):
             return -self.req_thres[cpu]
 
     # def train(self, state, action, rewards, next_state, eval_freq, env_name, folder, j):
-    def train(self, replay_buffer, env_name, folder, j, eval_freq=1000):
+    def train(self, replay_buffer, env_name, folder, j, run, eval_freq=1000):
         states, actions, next_states, rewards, done = replay_buffer.sample()
         states = states.numpy()
         actions = actions.numpy()
@@ -325,9 +325,9 @@ class structured_learning(object):
                 self.thres_vec.append(list(self.req_thres))
                 #print("CPU thres vec", self.thres_vec)
                 # print(f"./{folder}/buffers/{env_name}_thresvec_{j}.npy")
-                np.save(f"./{folder}/buffers/thresvec_{env_name}_{j}.npy", self.thres_vec)
-                np.save(f"./{folder}/buffers/val_fn_{env_name}_{j}.npy", self.val_fn)
-                np.save(f"./{folder}/buffers/state_counts_{env_name}_{j}.npy", self.state_counts)
+                np.save(f"./{folder}/buffers/thresvec_{run}_{env_name}_{j}.npy", self.thres_vec)
+                np.save(f"./{folder}/buffers/val_fn_{run}_{env_name}_{j}.npy", self.val_fn)
+                np.save(f"./{folder}/buffers/state_counts_{run}_{env_name}_{j}.npy", self.state_counts)
                 #print("VAL", self.val_fn)
                 #print("State counts :", self.state_counts)
 

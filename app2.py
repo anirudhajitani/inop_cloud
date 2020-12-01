@@ -79,6 +79,7 @@ class Notify (Resource):
 
     def get(self):
         global buffer
+        global run
         global lock
         global overload_count
         global offload_count
@@ -89,17 +90,21 @@ class Notify (Resource):
         notify = int(notify)
         if notify == 0:
             self.load_req_thres()
+        elif notify < 0:
+            run = abs(notify)
+            print ("RUN : ", run)
+            random.seed(run)
         else:
             lock.acquire()
-            buffer.save('buffer_' + str(notify))
+            buffer.save('buffer_' + str(run) + '_' + str(notify))
             buffer.ptr = 0
             buffer.crt_size = 0
             overload_vec.append(overload_count)
             offload_vec.append(offload_count)
             print ("Overload count ", overload_vec)
             print ("Offload count ", offload_vec)
-            np.save('buffer_overload_count.npy', overload_vec)
-            np.save('buffer_offload_count.npy', offload_vec)
+            np.save(f'buffer_{run}_overload_count.npy', overload_vec)
+            np.save(f'buffer_{run}_offload_count.npy', offload_vec)
             overload_count = 0
             offload_count = 0
             lock.release()
@@ -188,6 +193,8 @@ class Greeting (Resource):
         global file_count
         global load
         global lock
+        global run
+        # Might need lock here
         count = request.args.get('count')
         load = self.get_load("new arrival")
         prev_state = [buff_len, load]
@@ -220,7 +227,7 @@ class Greeting (Resource):
             buffer.add(prev_state, action, state, rew, 0, 0, 0)
             if buffer.ptr == buffer.max_size - 1:
                 file_count += 1
-                buffer.save('buffer_' + str(file_count))
+                buffer.save('buffer_' + str(run) + '_' + str(file_count))
             lock.release()
         else:
             count = request.args.get('count')
@@ -236,7 +243,7 @@ class Greeting (Resource):
             buffer.add(prev_state, action, state, rew, 0, 0, 0)
             if buffer.ptr == buffer.max_size - 1:
                 file_count += 1
-                buffer.save('buffer_' + str(file_count))
+                buffer.save('buffer_' + str(run) + '_' + str(file_count))
             lock.release()
         prev_state = [buff_len, load]
         action = self.select_action(load, buff_len)
@@ -262,6 +269,7 @@ file_count = 0
 buff_len = 0
 offload = 0
 load = 0
+run = 0
 batch_size = 1000
 replay_size = 1000
 state_dim = 2
