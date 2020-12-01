@@ -92,8 +92,14 @@ class Notify (Resource):
             print ("New Policy Request threshold : ", req_thres)
 
     def get(self):
+        global run
         print("Notification of offload")
         notify = request.args.get('offload')
+        notify = int(notify)
+        if notify != 0:
+            run = notify
+            random.seed(run)
+            return
         self.load_req_thres()
         rew = self.calculate_reward()
         print ("Reward disc : ", rew) 
@@ -250,6 +256,7 @@ file_count = 0
 buff_len = 0
 offload = 0
 load = 0
+run = 1
 batch_size = 1000
 replay_size = 1000
 state_dim = 2
