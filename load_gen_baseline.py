@@ -55,7 +55,7 @@ def run_rl_module_and_notify(fc, run, eval_run):
     stdout, stderr = out.communicate()
     if fc == 0 and eval_run == 1:
         return
-
+    """
     dest_path_str = container_name + ':/req_thres.npy'
     src_path_str = f'./{folder}/buffers/thresvec_{str(run)}_{env_name}_{str(fc)}.npy'
     out = subprocess.Popen(['docker', 'cp', src_path_str, dest_path_str],
@@ -64,6 +64,7 @@ def run_rl_module_and_notify(fc, run, eval_run):
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
+    """
     q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=0'
     #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],

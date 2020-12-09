@@ -70,6 +70,18 @@ class ReplayBuffer(object):
 
 
 class Notify (Resource):
+    def calculate_reward(self):
+        global buffer
+        global lock
+        gamma = 0.95
+        dis_reward = 0.0
+        reward_traj = list(buffer.reward)
+        for r in reward_traj[::-1]:
+            dis_reward = r + gamma * dis_reward
+        buffer.ptr = 0
+        buffer.crt_size = 0
+        return float(dis_reward)
+
     def load_req_thres(self):
         global req_thres
         if os.path.exists("./req_thres.npy"):
@@ -78,7 +90,6 @@ class Notify (Resource):
             print ("New Policy Request threshold : ", req_thres)
 
     def get(self):
-        global buffer
         global run
         global lock
         global overload_count
@@ -86,28 +97,30 @@ class Notify (Resource):
         global overload_vec
         global offload_vec
         print("Notification of offload")
+        lock.acquire()
         notify = request.args.get('offload')
         notify = int(notify)
-        if notify == 0:
-            self.load_req_thres()
-        elif notify < 0:
+        if notify != 0:
             run = abs(notify)
             print ("RUN : ", run)
             random.seed(run)
-        else:
-            lock.acquire()
-            buffer.save('buffer_' + str(run) + '_' + str(notify))
-            buffer.ptr = 0
-            buffer.crt_size = 0
-            overload_vec.append(overload_count)
-            offload_vec.append(offload_count)
-            print ("Overload count ", overload_vec)
-            print ("Offload count ", offload_vec)
-            np.save(f'buffer_{run}_overload_count.npy', overload_vec)
-            np.save(f'buffer_{run}_offload_count.npy', offload_vec)
-            overload_count = 0
-            offload_count = 0
             lock.release()
+            return
+        self.load_req_thres()
+        rew = self.calculate_reward()
+        print("Reward disc : ", rew)
+        #overload_vec.append(overload_count)
+        #offload_vec.append(offload_count)
+        print ("Overload count ", overload_count)
+        print ("Offload count ", offload_count)
+        #np.save(f'buffer_{run}_overload_count.npy', overload_vec)
+        #np.save(f'buffer_{run}_offload_count.npy', offload_vec)
+        ov = overload_count
+        off = offload_count
+        overload_count = 0
+        offload_count = 0
+        lock.release()
+        return [rew, ov, off]
 
 class Greeting (Resource):
     def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
@@ -135,10 +148,10 @@ class Greeting (Resource):
         return np.random.binomial(n=1, p=prob, size=1)
 
     def select_action(self, cpu_util, buffer, eval_=False, debug=0):
-        if np.random.uniform(0, 1) > 0.005 or eval_ == True:
-            action = self.sigmoid_fn(cpu_util, buffer)
+        if cpu_util >= 18:
+            action = 1
         else:
-            action = np.random.randint(self.num_actions)
+            action = 0
         if debug:
             print ("ACTION : ", action)
         return action

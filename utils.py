@@ -183,15 +183,16 @@ class StandardBuffer(object):
 
         # Adjust crt_size if we're using a custom size
         size = min(int(size), self.max_size) if size > 0 else self.max_size
-        self.crt_size = min(reward_buffer.shape[0], size)
+        self.crt_size = min(reward_buffer.shape[0] - 1, size)
         self.ptr = np.load(f"{folder}/buffers/{save_folder}_ptr.npy")
         self.state[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_state.npy")[:self.crt_size]
         self.action[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_action.npy")[:self.crt_size]
-        self.next_state[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_next_state.npy")[:self.crt_size]
+        self.next_state[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_state.npy")[1:self.crt_size+1]
         self.reward[:self.crt_size] = reward_buffer[:self.crt_size]
         self.not_done[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_not_done.npy")[:self.crt_size]
 
         print(f"Replay Buffer loaded with {self.crt_size} elements.")
+        print("Replay buffer: state , next state ", self.state, self.next_state)
 
     def resize(self, val):
         self.crt_size = val
