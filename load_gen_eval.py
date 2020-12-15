@@ -126,6 +126,7 @@ def main():
     for l in range(start_loop, 1000):
         for run in range(1,6):
             for eval_run in range(1,6):
+                print("STEP ", l, " TRAIN_RUN ", run, " EVAL_RUN ", eval_run)
                 run_rl_module_and_notify(l, run, eval_run)
                 jobs = []
                 for i in range(N[l]):

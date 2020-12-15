@@ -99,14 +99,14 @@ class Notify (Resource):
         #print("Notification of offload")
         #print("Save buffer lock status ", lock.locked())
         #lock.acquire()
+        lock.acquire()
         notify = request.args.get('offload')
         notify = int(notify)
         if notify != 0:
             run = abs(notify)
             print ("RUN : ", run)
             random.seed(run)
-            #lock.release()
-            print("Lock released notify run")
+            lock.release()
             return
         self.load_req_thres()
         rew = self.calculate_reward()
@@ -121,7 +121,7 @@ class Notify (Resource):
         off = offload_count
         overload_count = 0
         offload_count = 0
-        #lock.release()
+        lock.release()
         print("Lock released notify reward calc")
         return [rew, ov, off]
 
@@ -195,7 +195,6 @@ class Greeting (Resource):
         load = os.popen(
             "ps -u root -o %cpu,stat | grep -v 'Z' | awk '{cpu+=$1} END {print cpu}'").read()
         load = float(load)
-        #print ("Load ", load, str1)
         return min(int(load/5), 20)
 
     def get(self):

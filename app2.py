@@ -75,7 +75,7 @@ class Notify (Resource):
         if os.path.exists("./req_thres.npy"):
             req_thres = np.load("./req_thres.npy")
             req_thres = req_thres[0]
-            print ("New Policy Request threshold : ", req_thres)
+            #print ("New Policy Request threshold : ", req_thres)
 
     def get(self):
         global buffer
@@ -85,7 +85,7 @@ class Notify (Resource):
         global offload_count
         global overload_vec
         global offload_vec
-        print("Notification of offload")
+        #print("Notification of offload")
         notify = request.args.get('offload')
         notify = int(notify)
         if notify == 0:
@@ -95,19 +95,21 @@ class Notify (Resource):
             print ("RUN : ", run)
             random.seed(run)
         else:
+            print("Saving buffer Lock status ", lock.locked())
             lock.acquire()
             buffer.save('buffer_' + str(run) + '_' + str(notify))
             buffer.ptr = 0
             buffer.crt_size = 0
             overload_vec.append(overload_count)
             offload_vec.append(offload_count)
-            print ("Overload count ", overload_vec)
-            print ("Offload count ", offload_vec)
+            #print ("Overload count ", overload_vec)
+            #print ("Offload count ", offload_vec)
             np.save(f'buffer_{run}_overload_count.npy', overload_vec)
             np.save(f'buffer_{run}_offload_count.npy', offload_vec)
             overload_count = 0
             offload_count = 0
             lock.release()
+            print("Released Lock notify ")
 
 class Greeting (Resource):
     def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
@@ -152,22 +154,22 @@ class Greeting (Resource):
         if action == 1:
             rew -= self.offload
             offload_count += 1
-            print("Offload")
+            #print("Offload")
         if cpu_util < 3:
             if action == 1:
                 rew -= self.overload
-                print("Low util offload")
+                #print("Low util offload")
         elif cpu_util >= 6 and cpu_util <= 17:
             rew += self.reward
-            print("Reward")
+            #print("Reward")
         elif cpu_util >= 18:
             rew -= self.overload
             overload_count += 1
-            print("Overload")
+            #print("Overload")
         if buffer == buff_size and action == 0:
             rew -= self.overload
             overload_count += 1
-            print("Buffer Full")
+            #print("Buffer Full")
         rew -= self.holding * \
             (buffer - self.c) if buffer - self.c > 0 else 0
         return rew
@@ -179,7 +181,7 @@ class Greeting (Resource):
         load = os.popen(
             "ps -u root -o %cpu,stat | grep -v 'Z' | awk '{cpu+=$1} END {print cpu}'").read()
         load = float(load)
-        print ("Load ", load, str1)
+        #print ("Load ", load, str1)
         return min(int(load/5), 20)
 
     def get(self):
@@ -194,6 +196,7 @@ class Greeting (Resource):
         global run
         # Might need lock here
         count = request.args.get('count')
+        print ("Main function 1 Lock status", lock.locked())
         lock.acquire()
         load = self.get_load("new arrival")
         prev_state = [buff_len, load]
@@ -201,17 +204,18 @@ class Greeting (Resource):
         if action == 0:
             buff_len = min(buff_len + 1, 20)
         rew = self.get_reward(load, buff_len, action)
-        print("ARRIVAL State, Action Reward",
-                prev_state, action, rew)
+        #print("ARRIVAL State, Action Reward",
+        #        prev_state, action, rew)
         buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
         if buffer.ptr == buffer.max_size - 1:
             file_count += 1
             buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
+        print("Lock released Main function 1")
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.5)
+            t = random.expovariate(0.25)
             t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
@@ -221,34 +225,38 @@ class Greeting (Resource):
                 print("Sleep ", t)
                 time.sleep(t)
                 #p.terminate()
+            print("Main function Action 0 Lock status ", lock.locked())
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buff_len = max(buff_len - 1, 0)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            print("DEPT State, Action Reward",
-                prev_state, action, rew)
-            if buffer.ptr >= buffer.max_size - 1:
-                file_count += 1
-                buffer.save('buffer_' + str(file_count))
+            #print("DEPT State, Action Reward",
+            #    prev_state, action, rew)
+            #if buffer.ptr >= buffer.max_size - 1:
+            #    file_count += 1
+            #    buffer.save('buffer_' + str(file_count))
             lock.release()
+            print("Lock released Main function Action 0")
         else:
             count = request.args.get('count')
-            print ("Offloaded Request")
+            #print ("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
             # lock.acquire()
+            print("Main function Action 1 Lock status ", lock.locked())
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            print("DEPT State, Action Reward",
-                prev_state, action, rew)
-            if buffer.ptr >= buffer.max_size - 1:
-                file_count += 1
-                buffer.save('buffer_' + str(file_count))
+            #print("DEPT State, Action Reward",
+            #    prev_state, action, rew)
+            #if buffer.ptr >= buffer.max_size - 1:
+            #    file_count += 1
+            #    buffer.save('buffer_' + str(file_count))
             lock.release()
+            print("Lock released Main function Action 1")
         return [file_count, buffer.ptr]
 
 
