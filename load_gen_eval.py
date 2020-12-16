@@ -64,7 +64,10 @@ def run_rl_module_and_notify(fc, run, eval_run):
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
     stdout, stderr = out.communicate()
-    if fc == 0 and eval_run == 1:
+    if eval_run == 1:
+        if fc == 0:
+            return
+    if fc == 0:
         return
 
     dest_path_str = container_name + ':/req_thres.npy'
@@ -137,7 +140,7 @@ def main():
                 for j in jobs:
                     j.start()
                 for j in jobs:
-                    j.join()
+                    j.join(timeout=20)
 
 
 if __name__ == "__main__":

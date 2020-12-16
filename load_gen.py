@@ -117,7 +117,6 @@ def process_event(lambd):
         time.sleep(interval)
         fireEvent(start_time)
 
-
 def main():
     fc = 0
     with open(f"./{folder}/buffers/lambda.npy", "rb") as fp:
@@ -126,7 +125,11 @@ def main():
         N = pickle.load(fp)
     for run in range(1,6):
         random.seed(run)
-        for l in range(1, 1000):
+        if run > 1:
+            start_loop = 0
+        else:
+            start_loop = 679
+        for l in range(start_loop, 1000):
             print("RUN = ", run, " LOOP = ", l)
             jobs = []
             run_rl_module_and_notify(l, run)
@@ -137,7 +140,7 @@ def main():
             for j in jobs:
                 j.start()
             for j in jobs:
-                j.join()
+                j.join(timeout=10)
             print("LOOP ", l, " complete ")
 
 

@@ -136,7 +136,7 @@ def main():
                 for j in jobs:
                     j.start()
                 for j in jobs:
-                    j.join()
+                    j.join(timeout=20)
                 print("Loop = ", l, " ended")
 
 

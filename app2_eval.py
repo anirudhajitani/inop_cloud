@@ -214,12 +214,12 @@ class Greeting (Resource):
         if action == 0:
             buff_len = min(buff_len + 1, 20)
         rew = self.get_reward(load, buff_len, action)
-        print("ARRIVAL State, Action Reward",
-                prev_state, action, rew)
+        #print("ARRIVAL State, Action Reward",
+        #        prev_state, action, rew)
         buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-        if buffer.ptr == buffer.max_size - 1:
-            file_count += 1
-            buffer.save('buffer_' + str(run) + '_' + str(file_count))
+        #if buffer.ptr == buffer.max_size - 1:
+        #    file_count += 1
+        #    buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
         if action == 0:
             # Perform task
@@ -231,7 +231,7 @@ class Greeting (Resource):
                 #cpu_l = 4 * buff_len
                 p = subprocess.Popen(
                     ['./try.sh', str(t)])
-                print("Sleep ", t)
+                #print("Sleep ", t)
                 time.sleep(t)
                 #p.terminate()
             lock.acquire()
@@ -240,11 +240,11 @@ class Greeting (Resource):
             rew = self.get_reward(load, buff_len, action)
             buff_len = max(buff_len - 1, 0)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            print("DEPT State, Action Reward",
-                prev_state, action, rew)
-            if buffer.ptr >= buffer.max_size - 1:
-                file_count += 1
-                buffer.save('buffer_' + str(file_count))
+            #print("DEPT State, Action Reward",
+            #    prev_state, action, rew)
+            #if buffer.ptr >= buffer.max_size - 1:
+            #    file_count += 1
+            #    buffer.save('buffer_' + str(file_count))
             lock.release()
         else:
             count = request.args.get('count')
@@ -256,11 +256,11 @@ class Greeting (Resource):
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            print("DEPT State, Action Reward",
-                prev_state, action, rew)
-            if buffer.ptr >= buffer.max_size - 1:
-                file_count += 1
-                buffer.save('buffer_' + str(file_count))
+            #print("DEPT State, Action Reward",
+            #    prev_state, action, rew)
+            #if buffer.ptr >= buffer.max_size - 1:
+            #    file_count += 1
+            #    buffer.save('buffer_' + str(file_count))
             lock.release()
         return [file_count, buffer.ptr]
 
