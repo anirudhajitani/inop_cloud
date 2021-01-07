@@ -56,20 +56,9 @@ def run_rl_module_and_notify(fc, run, eval_run):
     global results
     global ov_run
     global ov
+    global start_loop
     global off_run
     global off
-    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(eval_run)
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
-    out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
-                           stdout=subprocess.PIPE,
-                           stderr=subprocess.STDOUT)
-    stdout, stderr = out.communicate()
-    if eval_run == 1:
-        if fc == 0:
-            return
-    if fc == 0:
-        return
-
     dest_path_str = container_name + ':/req_thres.npy'
     src_path_str = f'./{folder}/buffers/thresvec_{str(run)}_{env_name}_{str(fc)}.npy'
     out = subprocess.Popen(['docker', 'cp', src_path_str, dest_path_str],
@@ -78,6 +67,19 @@ def run_rl_module_and_notify(fc, run, eval_run):
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
+    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(eval_run)
+    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
+    out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
+                           stdout=subprocess.PIPE,
+                           stderr=subprocess.STDOUT)
+    stdout, stderr = out.communicate()
+    if run == 1 and eval_run == 1:
+        #Uncomment this, done this just for once
+        if fc == start_loop:
+            return
+    if fc == 0:
+        return
+
     q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=0'
     #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
@@ -94,7 +96,8 @@ def run_rl_module_and_notify(fc, run, eval_run):
     ov_run.append(int(op[2]))
     off_run.append(int(op[3]))
     #Perform median calculation (need to do 1 loop later)
-    if run == 5 and eval_run == 5:
+    #if run == 5 and eval_run == 5:
+    if run == 1 and eval_run == 1:
         avg_dis_rew = np.percentile(results_run, [25,50,75])
         avg_ov = np.percentile(ov_run, [25,50,75])
         avg_off = np.percentile(off_run, [25,50,75])
@@ -115,7 +118,8 @@ def process_event(lambd):
     while time.time() - start_time < 100:
         #interval = random.expovariate(0.1)
         interval = random.expovariate(lambd)
-        interval = min(interval, 30.0)
+        interval = min(interval, 20.0)
+        print("Interval ", interval)
         time.sleep(interval)
         fireEvent(start_time)
 
@@ -127,9 +131,11 @@ def main():
         lambd = pickle.load(fp)
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
+    start_loop = 0
     for l in range(start_loop, 1000):
         for run in range(1,6):
-            for eval_run in range(1,6):
+            for eval_run in range(1,2):
+                random.seed(eval_run)
                 print("STEP ", l, " TRAIN_RUN ", run, " EVAL_RUN ", eval_run)
                 run_rl_module_and_notify(l, run, eval_run)
                 jobs = []
@@ -140,7 +146,7 @@ def main():
                 for j in jobs:
                     j.start()
                 for j in jobs:
-                    j.join(timeout=20)
+                    j.join(timeout=40)
 
 
 if __name__ == "__main__":

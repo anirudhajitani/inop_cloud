@@ -125,10 +125,7 @@ def main():
         N = pickle.load(fp)
     for run in range(1,6):
         random.seed(run)
-        if run > 1:
-            start_loop = 0
-        else:
-            start_loop = 679
+        start_loop = 0
         for l in range(start_loop, 1000):
             print("RUN = ", run, " LOOP = ", l)
             jobs = []
@@ -140,7 +137,7 @@ def main():
             for j in jobs:
                 j.start()
             for j in jobs:
-                j.join(timeout=10)
+                j.join(timeout=20)
             print("LOOP ", l, " complete ")
 
 

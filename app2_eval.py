@@ -76,6 +76,8 @@ class Notify (Resource):
         gamma = 0.95
         dis_reward = 0.0
         reward_traj = list(buffer.reward)
+        reward_traj = [i for i in reward_traj if i != 0.0]
+        print(reward_traj)
         for r in reward_traj[::-1]:
             dis_reward = r + gamma * dis_reward
         buffer.ptr = 0
@@ -105,6 +107,7 @@ class Notify (Resource):
             print ("RUN : ", run)
             random.seed(run)
             lock.release()
+            self.load_req_thres()
             return
         self.load_req_thres()
         rew = self.calculate_reward()
@@ -123,7 +126,7 @@ class Notify (Resource):
         return [rew, ov, off]
 
 class Greeting (Resource):
-    def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
+    def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=15):
         self.overload = overload
         self.offload = offload
         self.reward = reward
@@ -165,22 +168,22 @@ class Greeting (Resource):
         if action == 1:
             rew -= self.offload
             offload_count += 1
-            print("Offload")
+            #print("Offload")
         if cpu_util < 3:
             if action == 1:
                 rew -= self.overload
-                print("Low util offload")
-        elif cpu_util >= 6 and cpu_util <= 17:
+                #print("Low util offload")
+        elif cpu_util >= 6 and cpu_util <= 15:
             rew += self.reward
-            print("Reward")
-        elif cpu_util >= 18:
+            #print("Reward")
+        elif cpu_util >= 16:
             rew -= self.overload
             overload_count += 1
-            print("Overload")
+            #print("Overload")
         if buffer == buff_size and action == 0:
             rew -= self.overload
             overload_count += 1
-            print("Buffer Full")
+            #print("Buffer Full")
         rew -= self.holding * \
             (buffer - self.c) if buffer - self.c > 0 else 0
         return rew
@@ -192,7 +195,7 @@ class Greeting (Resource):
         load = os.popen(
             "ps -u root -o %cpu,stat | grep -v 'Z' | awk '{cpu+=$1} END {print cpu}'").read()
         load = float(load)
-        print ("Load ", load, str1)
+        #print ("Load ", load, str1)
         return min(int(load/5), 20)
 
     def get(self):
@@ -224,7 +227,7 @@ class Greeting (Resource):
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.25)
+            t = random.expovariate(0.1)
             t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
@@ -271,10 +274,10 @@ buff_len = 0
 offload = 0
 load = 0
 run = 0
-batch_size = 1000
-replay_size = 1000
+batch_size = 10000
+replay_size = 10000
 state_dim = 2
-threshold_req = 17
+threshold_req = 15
 overload_count = 0
 offload_count = 0
 overload_vec = []

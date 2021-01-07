@@ -76,6 +76,8 @@ class Notify (Resource):
         gamma = 0.95
         dis_reward = 0.0
         reward_traj = list(buffer.reward)
+        reward_traj = [i for i in reward_traj if i != 0.0]
+        print(reward_traj)
         for r in reward_traj[::-1]:
             dis_reward = r + gamma * dis_reward
         buffer.ptr = 0
@@ -107,8 +109,9 @@ class Notify (Resource):
             print ("RUN : ", run)
             random.seed(run)
             lock.release()
+            #self.load_req_thres()
             return
-        self.load_req_thres()
+        #self.load_req_thres()
         rew = self.calculate_reward()
         #print("Reward disc : ", rew)
         #overload_vec.append(overload_count)
@@ -122,7 +125,7 @@ class Notify (Resource):
         overload_count = 0
         offload_count = 0
         lock.release()
-        print("Lock released notify reward calc")
+        #print("Lock released notify reward calc")
         return [rew, ov, off]
 
 class Greeting (Resource):
@@ -151,7 +154,7 @@ class Greeting (Resource):
         return np.random.binomial(n=1, p=prob, size=1)
 
     def select_action(self, cpu_util, buffer, eval_=False, debug=0):
-        if cpu_util >= 18:
+        if cpu_util >= 16:
             action = 1
         else:
             action = 0
@@ -173,10 +176,10 @@ class Greeting (Resource):
             if action == 1:
                 rew -= self.overload
                 #print("Low util offload")
-        elif cpu_util >= 6 and cpu_util <= 17:
+        elif cpu_util >= 6 and cpu_util <= 15:
             rew += self.reward
             #print("Reward")
-        elif cpu_util >= 18:
+        elif cpu_util >= 16:
             rew -= self.overload
             overload_count += 1
             #print("Overload")
@@ -209,7 +212,7 @@ class Greeting (Resource):
         global run
         # Might need lock here
         count = request.args.get('count')
-        print ("Main fn 1 lock status ", lock.locked())
+        #print ("Main fn 1 lock status ", lock.locked())
         lock.acquire()
         load = self.get_load("new arrival")
         prev_state = [buff_len, load]
@@ -224,11 +227,11 @@ class Greeting (Resource):
         #    file_count += 1
         #    buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
-        print("Main fn 1 lock released")
+        #print("Main fn 1 lock released")
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.25)
+            t = random.expovariate(0.1)
             t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
@@ -238,7 +241,7 @@ class Greeting (Resource):
                 #print("Sleep ", t)
                 time.sleep(t)
                 #p.terminate()
-            print("Main fn action 0 lock status ", lock.locked())
+            #print("Main fn action 0 lock status ", lock.locked())
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
@@ -251,13 +254,13 @@ class Greeting (Resource):
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))
             lock.release()
-            print("Lock released Main fn action 0")
+            #print("Lock released Main fn action 0")
         else:
             count = request.args.get('count')
             #print ("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
             # lock.acquire()
-            print("Main fn action 1 lock status ", lock.locked())
+            #print("Main fn action 1 lock status ", lock.locked())
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
@@ -269,7 +272,7 @@ class Greeting (Resource):
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))
             lock.release()
-            print("Lock released Main fn action 0")
+            #print("Lock released Main fn action 0")
         return [file_count, buffer.ptr]
 
 
@@ -279,8 +282,8 @@ buff_len = 0
 offload = 0
 load = 0
 run = 0
-batch_size = 1000
-replay_size = 1000
+batch_size = 10000
+replay_size = 10000
 state_dim = 2
 threshold_req = 17
 overload_count = 0

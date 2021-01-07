@@ -395,7 +395,8 @@ if __name__ == "__main__":
     #callback = SaveOnBestTrainingRewardCallback(check_freq=10, log_dir=log_dir)
     loop_range = int(args.train_iter / args.eval_freq)
     replay_buffer = utils.ReplayBuffer(
-        state_dim, is_atari, atari_preprocessing, args.eval_freq, args.eval_freq, 'cpu')
+        #state_dim, is_atari, atari_preprocessing, args.eval_freq, args.eval_freq, 'cpu')
+        state_dim, is_atari, atari_preprocessing, 10000, 10000, 'cpu')
     replay_buffer.load(args.folder, args.replay_buffer)
     if args.algo == 3:
         model = structured_learning.structured_learning(
