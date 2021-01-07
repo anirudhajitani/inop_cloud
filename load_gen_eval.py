@@ -134,7 +134,7 @@ def main():
     start_loop = 0
     for l in range(start_loop, 1000):
         for run in range(1,6):
-            for eval_run in range(1,2):
+            for eval_run in range(1,6):
                 random.seed(eval_run)
                 print("STEP ", l, " TRAIN_RUN ", run, " EVAL_RUN ", eval_run)
                 run_rl_module_and_notify(l, run, eval_run)
