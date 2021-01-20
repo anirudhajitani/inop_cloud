@@ -112,8 +112,13 @@ def process_event(lambd):
     start_time = time.time()
     while time.time() - start_time < 100:
         #interval = random.expovariate(0.1)
+        if lambd == 0.5:
+            lambd = 0.25
+        elif lambd == 0.75:
+            lambd = 0.375
         interval = random.expovariate(lambd)
         interval = min(interval, 20.0)
+        print("Interval = ", interval, lambd)
         time.sleep(interval)
         fireEvent(start_time)
 

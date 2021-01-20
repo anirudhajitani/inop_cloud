@@ -73,11 +73,12 @@ class Notify (Resource):
     def calculate_reward(self):
         global buffer
         global lock
-        gamma = 0.95
+        gamma = 0.999
         dis_reward = 0.0
         reward_traj = list(buffer.reward)
         reward_traj = [i for i in reward_traj if i != 0.0]
         print(reward_traj)
+        print(len(reward_traj))
         for r in reward_traj[::-1]:
             dis_reward = r + gamma * dis_reward
         buffer.ptr = 0
@@ -129,7 +130,7 @@ class Notify (Resource):
         return [rew, ov, off]
 
 class Greeting (Resource):
-    def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
+    def __init__(self, overload=30.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
         self.overload = overload
         self.offload = offload
         self.reward = reward
@@ -154,7 +155,7 @@ class Greeting (Resource):
         return np.random.binomial(n=1, p=prob, size=1)
 
     def select_action(self, cpu_util, buffer, eval_=False, debug=0):
-        if cpu_util >= 16:
+        if cpu_util >= 12:
             action = 1
         else:
             action = 0
@@ -176,10 +177,10 @@ class Greeting (Resource):
             if action == 1:
                 rew -= self.overload
                 #print("Low util offload")
-        elif cpu_util >= 6 and cpu_util <= 15:
+        elif cpu_util >= 6 and cpu_util <= 17:
             rew += self.reward
             #print("Reward")
-        elif cpu_util >= 16:
+        elif cpu_util >= 18:
             rew -= self.overload
             overload_count += 1
             #print("Overload")
@@ -220,19 +221,19 @@ class Greeting (Resource):
         if action == 0:
             buff_len = min(buff_len + 1, 20)
         rew = self.get_reward(load, buff_len, action)
-        #print("ARRIVAL State, Action Reward",
-        #        prev_state, action, rew)
+        print("ARRIVAL State, Action Reward",
+                prev_state, action, rew)
         buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
         #if buffer.ptr == buffer.max_size - 1:
         #    file_count += 1
         #    buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
         #print("Main fn 1 lock released")
+        t = random.expovariate(0.13)
+        t = min(t, 20.0)
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.1)
-            t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
                 #cpu_l = 4 * buff_len
@@ -248,8 +249,8 @@ class Greeting (Resource):
             rew = self.get_reward(load, buff_len, action)
             buff_len = max(buff_len - 1, 0)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            #print("DEPT State, Action Reward",
-            #    prev_state, action, rew)
+            print("DEPT State, Action Reward",
+                prev_state, action, rew)
             #if buffer.ptr >= buffer.max_size - 1:
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))
@@ -259,6 +260,7 @@ class Greeting (Resource):
             count = request.args.get('count')
             #print ("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
+            # time.sleep(t)
             # lock.acquire()
             #print("Main fn action 1 lock status ", lock.locked())
             lock.acquire()
@@ -266,8 +268,8 @@ class Greeting (Resource):
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            #print("DEPT State, Action Reward",
-            #    prev_state, action, rew)
+            print("DEPT State, Action Reward",
+                prev_state, action, rew)
             #if buffer.ptr >= buffer.max_size - 1:
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))

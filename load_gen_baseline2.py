@@ -107,18 +107,16 @@ def run_rl_module_and_notify(fc, run, eval_run):
         np.save(off_path, off)
     print("Notiff ended")
 
-def process_event(lambd):
+def process_event(lambd, k):
     start_time = time.time()
     lambd_high = [0.75, 1,5, 2.0, 5.0, 10.0]
     while time.time() - start_time < 100:
         #interval = random.expovariate(0.1)
-        if lambd == 0.5:
-            lambd = 0.25
-        elif lambd == 0.75:
-            lambd = 0.375
+        if lambd == 0.75:
+            lambd = lambd_high[k]
         interval = random.expovariate(lambd)
         interval = min(interval, 20.0)
-        print ("Interval ", interval, lambd)
+        print ("Interval ", interval)
         time.sleep(interval)
         fireEvent(start_time)
 
@@ -131,22 +129,23 @@ def main():
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
     start_loop = 665
-    for l in range(start_loop, 676):
-        for run in range(5,6):
-            for eval_run in range(1,6):
-                print("Loop = ", l, " RUN = ", " EVAL RUN = ", eval_run)
-                random.seed(eval_run)
-                run_rl_module_and_notify(l, run, eval_run)
-                jobs = []
-                for i in range(N[l]):
-                    print (lambd[l][i]/2.0)
-                    t = th.Thread(target=process_event, args=(lambd[l][i],))
-                    jobs.append(t)
-                for j in jobs:
-                    j.start()
-                for j in jobs:
-                    j.join(timeout=40)
-                print("Loop = ", l, " ended")
+    for l in range(start_loop, 675):
+        for k in range(5):
+            for run in range(5,6):
+                for eval_run in range(1,6):
+                    print("Loop = ", l, " RUN = ", " EVAL RUN = ", eval_run)
+                    random.seed(eval_run)
+                    run_rl_module_and_notify(l, run, eval_run)
+                    jobs = []
+                    for i in range(N[l]):
+                        print (lambd[l][i])
+                        t = th.Thread(target=process_event, args=(lambd[l][i], k,))
+                        jobs.append(t)
+                    for j in jobs:
+                        j.start()
+                    for j in jobs:
+                        j.join(timeout=40)
+                    print("Loop = ", l, " ended")
 
 
 if __name__ == "__main__":

@@ -112,7 +112,7 @@ class Notify (Resource):
             print("Released Lock notify ")
 
 class Greeting (Resource):
-    def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=15):
+    def __init__(self, overload=30.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
         self.overload = overload
         self.offload = offload
         self.reward = reward
@@ -159,10 +159,10 @@ class Greeting (Resource):
             if action == 1:
                 rew -= self.overload
                 #print("Low util offload")
-        elif cpu_util >= 6 and cpu_util <= 15:
+        elif cpu_util >= 6 and cpu_util <= 17:
             rew += self.reward
             #print("Reward")
-        elif cpu_util >= 16:
+        elif cpu_util >= 18:
             rew -= self.overload
             overload_count += 1
             #print("Overload")
@@ -215,7 +215,7 @@ class Greeting (Resource):
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.1)
+            t = random.expovariate(0.13)
             t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
@@ -269,7 +269,7 @@ run = 0
 batch_size = 10000
 replay_size = 10000
 state_dim = 2
-threshold_req = 15
+threshold_req = 17
 overload_count = 0
 offload_count = 0
 overload_vec = []

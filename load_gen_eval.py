@@ -97,29 +97,34 @@ def run_rl_module_and_notify(fc, run, eval_run):
     off_run.append(int(op[3]))
     #Perform median calculation (need to do 1 loop later)
     #if run == 5 and eval_run == 5:
-    if run == 1 and eval_run == 1:
-        avg_dis_rew = np.percentile(results_run, [25,50,75])
-        avg_ov = np.percentile(ov_run, [25,50,75])
-        avg_off = np.percentile(off_run, [25,50,75])
-        print ("AVG DIS REWARD : ", avg_dis_rew)
-        print ("OV OC : ", avg_ov, avg_off)
-        results_run = []
-        ov_run = []
-        off_run = []
-        results.append(avg_dis_rew)
-        ov.append(avg_ov)
-        off.append(avg_off)
+    #if run == 1 and eval_run == 1:
+    if  eval_run == 1:
+        #avg_dis_rew = np.percentile(results_run, [25,50,75])
+        #avg_ov = np.percentile(ov_run, [25,50,75])
+        #avg_off = np.percentile(off_run, [25,50,75])
+        print ("AVG DIS REWARD : ", results_run)
+        print ("OV OC : ", ov_run, off_run)
+        results.append(results_run)
+        ov.append(ov_run)
+        off.append(off_run)
         np.save(res_path, results)
         np.save(ov_path, ov)
         np.save(off_path, off)
+        results_run = []
+        ov_run = []
+        off_run = []
 
 def process_event(lambd):
     start_time = time.time()
     while time.time() - start_time < 100:
         #interval = random.expovariate(0.1)
+        if lambd == 0.5:
+            lambd = 0.25
+        elif lambd == 0.75:
+            lambd = 0.375
         interval = random.expovariate(lambd)
         interval = min(interval, 20.0)
-        print("Interval ", interval)
+        print("Interval ", interval, lambd)
         time.sleep(interval)
         fireEvent(start_time)
 
@@ -131,9 +136,9 @@ def main():
         lambd = pickle.load(fp)
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
-    start_loop = 0
+    start_loop = 600
     for l in range(start_loop, 1000):
-        for run in range(1,6):
+        for run in range(1,2):
             for eval_run in range(1,6):
                 random.seed(eval_run)
                 print("STEP ", l, " TRAIN_RUN ", run, " EVAL_RUN ", eval_run)

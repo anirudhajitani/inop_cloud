@@ -62,7 +62,7 @@ class structured_learning(object):
             state_dim,
             device,
             BCQ_threshold=0.3,
-            discount=0.95,
+            discount=0.999,
             optimizer="Adam",
             optimizer_parameters={},
             polyak_target_update=False,

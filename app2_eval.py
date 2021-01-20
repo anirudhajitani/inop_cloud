@@ -73,7 +73,7 @@ class Notify (Resource):
     def calculate_reward(self):
         global buffer
         global lock
-        gamma = 0.95
+        gamma = 0.999
         dis_reward = 0.0
         reward_traj = list(buffer.reward)
         reward_traj = [i for i in reward_traj if i != 0.0]
@@ -126,7 +126,7 @@ class Notify (Resource):
         return [rew, ov, off]
 
 class Greeting (Resource):
-    def __init__(self, overload=10.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=15):
+    def __init__(self, overload=30.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
         self.overload = overload
         self.offload = offload
         self.reward = reward
@@ -173,10 +173,10 @@ class Greeting (Resource):
             if action == 1:
                 rew -= self.overload
                 #print("Low util offload")
-        elif cpu_util >= 6 and cpu_util <= 15:
+        elif cpu_util >= 6 and cpu_util <= 17:
             rew += self.reward
             #print("Reward")
-        elif cpu_util >= 16:
+        elif cpu_util >= 18:
             rew -= self.overload
             overload_count += 1
             #print("Overload")
@@ -224,11 +224,11 @@ class Greeting (Resource):
         #    file_count += 1
         #    buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
+        t = random.expovariate(0.13)
+        t = min(t, 20.0)
         if action == 0:
             # Perform task
             #count = int(count)
-            t = random.expovariate(0.1)
-            t = min(t, 20.0)
             #t = random.randrange(10000, 60000)
             for i in range(1):
                 #cpu_l = 4 * buff_len
@@ -253,6 +253,7 @@ class Greeting (Resource):
             count = request.args.get('count')
             print ("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
+            #time.sleep(t)
             # lock.acquire()
             lock.acquire()
             prev_state = [buff_len, load]
@@ -277,7 +278,7 @@ run = 0
 batch_size = 10000
 replay_size = 10000
 state_dim = 2
-threshold_req = 15
+threshold_req = 17
 overload_count = 0
 offload_count = 0
 overload_vec = []

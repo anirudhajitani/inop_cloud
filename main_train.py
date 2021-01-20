@@ -282,7 +282,7 @@ if __name__ == "__main__":
         "eval_freq": 1e4,
         "eval_eps": 0,
         # Learning
-        "discount": 0.95,
+        "discount": 0.999,
         "buffer_size": 1e6,
         "batch_size": 1000,
         "optimizer": "Adam",
