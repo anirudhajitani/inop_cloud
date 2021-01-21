@@ -36,20 +36,22 @@ except:
     results = []
     start_loop = 0
 
+
 def fireEvent(start_time):
     global fc
     x = randrange(0, 1)
-    print (x, time.time() - start_time)
+    print(x, time.time() - start_time)
     q_str = 'http://' + ip_address + ':' + port + '?' + 'count=' + str(x)
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-o', '/dev/null', '-s', q_str],
+                           # out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
+                           # out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-o', '/dev/null', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
     # Get new FC from stdout
+
 
 def run_rl_module_and_notify(fc, run, eval_run):
     global results_run
@@ -67,21 +69,22 @@ def run_rl_module_and_notify(fc, run, eval_run):
     stdout, stderr = out.communicate()
     print(stdout)
     print(stderr)
-    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(eval_run)
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
+    q_str = 'http://' + ip_address + ':' + port + \
+        '/notify?' + 'offload=' + str(eval_run)
+    # out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
     stdout, stderr = out.communicate()
     if run == 1 and eval_run == 1:
-        #Uncomment this, done this just for once
+        # Uncomment this, done this just for once
         if fc == start_loop:
             return
     if fc == 0:
         return
 
     q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=0'
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
+    # out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
@@ -95,15 +98,15 @@ def run_rl_module_and_notify(fc, run, eval_run):
     results_run.append(float(op[1]))
     ov_run.append(int(op[2]))
     off_run.append(int(op[3]))
-    #Perform median calculation (need to do 1 loop later)
-    #if run == 5 and eval_run == 5:
-    #if run == 1 and eval_run == 1:
-    if  eval_run == 1:
+    # Perform median calculation (need to do 1 loop later)
+    # if run == 5 and eval_run == 5:
+    # if run == 1 and eval_run == 1:
+    if eval_run == 1:
         #avg_dis_rew = np.percentile(results_run, [25,50,75])
         #avg_ov = np.percentile(ov_run, [25,50,75])
         #avg_off = np.percentile(off_run, [25,50,75])
-        print ("AVG DIS REWARD : ", results_run)
-        print ("OV OC : ", ov_run, off_run)
+        print("AVG DIS REWARD : ", results_run)
+        print("OV OC : ", ov_run, off_run)
         results.append(results_run)
         ov.append(ov_run)
         off.append(off_run)
@@ -113,6 +116,7 @@ def run_rl_module_and_notify(fc, run, eval_run):
         results_run = []
         ov_run = []
         off_run = []
+
 
 def process_event(lambd):
     start_time = time.time()
@@ -138,15 +142,16 @@ def main():
         N = pickle.load(fp)
     start_loop = 600
     for l in range(start_loop, 1000):
-        for run in range(1,2):
-            for eval_run in range(1,6):
+        for run in range(1, 2):
+            for eval_run in range(1, 6):
                 random.seed(eval_run)
                 print("STEP ", l, " TRAIN_RUN ", run, " EVAL_RUN ", eval_run)
                 run_rl_module_and_notify(l, run, eval_run)
                 jobs = []
                 for i in range(N[l]):
-                    print (lambd[l][i])
-                    t = th.Thread(target=process_event, args=(lambd[l][i],))
+                    x = lambd[l][i] / 2.0
+                    print(x)
+                    t = th.Thread(target=process_event, args=(x,))
                     jobs.append(t)
                 for j in jobs:
                     j.start()

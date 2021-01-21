@@ -74,8 +74,8 @@ class structured_learning(object):
             eval_eps=0.001,
             threshold_cpu=17,
             threshold_req=17,
-            step_size_slow=0.002,
-            step_size_fast=0.03,
+            step_size_slow=0.006,
+            step_size_fast=0.06,
             fixed_state=175,
             T=2,
     ):

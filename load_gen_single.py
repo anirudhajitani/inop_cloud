@@ -20,7 +20,7 @@ env_name = sys.argv[2]
 
 def fireEvent(fc):
     x = randrange(0, 1)
-    print (x, time.time() - start_time)
+    print(x, time.time() - start_time)
     q_str = 'http://' + ip_address + ':' + port + '?' + 'count=' + str(x)
     out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
                            # out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-o', '/dev/null', '-s', q_str],

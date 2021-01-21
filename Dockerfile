@@ -1,5 +1,5 @@
 FROM python:3
-ADD app2_baseline.py /
+ADD app2.py /
 ADD install-lookbusy.sh /
 ADD try.sh /
 RUN pip install flask
@@ -20,4 +20,4 @@ RUN apt-get update \
 RUN apt-get update \
   && apt-get install cpulimit 
 EXPOSE 3333
-CMD [ "python", "-u", "./app2_baseline.py"]
+CMD [ "python", "-u", "./app2.py"]

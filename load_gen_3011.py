@@ -19,11 +19,11 @@ fc = 0
 def fireEvent(start_time):
     global fc
     x = randrange(0, 1)
-    print (x, time.time() - start_time)
+    print(x, time.time() - start_time)
     q_str = 'http://' + ip_address + ':' + port + '?' + 'count=' + str(x)
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-o', '/dev/null', '-s', q_str],
+                           # out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-w', '@curlformat', '-s', q_str],
+                           # out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-o', '/dev/null', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
     stdout, stderr = out.communicate()
@@ -41,8 +41,9 @@ def fireEvent(start_time):
 
 
 def run_rl_module_and_notify(fc):
-    q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=' + str(fc)
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
+    q_str = 'http://' + ip_address + ':' + \
+        port + '/notify?' + 'offload=' + str(fc)
+    # out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
@@ -76,7 +77,7 @@ def run_rl_module_and_notify(fc):
     print(stdout)
     print(stderr)
     q_str = 'http://' + ip_address + ':' + port + '/notify?' + 'offload=0'
-    #out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
+    # out = subprocess.Popen(['docker', 'run', '--rm', 'curl_client', '-w', '@curlformat', '-s', q_str],
     out = subprocess.Popen(['docker', 'run', '--rm', 'byrnedo/alpine-curl', '-s', q_str],
                            stdout=subprocess.PIPE,
                            stderr=subprocess.STDOUT)
@@ -105,7 +106,7 @@ def main():
         if l > 0:
             run_rl_module_and_notify(l)
         for i in range(N[l]):
-            print (lambd[l][i])
+            print(lambd[l][i])
             t = th.Thread(target=process_event, args=(lambd[l][i],))
             jobs.append(t)
         for j in jobs:

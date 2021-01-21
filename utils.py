@@ -1,4 +1,4 @@
-import cv2
+#import cv2
 import gym
 import numpy as np
 import torch
@@ -287,11 +287,13 @@ class AtariPreprocessing(object):
         )
 
         # Resize
+	"""
         image = cv2.resize(
             self.frame_buffer[0],
             (self.frame_size, self.frame_size),
             interpolation=cv2.INTER_AREA
         )
+	"""
         return np.array(image, dtype=np.uint8)
 
     def seed(self, seed):
