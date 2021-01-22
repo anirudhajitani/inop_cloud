@@ -122,10 +122,6 @@ def process_event(lambd):
     start_time = time.time()
     while time.time() - start_time < 100:
         #interval = random.expovariate(0.1)
-        if lambd == 0.5:
-            lambd = 0.25
-        elif lambd == 0.75:
-            lambd = 0.375
         interval = random.expovariate(lambd)
         interval = min(interval, 20.0)
         print("Interval ", interval, lambd)
@@ -140,7 +136,7 @@ def main():
         lambd = pickle.load(fp)
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
-    start_loop = 600
+    start_loop = 0
     for l in range(start_loop, 1000):
         for run in range(1, 2):
             for eval_run in range(1, 6):

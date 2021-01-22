@@ -130,8 +130,8 @@ def main():
         lambd = pickle.load(fp)
     with open(f"./{folder}/buffers/N.npy", "rb") as fp:
         N = pickle.load(fp)
-    start_loop = 665
-    for l in range(start_loop, 676):
+    start_loop = 0
+    for l in range(start_loop, 1000):
         for run in range(5, 6):
             for eval_run in range(1, 6):
                 print("Loop = ", l, " RUN = ", " EVAL RUN = ", eval_run)

@@ -155,7 +155,7 @@ class Greeting (Resource):
         return np.random.binomial(n=1, p=prob, size=1)
 
     def select_action(self, cpu_util, buffer, eval_=False, debug=0):
-        if cpu_util >= 12:
+        if cpu_util >= 18:
             action = 1
         else:
             action = 0
