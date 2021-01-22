@@ -156,7 +156,8 @@ def train_salmut_reset(env, policy, steps, args):
         if done:
             training_eval.append(avg_reward)
             avg_reward = 0.0
-            np.save(f"./{args.folder}/results/salmut_train_{setting}", training_eval)
+            np.save(
+                f"./{args.folder}/results/salmut_train_{setting}", training_eval)
         policy.train(prev_state, action, reward, state,
                      args.eval_freq, args.env_name, args.folder)
 
@@ -179,7 +180,8 @@ def train_salmut(env, policy, steps, args, state, j):
         if done:
             training_eval.append(avg_reward)
             avg_reward = 0.0
-            np.save(f"./{args.folder}/results/salmut_train_{setting}", training_eval)
+            np.save(
+                f"./{args.folder}/results/salmut_train_{setting}", training_eval)
         policy.train(prev_state, action, reward, state,
                      args.eval_freq, args.env_name, args.folder, j)
     return state
@@ -370,8 +372,8 @@ if __name__ == "__main__":
 
     if not os.path.exists(args.logdir):
         os.makedirs(args.logdir)
-    print ("Lambda Evolve ", args.lambd_evolve, " User Identical ",
-           args.user_identical, " User evolve ", args.user_evolve)
+    print("Lambda Evolve ", args.lambd_evolve, " User Identical ",
+          args.user_identical, " User evolve ", args.user_evolve)
     # Make env and determine properties
     # env, is_atari, state_dim, num_actions = utils.make_env(
     #    args.env, atari_preprocessing)
@@ -395,7 +397,7 @@ if __name__ == "__main__":
     #callback = SaveOnBestTrainingRewardCallback(check_freq=10, log_dir=log_dir)
     loop_range = int(args.train_iter / args.eval_freq)
     replay_buffer = utils.ReplayBuffer(
-        #state_dim, is_atari, atari_preprocessing, args.eval_freq, args.eval_freq, 'cpu')
+        # state_dim, is_atari, atari_preprocessing, args.eval_freq, args.eval_freq, 'cpu')
         state_dim, is_atari, atari_preprocessing, 10000, 10000, 'cpu')
     replay_buffer.load(args.folder, args.replay_buffer)
     if args.algo == 3:
@@ -403,16 +405,19 @@ if __name__ == "__main__":
             False, num_actions, state_dim, device, args.BCQ_threshold)
         if int(args.fc) - 1 > 0:
             run = int(args.run)
-            thres_vec = np.load(f"./{args.folder}/buffers/thresvec_{run}_{env_name}_{int(args.fc) - 1}.npy")
-            val_fn = np.load(f"./{args.folder}/buffers/val_fn_{run}_{env_name}_{int(args.fc) - 1}.npy")
-            state_counts = np.load(f"./{args.folder}/buffers/state_counts_{run}_{env_name}_{int(args.fc) - 1}.npy")
+            thres_vec = np.load(
+                f"./{args.folder}/buffers/thresvec_{run}_{env_name}_{int(args.fc) - 1}.npy")
+            val_fn = np.load(
+                f"./{args.folder}/buffers/val_fn_{run}_{env_name}_{int(args.fc) - 1}.npy")
+            state_counts = np.load(
+                f"./{args.folder}/buffers/state_counts_{run}_{env_name}_{int(args.fc) - 1}.npy")
             #print("Threshold vector present ", thres_vec, int(args.fc) - 1)
-            model.set_threshold_vec(thres_vec[0], val_fn, state_counts)
+            model.set_threshold_vec(thres_vec, val_fn, state_counts)
         model.train(replay_buffer, env_name, args.folder,
                     int(args.fc), int(args.run), args.eval_freq)
     exit(1)
     for j in range(0, 10):
-        print ("RANDOM SEED ", j)
+        print("RANDOM SEED ", j)
         lambd = []
         N = []
         env = OffloadEnv(False, args.lambd, args.offload_cost,
@@ -440,7 +445,7 @@ if __name__ == "__main__":
                 False, num_actions, state_dim, device, args.BCQ_threshold)
         state = env.reset()
         for i in range(loop_range):
-            print ("TRAIN ", i)
+            print("TRAIN ", i)
             if args.algo == 4:
                 if i > 0 and args.user_evolve == True and i % 100 == 0:
                     old_N = env.get_N()
@@ -457,7 +462,7 @@ if __name__ == "__main__":
                                 new_N -= 1
                                 del new_lambd[-1]
                     env.set_N(new_N, new_lambd)
-                    print ("USER EVOLVE ", env.get_N(), env.get_lambd())
+                    print("USER EVOLVE ", env.get_N(), env.get_lambd())
                 if i > 0 and args.lambd_evolve == True and i % 10 == 0:
                     curr_N = env.get_N()
                     if args.user_identical == False:
@@ -470,13 +475,13 @@ if __name__ == "__main__":
                                 new_lambd.append(args.lambd_high)
                         env.set_lambd(new_lambd)
                     else:
-                        print (i, loop_range/3, loop_range/3 * 2)
+                        print(i, loop_range/3, loop_range/3 * 2)
                         if i > (loop_range/3) and i < (loop_range/3 * 2):
                             new_lambd = [args.lambd_high] * curr_N
                         else:
                             new_lambd = [args.lambd] * curr_N
                         env.set_lambd(new_lambd)
-                    print ("LAMBDA EVOLVE ", env.get_lambd())
+                    print("LAMBDA EVOLVE ", env.get_lambd())
                 lambd.append(env.get_lambd())
                 N.append(env.get_N())
                 #print (env.get_lambd(), env.get_N())
@@ -522,7 +527,7 @@ if __name__ == "__main__":
 
     #cpu_util = []
     #action_list = []
-    print ("END TIME ", end_time)
+    print("END TIME ", end_time)
     """
     # Initialize buffer
     replay_buffer = utils.ReplayBuffer(

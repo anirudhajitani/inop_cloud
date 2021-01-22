@@ -49,7 +49,8 @@ class ReplayBuffer(object):
     def save(self, save_folder):
         np.save(f"{save_folder}_state.npy", self.state[:self.crt_size])
         np.save(f"{save_folder}_action.npy", self.action[:self.crt_size])
-        np.save(f"{save_folder}_next_state.npy", self.next_state[:self.crt_size])
+        np.save(f"{save_folder}_next_state.npy",
+                self.next_state[:self.crt_size])
         np.save(f"{save_folder}_reward.npy", self.reward[:self.crt_size])
         np.save(f"{save_folder}_not_done.npy", self.not_done[:self.crt_size])
         np.save(f"{save_folder}_ptr.npy", self.ptr)
@@ -61,9 +62,12 @@ class ReplayBuffer(object):
         size = min(int(size), self.max_size) if size > 0 else self.max_size
         self.crt_size = min(reward_buffer.shape[0], size)
 
-        self.state[:self.crt_size] = np.load(f"{save_folder}_state.npy")[:self.crt_size]
-        self.action[:self.crt_size] = np.load(f"{save_folder}_action.npy")[:self.crt_size]
-        self.next_state[:self.crt_size] = np.load(f"{save_folder}_next_state.npy")[:self.crt_size]
+        self.state[:self.crt_size] = np.load(
+            f"{save_folder}_state.npy")[:self.crt_size]
+        self.action[:self.crt_size] = np.load(
+            f"{save_folder}_action.npy")[:self.crt_size]
+        self.next_state[:self.crt_size] = np.load(
+            f"{save_folder}_next_state.npy")[:self.crt_size]
 
 
 class Notify (Resource):
@@ -72,7 +76,7 @@ class Notify (Resource):
         if os.path.exists("./req_thres.npy"):
             req_thres = np.load("./req_thres.npy")
             req_thres = req_thres[0]
-            print ("New Policy Request threshold : ", req_thres)
+            print("New Policy Request threshold : ", req_thres)
 
     def get(self):
         print("Notification of overload")
@@ -111,7 +115,7 @@ class Greeting (Resource):
         else:
             action = np.random.randint(self.num_actions)
         if debug:
-            print ("ACTION : ", action)
+            print("ACTION : ", action)
         return action
 
     def get_reward(self, cpu_util, buffer, action, debug=1):
@@ -177,7 +181,7 @@ class Greeting (Resource):
                 buffer.save('buffer_' + str(file_count))
         else:
             count = request.args.get('count')
-            print ("Offloaded Request")
+            print("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
             #load = [x / psutil.cpu_count() * 100 for x in psutil.getloadavg()]
             #load = int(load[0]/5)

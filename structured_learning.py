@@ -130,15 +130,15 @@ class structured_learning(object):
         self.beta_1 = 0.9
         self.beta_2 = 0.99
 
-        print ("SLOW LR, FAST LR, FIXED STATE ", self.step_size_slow,
-               self.step_size_fast, self.fixed_state)
+        print("SLOW LR, FAST LR, FIXED STATE ", self.step_size_slow,
+              self.step_size_fast, self.fixed_state)
 
     def set_threshold_vec(self, thres, val_fn, state_counts):
         self.req_thres = thres
         self.val_fn = val_fn
         self.state_counts = state_counts
-        print ("Thres vec : ", self.req_thres)
-        print ("Val fn : ", self.val_fn)
+        print("Thres vec : ", self.req_thres)
+        print("Val fn : ", self.val_fn)
 
     def encode(self, state):
         # return (state[0] * 11) + (state[1]) + (state[2] * 220)
@@ -204,7 +204,7 @@ class structured_learning(object):
             action = np.random.randint(self.num_actions)
         self.state_counts[en_state, action] += 1
         if debug:
-            print ("ACTION : ", action)
+            print("ACTION : ", action)
         return action
 
     """
@@ -255,7 +255,7 @@ class structured_learning(object):
         """
 	If file present, load threshold vectors
 	"""
-        for i in range(len(actions)):
+        for i in range(replay_buffer.ptr):
             en_state = int(self.encode(states[i]))
             en_next_state = int(self.encode(next_states[i]))
             state = states[i]
@@ -269,6 +269,7 @@ class structured_learning(object):
             reward = rewards[i]
             T = 0.5
             debug = 0
+            self.state_counts[en_state, action] += 1
             #print ("ACTION", action)
             self.iterations += 1
             if debug:
@@ -313,23 +314,25 @@ class structured_learning(object):
             self.req_thres[int(state[0])] = min(max(self.adam_lr(self.req_thres[int(
                 state[0])], g, self.step_size_slow, self.state_counts[en_state, action]), 0.0), 20.0)
             if debug:
-                print ("Thres after ", self.req_thres[int(
+                print("Thres after ", self.req_thres[int(
                     state[0])], " Action ", action, " g = ", g)
             #print("Thres after : ", state[1], self.req_thres[int(state[1])])
             # Projection operation
             self.projection(int(state[0]))
 
             # self.maybe_update_target()
-            if self.iterations % eval_freq == 0:
-                print("CPU thres", self.req_thres)
-                self.thres_vec.append(list(self.req_thres))
-                #print("CPU thres vec", self.thres_vec)
-                # print(f"./{folder}/buffers/{env_name}_thresvec_{j}.npy")
-                np.save(f"./{folder}/buffers/thresvec_{run}_{env_name}_{j}.npy", self.thres_vec)
-                np.save(f"./{folder}/buffers/val_fn_{run}_{env_name}_{j}.npy", self.val_fn)
-                np.save(f"./{folder}/buffers/state_counts_{run}_{env_name}_{j}.npy", self.state_counts)
-                #print("VAL", self.val_fn)
-                #print("State counts :", self.state_counts)
+        print("CPU thres", self.req_thres)
+        self.thres_vec.append(list(self.req_thres))
+        #print("CPU thres vec", self.thres_vec)
+        # print(f"./{folder}/buffers/{env_name}_thresvec_{j}.npy")
+        np.save(
+            f"./{folder}/buffers/thresvec_{run}_{env_name}_{j}.npy", self.req_thres)
+        np.save(
+            f"./{folder}/buffers/val_fn_{run}_{env_name}_{j}.npy", self.val_fn)
+        np.save(
+            f"./{folder}/buffers/state_counts_{run}_{env_name}_{j}.npy", self.state_counts)
+        #print("VAL", self.val_fn)
+        #print("State counts :", self.state_counts)
 
     def polyak_target_update(self):
         for param, target_param in zip(self.Q.parameters(), self.Q_target.parameters()):

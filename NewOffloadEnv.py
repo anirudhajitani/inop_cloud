@@ -185,15 +185,17 @@ class OffloadEnv(gym.Env):
                         self.overload_run, [25, 50, 75]))
                     self.med_offload.append(np.percentile(
                         self.offload_run, [25, 50, 75]))
-                    print ("Overload, Offload", np.percentile(self.overload_run, [25, 50, 75]),
-                           np.percentile(self.offload_run, [25, 50, 75]))
+                    print("Overload, Offload", np.percentile(self.overload_run, [25, 50, 75]),
+                          np.percentile(self.offload_run, [25, 50, 75]))
                     #print ("SAVING OVERLOAD COUNT")
                     self.overload_run = []
                     self.offload_run = []
                     if self.start_loop != self.end_loop:
-                        np.save(f"./{self.folder}/results/overload_med_{self.start_loop}_{self.end_loop}_{self.env_name}.npy", self.med_overload)
+                        np.save(
+                            f"./{self.folder}/results/overload_med_{self.start_loop}_{self.end_loop}_{self.env_name}.npy", self.med_overload)
                         # np.save(f"./{self.folder}/results/overload_std_{self.env_name}.npy", self.std_overload)
-                        np.save(f"./{self.folder}/results/offload_med_{self.start_loop}_{self.end_loop}_{self.env_name}.npy", self.med_offload)
+                        np.save(
+                            f"./{self.folder}/results/offload_med_{self.start_loop}_{self.end_loop}_{self.env_name}.npy", self.med_offload)
                         # np.save(f"./{self.folder}/results/offload_std_{self.env_name}.npy", self.std_offload)
             np.random.seed(int(self.seed_count))
             random.seed(int(self.seed_count))

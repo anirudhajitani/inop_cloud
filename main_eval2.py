@@ -396,12 +396,12 @@ if __name__ == "__main__":
         N = pickle.load(fp)
     start_loop = args.start_iter
     end_loop = args.start_iter + args.step
-    print ("START , END", start_loop, end_loop)
+    print("START , END", start_loop, end_loop)
     for i in range(start_loop, end_loop):
-        print ("EVAL ", i)
+        print("EVAL ", i)
         avg_dis_reward_run = []
         for j in range(0, 10):
-            print ("SEED 0")
+            print("SEED 0")
             # lambd = np.load(f"./{args.folder}/buffers/lambda_{args.algo}_{j}.npy")
             # N = np.load(f"./{args.folder}/buffers/N_{args.algo}_{j}.npy")
             model_name = f"./{args.folder}/models/model_{args.algo}_{j}_{i}"
@@ -414,7 +414,8 @@ if __name__ == "__main__":
             elif args.algo == 2:
                 model = SAC.load(model_name, env)
             elif args.algo == 3:
-                thres_vec = np.load(f"./{args.folder}/buffers/thresvec_{args.env_name}_{j}.npy")
+                thres_vec = np.load(
+                    f"./{args.folder}/buffers/thresvec_{args.env_name}_{j}.npy")
                 model.set_threshold_vec(thres_vec[i])
             avg_dis_reward = 0.0
             for k in range(100):
@@ -435,13 +436,14 @@ if __name__ == "__main__":
                 avg_dis_reward += dis_reward
                 #print ("Reward", avg_dis_reward)
             avg_dis_reward = avg_dis_reward / 100
-            print ("AVG REWARD", avg_dis_reward)
+            print("AVG REWARD", avg_dis_reward)
             avg_dis_reward_run.append(avg_dis_reward)
         quartiles = np.percentile(avg_dis_reward_run, [25, 50, 75])
-        print ("quartiles ", quartiles)
+        print("quartiles ", quartiles)
         testing_eval_med.append(quartiles)
         # testing_eval_std.append(avg_std)
-        np.save(f"./{args.folder}/results/median_{start_loop}_{end_loop}_{setting}.npy", testing_eval_med)
+        np.save(
+            f"./{args.folder}/results/median_{start_loop}_{end_loop}_{setting}.npy", testing_eval_med)
         # np.save(f"./{args.folder}/results/std_{setting}", testing_eval_std)
 
     """

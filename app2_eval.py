@@ -52,7 +52,8 @@ class ReplayBuffer(object):
     def save(self, save_folder):
         np.save(f"{save_folder}_state.npy", self.state[:self.crt_size])
         np.save(f"{save_folder}_action.npy", self.action[:self.crt_size])
-        np.save(f"{save_folder}_next_state.npy", self.next_state[:self.crt_size])
+        np.save(f"{save_folder}_next_state.npy",
+                self.next_state[:self.crt_size])
         np.save(f"{save_folder}_reward.npy", self.reward[:self.crt_size])
         np.save(f"{save_folder}_not_done.npy", self.not_done[:self.crt_size])
         np.save(f"{save_folder}_ptr.npy", self.ptr)
@@ -64,9 +65,12 @@ class ReplayBuffer(object):
         size = min(int(size), self.max_size) if size > 0 else self.max_size
         self.crt_size = min(reward_buffer.shape[0], size)
 
-        self.state[:self.crt_size] = np.load(f"{save_folder}_state.npy")[:self.crt_size]
-        self.action[:self.crt_size] = np.load(f"{save_folder}_action.npy")[:self.crt_size]
-        self.next_state[:self.crt_size] = np.load(f"{save_folder}_next_state.npy")[:self.crt_size]
+        self.state[:self.crt_size] = np.load(
+            f"{save_folder}_state.npy")[:self.crt_size]
+        self.action[:self.crt_size] = np.load(
+            f"{save_folder}_action.npy")[:self.crt_size]
+        self.next_state[:self.crt_size] = np.load(
+            f"{save_folder}_next_state.npy")[:self.crt_size]
 
 
 class Notify (Resource):
@@ -88,8 +92,8 @@ class Notify (Resource):
         global req_thres
         if os.path.exists("./req_thres.npy"):
             req_thres = np.load("./req_thres.npy")
-            req_thres = req_thres[0]
-            print ("New Policy Request threshold : ", req_thres)
+            req_thres = req_thres
+            print("New Policy Request threshold : ", req_thres)
 
     def get(self):
         global run
@@ -104,7 +108,7 @@ class Notify (Resource):
         notify = int(notify)
         if notify != 0:
             run = abs(notify)
-            print ("RUN : ", run)
+            print("RUN : ", run)
             random.seed(run)
             lock.release()
             self.load_req_thres()
@@ -112,10 +116,10 @@ class Notify (Resource):
         self.load_req_thres()
         rew = self.calculate_reward()
         print("Reward disc : ", rew)
-        #overload_vec.append(overload_count)
-        #offload_vec.append(offload_count)
-        print ("Overload count ", overload_count)
-        print ("Offload count ", offload_count)
+        # overload_vec.append(overload_count)
+        # offload_vec.append(offload_count)
+        print("Overload count ", overload_count)
+        print("Offload count ", offload_count)
         #np.save(f'buffer_{run}_overload_count.npy', overload_vec)
         #np.save(f'buffer_{run}_offload_count.npy', offload_vec)
         ov = overload_count
@@ -124,6 +128,7 @@ class Notify (Resource):
         offload_count = 0
         lock.release()
         return [rew, ov, off]
+
 
 class Greeting (Resource):
     def __init__(self, overload=30.0, offload=1.0, reward=0.2, holding=0.12, threshold_req=17):
@@ -156,7 +161,7 @@ class Greeting (Resource):
         else:
             action = np.random.randint(self.num_actions)
         if debug:
-            print ("ACTION : ", action)
+            print("ACTION : ", action)
         return action
 
     def get_reward(self, cpu_util, buffer, action, debug=1):
@@ -168,18 +173,18 @@ class Greeting (Resource):
         if action == 1:
             rew -= self.offload
             offload_count += 1
-            #print("Offload")
+            # print("Offload")
         if cpu_util < 3:
             if action == 1:
                 rew -= self.overload
                 #print("Low util offload")
         elif cpu_util >= 6 and cpu_util <= 17:
             rew += self.reward
-            #print("Reward")
+            # print("Reward")
         elif cpu_util >= 18:
             rew -= self.overload
             overload_count += 1
-            #print("Overload")
+            # print("Overload")
         if buffer == buff_size and action == 0:
             rew -= self.overload
             overload_count += 1
@@ -217,10 +222,10 @@ class Greeting (Resource):
         if action == 0:
             buff_len = min(buff_len + 1, 20)
         rew = self.get_reward(load, buff_len, action)
-        #print("ARRIVAL State, Action Reward",
+        # print("ARRIVAL State, Action Reward",
         #        prev_state, action, rew)
         buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-        #if buffer.ptr == buffer.max_size - 1:
+        # if buffer.ptr == buffer.max_size - 1:
         #    file_count += 1
         #    buffer.save('buffer_' + str(run) + '_' + str(file_count))
         lock.release()
@@ -236,33 +241,33 @@ class Greeting (Resource):
                     ['./try.sh', str(t)])
                 #print("Sleep ", t)
                 time.sleep(t)
-                #p.terminate()
+                # p.terminate()
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buff_len = max(buff_len - 1, 0)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            #print("DEPT State, Action Reward",
+            # print("DEPT State, Action Reward",
             #    prev_state, action, rew)
-            #if buffer.ptr >= buffer.max_size - 1:
+            # if buffer.ptr >= buffer.max_size - 1:
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))
             lock.release()
         else:
             count = request.args.get('count')
-            print ("Offloaded Request")
+            print("Offloaded Request")
             resp = requests.get('http://172.17.0.3:3333?count=' + count)
-            #time.sleep(t)
+            # time.sleep(t)
             # lock.acquire()
             lock.acquire()
             prev_state = [buff_len, load]
             action = self.select_action(load, buff_len)
             rew = self.get_reward(load, buff_len, action)
             buffer.add(prev_state, action, [0, 0], rew, 0, 0, 0)
-            #print("DEPT State, Action Reward",
+            # print("DEPT State, Action Reward",
             #    prev_state, action, rew)
-            #if buffer.ptr >= buffer.max_size - 1:
+            # if buffer.ptr >= buffer.max_size - 1:
             #    file_count += 1
             #    buffer.save('buffer_' + str(file_count))
             lock.release()

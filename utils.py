@@ -52,8 +52,8 @@ class AtariBuffer(object):
         self.crt_size = min(self.crt_size + 1, self.max_size)
 
     def sample(self):
-        print (type(self.crt_size), self.crt_size,
-               type(self.batch_size), self.batch_size)
+        print(type(self.crt_size), self.crt_size,
+              type(self.batch_size), self.batch_size)
         ind = np.random.randint(0, self.crt_size, size=self.batch_size)
         # Note + is concatenate here
         state = np.zeros(((self.batch_size, self.state_history) +
@@ -96,7 +96,8 @@ class AtariBuffer(object):
         np.save(f"{save_folder}_action.npy", self.action[:self.crt_size])
         np.save(f"{save_folder}_reward.npy", self.reward[:self.crt_size])
         np.save(f"{save_folder}_not_done.npy", self.not_done[:self.crt_size])
-        np.save(f"{save_folder}_first_timestep.npy", self.first_timestep[:self.crt_size])
+        np.save(f"{save_folder}_first_timestep.npy",
+                self.first_timestep[:self.crt_size])
         np.save(f"{save_folder}_replay_info.npy", [self.ptr, chunk])
 
         crt = 0
@@ -115,10 +116,13 @@ class AtariBuffer(object):
         size = min(int(size), self.max_size) if size > 0 else self.max_size
         self.crt_size = min(reward_buffer.shape[0], size)
 
-        self.action[:self.crt_size] = np.load(f"{save_folder}_action.npy")[:self.crt_size]
+        self.action[:self.crt_size] = np.load(
+            f"{save_folder}_action.npy")[:self.crt_size]
         self.reward[:self.crt_size] = reward_buffer[:self.crt_size]
-        self.not_done[:self.crt_size] = np.load(f"{save_folder}_not_done.npy")[:self.crt_size]
-        self.first_timestep[:self.crt_size] = np.load(f"{save_folder}_first_timestep.npy")[:self.crt_size]
+        self.not_done[:self.crt_size] = np.load(
+            f"{save_folder}_not_done.npy")[:self.crt_size]
+        self.first_timestep[:self.crt_size] = np.load(
+            f"{save_folder}_first_timestep.npy")[:self.crt_size]
 
         self.ptr, chunk = np.load(f"{save_folder}_replay_info.npy")
 
@@ -157,8 +161,8 @@ class StandardBuffer(object):
         self.crt_size = min(self.crt_size + 1, self.max_size)
 
     def sample(self):
-        print (type(self.crt_size), self.crt_size,
-               type(self.batch_size), self.batch_size)
+        print(type(self.crt_size), self.crt_size,
+              type(self.batch_size), self.batch_size)
         ind = np.random.randint(0, self.crt_size, size=self.batch_size)
         #ind = np.random.randint(0, self.ptr, size=self.batch_size)
         return (
@@ -172,24 +176,29 @@ class StandardBuffer(object):
     def save(self, save_folder):
         np.save(f"{save_folder}_state.npy", self.state[:self.crt_size])
         np.save(f"{save_folder}_action.npy", self.action[:self.crt_size])
-        np.save(f"{save_folder}_next_state.npy", self.next_state[:self.crt_size])
+        np.save(f"{save_folder}_next_state.npy",
+                self.next_state[:self.crt_size])
         np.save(f"{save_folder}_reward.npy", self.reward[:self.crt_size])
         np.save(f"{save_folder}_not_done.npy", self.not_done[:self.crt_size])
         np.save(f"{save_folder}_ptr.npy", self.ptr)
 
     def load(self, folder, save_folder, size=-1):
         reward_buffer = np.load(f"{folder}/buffers/{save_folder}_reward.npy")
-        print ("Loading Replay Buffer : ", save_folder)
+        print("Loading Replay Buffer : ", save_folder)
 
         # Adjust crt_size if we're using a custom size
         size = min(int(size), self.max_size) if size > 0 else self.max_size
         self.crt_size = min(reward_buffer.shape[0] - 1, size)
         self.ptr = np.load(f"{folder}/buffers/{save_folder}_ptr.npy")
-        self.state[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_state.npy")[:self.crt_size]
-        self.action[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_action.npy")[:self.crt_size]
-        self.next_state[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_state.npy")[1:self.crt_size+1]
+        self.state[:self.crt_size] = np.load(
+            f"{folder}/buffers/{save_folder}_state.npy")[:self.crt_size]
+        self.action[:self.crt_size] = np.load(
+            f"{folder}/buffers/{save_folder}_action.npy")[:self.crt_size]
+        self.next_state[:self.crt_size] = np.load(
+            f"{folder}/buffers/{save_folder}_state.npy")[1:self.crt_size+1]
         self.reward[:self.crt_size] = reward_buffer[:self.crt_size]
-        self.not_done[:self.crt_size] = np.load(f"{folder}/buffers/{save_folder}_not_done.npy")[:self.crt_size]
+        self.not_done[:self.crt_size] = np.load(
+            f"{folder}/buffers/{save_folder}_not_done.npy")[:self.crt_size]
 
         print(f"Replay Buffer loaded with {self.crt_size} elements.")
         print("Replay buffer: state , next state ", self.state, self.next_state)
@@ -287,7 +296,7 @@ class AtariPreprocessing(object):
         )
 
         # Resize
-	"""
+        """
         image = cv2.resize(
             self.frame_buffer[0],
             (self.frame_size, self.frame_size),
